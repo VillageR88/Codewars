@@ -33,14 +33,8 @@ def czarymary(): #Tutaj tworzymy konstrujcę funkcji do wywowłania w oparciu o 
         worklist.append(result)
     worklist2 = []
     for i in worklist:
-        nameof = i.split("(")[0]
         evali = eval(i)
-        magic_combination = [nameof, evali]
-        worklist2.append(magic_combination)
-    for i in range(len(worklist2)):
-        part1 = (worklist2[i][0])
-        part2 = (worklist2[i][1])
-        print("To jest finally", globals()[part1](part2))
+        print(evali)
 czarymary()
 
 """
