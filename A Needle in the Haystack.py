@@ -8,7 +8,7 @@ Example(Input --> Output)
 ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5" 
 Note: In COBOL, it should return "found the needle at position 6"
 """
-#Kod
+#Mój kod
 def find_needle(haystack):
     word = "needle"
     for i in range(len(haystack)):
