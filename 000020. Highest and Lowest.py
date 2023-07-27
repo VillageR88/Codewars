@@ -27,9 +27,9 @@ def high_and_low(numbers):
 def high_and_low(numbers): #z.
     nn = [int(s) for s in numbers.split(" ")]
     return "%i %i" % (max(nn),min(nn))
+
 ##Tester - codewars_test framework z pominiętym import solution, który jest zawarty w kodzie
 import codewars_test as test
-
 @test.describe("Example Tests")
 def fixed_tests():
     @test.it('Test Case 1')
