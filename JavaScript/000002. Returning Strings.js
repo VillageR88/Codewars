@@ -10,7 +10,9 @@ function greet(name){
   return "Hello, "+name+" how are you doing today?";
 }
 //Najlepsze rozwiązanie od Codewars
-
+function greet(name){
+  return `Hello, ${name} how are you doing today?`;
+}
 ///Tester
 //JS 'Codewars' 'Sample Test' (JSCSTT) Tester v0.1.0 by VR. - prototyp
 var assert = require('assert');
