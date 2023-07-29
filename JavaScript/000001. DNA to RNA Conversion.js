@@ -17,13 +17,23 @@ The input string can be of arbitrary length - in particular, it may be empty. Al
 */
 ///Solution
 //Moje
-function DNAtoRNA(dna) {
-  return dna;
+function DNAtoRNA(dna) 
+{
+  let word = "";
+  for (i of dna) {
+    if (i == "T") word += "U";
+    else word += i;
+  }
+
+  return word;
 }
 //Najlepsze rozwiązanie od Codewars
+function DNAtoRNA(dna){
+  return dna.replace(/T/g, 'U');
+}
 
-
-//Tester v0.1 - prototyp testera, czyli wycinki z Codewars
+///Tester
+//JS 'Codewars' 'Sample Test' (JSCSTT) Tester v0.1.0 by VR. - prototyp
 var assert = require('assert');
 assert.strictEqual(DNAtoRNA("TTTT"), "UUUU")
 assert.strictEqual(DNAtoRNA("GCAT"), "GCAU")
