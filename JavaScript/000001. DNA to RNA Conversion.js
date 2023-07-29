@@ -23,9 +23,12 @@ function DNAtoRNA(dna) {
 //Najlepsze rozwiązanie od Codewars
 
 //Tester (Codewars Sample Tests)
+
 const chai = require("chai");
 const assert = chai.assert;
 chai.config.truncateThreshold=0;
+
+
 
 describe("Basic tests", () => {
   it("Testing for fixed tests", () => {
