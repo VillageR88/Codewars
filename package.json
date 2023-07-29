@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@codewars/test-compat": "^1.1.0",
     "chai": "^4.3.7"
   }
 }
