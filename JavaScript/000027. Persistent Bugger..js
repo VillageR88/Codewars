@@ -30,15 +30,17 @@ function persistence(num) {
 }
 //Najlepsze rozwiązanie od Codewars
 /*
-var maxSequence = function(arr){
-  var min = 0, ans = 0, i, sum = 0;
-  for (i = 0; i < arr.length; ++i) {
-    sum += arr[i];
-    min = Math.min(sum, min);
-    ans = Math.max(ans, sum - min);
-  }
-  return ans;
-}
+function persistence(num) {
+   var times = 0;
+   
+   num = num.toString();
+   
+   while (num.length > 1) {
+     times++;
+     num = num.split('').map(Number).reduce((a, b) => a * b).toString();
+   }
+   
+   return times;
 }
 */
 ///Tester => JS 'Codewars' 'Sample Test' Tester (JSCSTT) v0.1.0 by VR.
