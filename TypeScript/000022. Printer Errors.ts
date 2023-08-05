@@ -33,7 +33,7 @@ export function printerError(s: string): string {
 }
  */
 
-///Tester => TS 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
 //Declarations and definitions - part adjusted to VSC
 function describe (opis: any, func: any) {
   func();
