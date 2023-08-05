@@ -31,6 +31,10 @@ export function printerError(s: string): string {
 export function printerError(s: string): string {
   return `${s.match(/[^a-m]{1}/g)?.length || 0}/${s.length}`;
 }
+OR
+export function printerError(s: string): string {
+  return `${s.replace(/[a-m]/gi, '').length}/${s.length}`
+}
  */
 
 ///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
