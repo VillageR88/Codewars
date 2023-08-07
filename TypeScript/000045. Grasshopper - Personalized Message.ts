@@ -15,8 +15,7 @@ export function greet(name: string, owner: string): string{
 }
 //Codewars recommended
 /*
-export const isTriangle = (a: number, b: number, c: number): boolean =>
-  a + b > c && a + c > b && b + c > a
+
 */
 
 ///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
