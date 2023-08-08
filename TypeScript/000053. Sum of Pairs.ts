@@ -33,7 +33,7 @@ NOTE: There will also be lists tested of lengths upwards of 10,000,000 elements.
 
 */
 ///Solution
-//My 1st soloution (tryout)
+//My 1st soloution (Ineffective in Codewars - exceeded server time)
 /*
 export function sumPairs(ints: number[], s: number): [number, number] | void {  
   var k = 0;
