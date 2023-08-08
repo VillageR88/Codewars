@@ -33,7 +33,7 @@ NOTE: There will also be lists tested of lengths upwards of 10,000,000 elements.
 
 */
 ///Solution
-//My 1st soloution
+//My 1st soloution (tryout)
 /*
 export function sumPairs(ints: number[], s: number): [number, number] | void {  
   var k = 0;
@@ -57,7 +57,7 @@ export function sumPairs(ints: number[], s: number): [number, number] | void {
   return array1.length==0?undefined:array1[0];
 }
 */
-//My 2nd soloution
+//My 2nd soloution (submitted)
 export function sumPairs(ints: number[], s: number): [number, number] | void { 
   var ints2 = Array.from(ints,(x,k)=>ints[k]==ints[k+1]?"spare":x).filter((ints2)=>ints2!="spare");
   var j_memory = (ints2.length);
