@@ -29,14 +29,14 @@ export const zeroes = (base: number, num: number) => {
   filter((x)=>x=='0').length);//all 0's
   console.log(Array(num).fill(1).map((x, y) => x + y).reduce((x, y) => x * y).toString().split("0").filter((x: string)=>x=="").length);//0's at the end
   //inner test
-  console.log("inner test")
   var test_value = 0;
   if (test_value > 0) {
+    console.log("inner test")
     for (var i=1; i<=test_value; i++) {
       console.log("For i =", i, "=", Array(i).fill(1).map((x, y) => x + y).reduce((x, y) => x * y).toString().split("0").filter((x: string) => x == "").length);
     }
+    console.log("end of inner test");
   }
-  console.log("end of inner test");
   return Array(num).fill(1).map((x, y) => x + y).reduce((x, y) => x * y).toString().split("0").filter((x: string) => x == "").length;
 }
 //Codewars recommended
