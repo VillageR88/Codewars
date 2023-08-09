@@ -17,7 +17,7 @@ Note Second argument: number is always declared, passed and displayed as a regul
 
 */
 ///Solution
-//My soloution
+//My soloution (Work in Progress)
 export const zeroes = (base: number, num: number) => {
   console.log("=======================");
   console.log(Number.parseInt(num.toString(), base));
@@ -28,7 +28,13 @@ export const zeroes = (base: number, num: number) => {
   console.log(Array.from(Array(num).fill(1).map((x, y) => x + y).reduce((x, y) => x * y).toString()).
   filter((x)=>x=='0').length);//all 0's
   console.log(Array(num).fill(1).map((x, y) => x + y).reduce((x, y) => x * y).toString().split("0").filter((x: string)=>x=="").length);//0's at the end
-  return Array(num).fill(1).map((x, y) => x + y).reduce((x, y) => x * y).toString().split("0").filter((x: string)=>x == "").length;
+  //inner test
+  console.log("inner test")
+  for (var i=1; i<=20; i++) {
+    console.log("For i =", i, "=", Array(num).fill(i).map((x, y) => x + y).reduce((x, y) => x * y).toString().split("0").filter((x: string) => x == "").length);
+  }
+  console.log("end of inner test");
+  return Array(num).fill(1).map((x, y) => x + y).reduce((x, y) => x * y).toString().split("0").filter((x: string) => x == "").length;
 }
 //Codewars recommended
 /*
