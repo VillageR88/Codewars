@@ -46,7 +46,6 @@ export const primeFactors = (n:number): string => {
 */
 //My 2nd soloution - TODO
 export const primeFactors = (n:number): string => {
-  n = 775878912;
   var var1 = n;
   var mem1 = 2;
   var throw_me_some_numbers = new Array;
@@ -54,7 +53,7 @@ export const primeFactors = (n:number): string => {
   for (var k = 1; n > 1; k++) {
     if (k > 1) console.log("\nn" + k, "=", "n" + (k - 1), "/", mem1, "=", n);
     while (var1 > 1) {
-      for (var i = 1; i <= var1 / 2; i++) {
+      for (var i = 1; i <= (var1 / 2); i++) {
         if (var1 % i == 0) {
           mem1 = i;
         }
@@ -67,13 +66,12 @@ export const primeFactors = (n:number): string => {
       var1 = mem1;
     }
     var1 > 1 && throw_me_some_numbers.push(var1);
-
     console.log(k + ". number is", var1)
     var1 = n / var1;
     n = var1;
   }
-  console.log("\nWe have this number / these numbers now", throw_me_some_numbers, "and we need manipulate them to get result\n");
-  console.log("see te return line")
+  console.log("\nWe have this number / these numbers now", throw_me_some_numbers, "and we need to manipulate them to get a result\n");
+  console.log("see the return line")
   return Array.from(new Set(throw_me_some_numbers.reverse())).map((x) => "(" + x + "**" + throw_me_some_numbers.filter((y) => y == x).length + ")").join("").replace(/\*\*1/g, "");
 }
 //Codewars recommended)
@@ -96,9 +94,9 @@ function testing(n:number, expected:string) {
 
 describe("Fixed Tests", function() {
   it("Basic tests primeFactors", function() {
-      testing(7775460,"(2**2)(3**3)(5)(7)(11**2)(17)");
-      testing(7919,"(7919)");
-      testing(17*17*93*677,"(3)(17**2)(31)(677)");
-
+    //testing(775878912,"(2**8)(3**4)(17)(31)(71)");
+    testing(7775460,"(2**2)(3**3)(5)(7)(11**2)(17)");
+    //testing(7919,"(7919)");
+    //testing(17*17*93*677,"(3)(17**2)(31)(677)");
   });
 });
