@@ -24,33 +24,18 @@ export const listSquared = (m:number, n:number):number[][] => {
   var result = new Array;
   for (m; m <= n; m++) {
     var arr1 = new Array;
-    var test = m;
-    const test_const = test;
-    console.log(test);
-    for (var i = 2; test > 1; i++) {
-      if (test % i == 0) {
-        console.log(i);
-        arr1.push([test, i]);
-        test = test / i;
-        i = 1; // i = 1 because it will gain another 1 after end of this loop and will return to i = 2
-        console.log(arr1);
+    for (var i = 2; i <= m / 2; i++) {
+      if (m % i == 0) {
+        arr1.push([m, i]);
       }
     }
-    const arr1_length = arr1.length;
-    for (var i = 0; i < arr1_length; i++) {
-      arr1.push(arr1[0][0]/arr1[i][1]);
-    }
     arr1.push([1,1]);
-    var arr2 = Array.from(new Set(arr1.flat().sort((a, b) => a - b))); 
-    var arr3 = arr2.map((x) => x**2);
-    var a = arr2.reduce((p, v) => p + v);
+    arr1.push([m,m]);
+    var arr3 = Array.from(new Set(arr1.flat().sort((a, b) => a - b))).map((x) => x**2);
     var b = arr3.reduce((p, v) => p + v);
     var c = Math.sqrt(arr3.reduce((p, v) => p + v));
-    console.log(!(a % b));
-    console.log(arr2);
-    console.log(a, b, c);
     if (!(b % c)) {
-      result.push([test_const, b]);
+      result.push([m, b]);
     }
   }
   return result;
@@ -75,8 +60,8 @@ function testing(m:number, n:number, expected:number[][]) {
 describe("Fixed Tests", function() {
   it("listSquared", function() {
       testing(1, 250, [[1, 1], [42, 2500], [246, 84100]]);
-      //testing(42, 250, [[42, 2500], [246, 84100]]);
-      //testing(250, 500, [[287, 84100]]);
-      //testing(300, 600, []);
+      testing(42, 250, [[42, 2500], [246, 84100]]);
+      testing(250, 500, [[287, 84100]]);
+      testing(300, 600, []);
   });
 });
