@@ -1,5 +1,6 @@
-Method _m / 2 + [ _m, 1 ] and [ _m, _m ] added afterwards
-divisor found: 144 72
+f(_m) for _m = 144 (and _m =! 1 && _m != _m; and then [ _m, 1 ] and [ _m, _m ] added afterwards)
+
+method: _m / 2 
 [
   [ 144, 1 ],   [ 144, 2 ],
   [ 144, 3 ],   [ 144, 4 ],
@@ -9,4 +10,15 @@ divisor found: 144 72
   [ 144, 24 ],  [ 144, 36 ],
   [ 144, 48 ],  [ 144, 72 ],
   [ 144, 144 ]
+]
+benchmark => 144 / 2 = 72
+
+method: _m / i
+[
+  [ 144, 1 ],
+  [ 144, 2 ],
+  [ 144, 3 ],
+  [ 144, 4 ],
+  [ 144, 6 ],
+  [ 144, 8 ]
 ]

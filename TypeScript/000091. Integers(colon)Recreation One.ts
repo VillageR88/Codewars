@@ -26,12 +26,14 @@ export const listSquared = (m:number, n:number):number[][] => {
     var _m = m;
     var arr1 = new Array;
     arr1.push([_m, 1]);
-    for (var i = 2; i <= _m / 2; i++) {
+    for (var i = 2; i <= _m / i; i++) {
       //console.log("result", result); //debug off
       console.log(arr1);
       if (_m % i == 0) {
         console.log("divisor found:", _m, i);
         arr1.push([_m, i]);
+        //_m = _m / i;
+        //i = 1; //will gain +1 after this line
       }
     }
     arr1.push([_m,_m]);
