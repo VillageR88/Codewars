@@ -1,4 +1,4 @@
-/*Zadanie
+/*Tasl
 Deoxyribonucleic acid, DNA is the primary information storage molecule in biological systems.
 It is composed of four nucleic acid bases Guanine ('G'), Cytosine ('C'), Adenine ('A'), and Thymine ('T').
 
@@ -16,7 +16,7 @@ The input string can be of arbitrary length - in particular, it may be empty. Al
 
 */
 ///Solution
-//Moje
+//My
 
 function DNAtoRNA(dna) 
 {
@@ -28,8 +28,8 @@ function DNAtoRNA(dna)
 
   return word;
 }
+//Codewars recommended
 /*
-//Najlepsze rozwiązanie od Codewars
 function DNAtoRNA(dna){
   return dna.replace(/T/g, 'U');
 }
@@ -37,7 +37,7 @@ function DNAtoRNA(dna){
 
 ///Tester
 ///Tester => JS 'Codewars' 'Sample Test' Tester (JSCSTT) v0.1.0 by VR.
-//Deklaracje i definicje - część dostosowana do VSC
+//Deklaracje i definicje - część adjusted to VSC
 //import Test from '@codewars/test-compat';
 import { assert as _assert, config } from "chai";
 const assert = _assert;
@@ -49,7 +49,7 @@ function it (opis, funkcja) {
   funkcja();
 };
 var solution = {DNAtoRNA};
-//Describe - część niezmieniana
+//Describe - invariant part
 describe("Sample Test Cases", function(){
   it("Should return a string", function() {
     assert.equal(solution.DNAtoRNA("TTTT"), "UUUU");
