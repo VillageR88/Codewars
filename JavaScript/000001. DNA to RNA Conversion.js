@@ -17,24 +17,43 @@ The input string can be of arbitrary length - in particular, it may be empty. Al
 */
 ///Solution
 //Moje
+
 function DNAtoRNA(dna) 
 {
   let word = "";
-  for (i of dna) {
+  for (var i of dna) {
     if (i == "T") word += "U";
     else word += i;
   }
 
   return word;
 }
+/*
 //Najlepsze rozwiązanie od Codewars
 function DNAtoRNA(dna){
   return dna.replace(/T/g, 'U');
 }
+*/
 
 ///Tester
-//JS 'Codewars' 'Sample Test' (JSCSTT) Tester v0.1.0 by VR. - prototyp
-var assert = require('assert');
-assert.strictEqual(DNAtoRNA("TTTT"), "UUUU")
-assert.strictEqual(DNAtoRNA("GCAT"), "GCAU")
-assert.strictEqual(DNAtoRNA("GACCGCCGCC"), "GACCGCCGCC")
+///Tester => JS 'Codewars' 'Sample Test' Tester (JSCSTT) v0.1.0 by VR.
+//Deklaracje i definicje - część dostosowana do VSC
+//import Test from '@codewars/test-compat';
+import { assert as _assert, config } from "chai";
+const assert = _assert;
+config.truncateThreshold=0;
+function describe (opis, funkcja) {
+  funkcja();
+};
+function it (opis, funkcja) {
+  funkcja();
+};
+var solution = {DNAtoRNA};
+//Describe - część niezmieniana
+describe("Sample Test Cases", function(){
+  it("Should return a string", function() {
+    assert.equal(solution.DNAtoRNA("TTTT"), "UUUU");
+    assert.equal(solution.DNAtoRNA("GCAT"), "GCAU");
+    assert.equal(solution.DNAtoRNA("GACCGCCGCC"), "GACCGCCGCC");
+  });
+});
