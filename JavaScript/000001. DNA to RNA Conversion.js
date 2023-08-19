@@ -38,9 +38,9 @@ function DNAtoRNA(dna){
 ///Tester => JS 'Codewars' 'Sample Test' Tester (JSCSTT) v0.1.0 by VR.
 //Deklaracje i definicje - część adjusted to VSC
 //import Test from '@codewars/test-compat';
-import { assert as _assert, config } from "chai";
-const assert = _assert;
-config.truncateThreshold=0;
+//import { assert as _assert, config } from "chai";
+const chai = require("chai");
+const assert = chai.assert;
 function describe (opis, funkcja) {
   funkcja();
 };
