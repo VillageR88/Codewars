@@ -5,11 +5,11 @@ Make a function that will return a greeting statement that uses an input; your p
 
 */
 ///Solution
-//Moje
+//My
 function greet(name){
   return "Hello, "+name+" how are you doing today?";
 }
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 function greet(name){
   return `Hello, ${name} how are you doing today?`;
 }

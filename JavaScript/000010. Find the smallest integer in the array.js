@@ -10,7 +10,7 @@ You can assume, for the purpose of this kata, that the supplied array will not b
 
 */
 ///Solution
-//Moje
+//My
 class SmallestIntegerFinder {
   findSmallestInt(args) {
     let that = args[0];
@@ -18,7 +18,7 @@ class SmallestIntegerFinder {
     return that;
   }
 }
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 class SmallestIntegerFinder {
   findSmallestInt(args) {

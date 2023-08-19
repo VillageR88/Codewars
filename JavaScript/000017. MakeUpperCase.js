@@ -3,11 +3,11 @@ Write a function which converts the input string to uppercase.
 
 */
 ///Solution
-//Moje
+//My
 function makeUpperCase(str) {
  return str.toUpperCase();
 }
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 */
 ///Tester => JS 'Codewars' 'Sample Test' Tester (JSCSTT) v0.1.0 by VR.

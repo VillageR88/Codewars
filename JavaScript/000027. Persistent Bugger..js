@@ -9,7 +9,7 @@ For example (Input --> Output):
 
 */
 ///Solution
-//Moje
+//My
 function persistence(num) {
   var counter = 0;
   function inner_persistence(num) {
@@ -28,7 +28,7 @@ function persistence(num) {
   }
   return inner_persistence(num);
 }
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 function persistence(num) {
    var times = 0;

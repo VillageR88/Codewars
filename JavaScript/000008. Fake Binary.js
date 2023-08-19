@@ -5,9 +5,9 @@ Note: input will never be an empty string
 
 */
 ///Solution
-//Moje
+//My
 function fakeBin(x){let replaced = ""; for (i of x) if (i < 5) replaced += 0; else replaced +=1; return replaced;}
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 function fakeBin(x) {
     return x.split('').map(n => n < 5 ? 0 : 1).join('');

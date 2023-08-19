@@ -8,7 +8,7 @@ Examples
 493193  -->  4 + 9 + 3 + 1 + 9 + 3 = 29  -->  2 + 9 = 11  -->  1 + 1 = 2
 */
 ///Solution
-//Moje
+//My
 function digitalRoot(n) {
   var transformation = function(n){
   trans = n.toString().split("");
@@ -19,7 +19,7 @@ function digitalRoot(n) {
   }
   return transformation(n);
 }
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 function digital_root(n) {
   return (n - 1) % 9 + 1;

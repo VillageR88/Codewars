@@ -7,7 +7,7 @@ Example: The binary representation of 1234 is 10011010010, so the function shoul
 
 */
 ///Solution
-//Moje
+//My
 var countBits = function(n) {
   console.log("Co to za wymyslna liczba", n)
   var result = [0];
@@ -90,7 +90,7 @@ var countBits = function(n) {
     //a druga funkcja wywoływana jest z argumentem, którym jest wynik pierwszej funkcji
     }
   }
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 countBits = n => n.toString(2).split('0').join('').length;
 */

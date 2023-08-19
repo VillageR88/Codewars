@@ -5,13 +5,13 @@ Return your answer as a number.
 
 */
 ///Solution
-//Moje
+//My
 function sumMix(x){
 let sum = 0;
 for (i of x) sum += Number(i);
 return sum;
 }
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 function sumMix(x){
   return x.map(a => +a).reduce((a, b) => a + b);

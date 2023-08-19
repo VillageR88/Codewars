@@ -9,7 +9,7 @@ Constraint:
 
 */
 ///Solution
-//Moje
+//My
 const quarterOf = (month) => {
   var quarter
   if (month <= 3) quarter = 1;
@@ -18,7 +18,7 @@ const quarterOf = (month) => {
   else quarter = 4;
   return quarter;
 }
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 const quarterOf = m => Math.ceil(m/3);
 */

@@ -5,7 +5,7 @@ Create a function that takes a string and returns the string ciphered with Rot13
 
 */
 ///Solution
-//Moje
+//My
 function rot13(message){
   var crypted_message1 = [];
   var crypted_message2 = [];
@@ -31,7 +31,7 @@ function rot13(message){
   console.log(word_from_crypted_message2);
   return word_from_crypted_message2;
 }
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 function rot13(message) {
   var a = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"

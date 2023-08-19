@@ -5,11 +5,11 @@ Note: Only valid inputs will be given.
 
 */
 ///Solution
-//Moje
+//My
 function booleanToString(b){
   return b.toString()
 }
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 */
 ///Tester => JS 'Codewars' 'Sample Test' Tester (JSCSTT) v0.1.0 by VR.

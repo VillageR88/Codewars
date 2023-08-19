@@ -10,7 +10,7 @@ Empty list is considered to have zero greatest sum. Note that the empty list or 
 
 */
 ///Solution
-//Moje
+//My
 var maxSequence = function(arr){
   var lastN = 0;
   var cSub = [];
@@ -40,7 +40,7 @@ var maxSequence = function(arr){
   }
   return (func1(arr));
 }
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 var maxSequence = function(arr){
   var min = 0, ans = 0, i, sum = 0;

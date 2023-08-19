@@ -15,7 +15,7 @@ Your function should only return a number, not the explanation about how you get
 
 */
 ///Solution
-//Moje
+//My
 function getSum(a, b)
 {
   let calc = 0;
@@ -24,7 +24,7 @@ function getSum(a, b)
   else calc = a
   return calc
 }
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 */
 ///Tester => JS 'Codewars' 'Sample Test' Tester (JSCSTT) v0.1.0 by VR.

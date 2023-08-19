@@ -10,7 +10,7 @@ Example
 
 */
 ///Solution
-//Moje
+//My
 function smash (words) {
   let array1 = "";
   if (words != ""){
@@ -20,7 +20,7 @@ function smash (words) {
   }
   else return "";
 };
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 
 */

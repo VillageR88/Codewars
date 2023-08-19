@@ -9,14 +9,14 @@ filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
 
 */
 ///Solution
-//Moje
+//My
 function filter_list(l) {
   let new_arr = [];
   for (i of l) if (typeof(i) == "number") new_arr.push(i);
   return new_arr;
   // Return a new array with the strings filtered out
 }
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 function filter_list(l) {
   return l.filter(function(v) {return typeof v == 'number'})

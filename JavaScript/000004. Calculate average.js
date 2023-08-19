@@ -5,7 +5,7 @@ Note: Empty arrays should return 0.
 
 */
 ///Solution
-//Moje
+//My
 function findAverage(array) {
   let wynik = 0;
   if (array.length > 0) {
@@ -14,7 +14,7 @@ function findAverage(array) {
   }
   else return 0;
 }
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 var find_average = (array) => {  
   return array.length === 0 ? 0 : array.reduce((acc, ind)=> acc + ind, 0)/array.length

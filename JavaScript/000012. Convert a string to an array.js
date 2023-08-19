@@ -8,11 +8,11 @@ Examples (Input ==> Output):
 
 */
 ///Solution
-//Moje
+//My
 function stringToArray(string){
   return string.split([" "]);
 }
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 function stringToArray(string){
   return string.split(' ');

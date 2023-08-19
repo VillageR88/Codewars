@@ -11,7 +11,7 @@ if bmi > 30 return "Obese"
 
 */
 ///Solution
-//Moje
+//My
 function bmi(weight, height) {
   const result = weight/(height*height);
   if (result <= 18.5) return "Underweight";
@@ -19,7 +19,7 @@ function bmi(weight, height) {
   else if (result <= 30.0) return "Overweight";
   else if (result > 30) return "Obese";
 }
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 function bmi(weight, height) {
   var result = weight/Math.pow(height,2) 

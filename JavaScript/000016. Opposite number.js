@@ -9,11 +9,11 @@ Examples:
 
 */
 ///Solution
-//Moje
+//My
 function opposite(number) {
   return -number
 }
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 */
 ///Tester => JS 'Codewars' 'Sample Test' (JSCSTT) Tester v0.1.0 by VR.

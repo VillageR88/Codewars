@@ -21,7 +21,7 @@ Notes:
 
 */
 ///Solution
-//Moje
+//My
 function points(games) {
   let result = 0;
   for (i of games){
@@ -30,7 +30,7 @@ function points(games) {
   }
   return result;
 }
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 const points=games=>games.reduce((output,current)=>{
     return output += current[0]>current[2] ? 3 : current[0]===current[2] ? 1 : 0;

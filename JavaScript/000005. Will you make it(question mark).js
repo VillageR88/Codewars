@@ -9,11 +9,11 @@ Function should return true if it is possible and false if not.
 
 */
 ///Solution
-//Moje
+//My
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
   if ((mpg*fuelLeft)-distanceToPump>=0) return true; else return false;
 };
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
   return distanceToPump/mpg <= fuelLeft

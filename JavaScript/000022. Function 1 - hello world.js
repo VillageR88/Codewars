@@ -6,11 +6,11 @@ Sure, this is about as easy as it gets. But how clever can you be to create the 
 
 */
 ///Solution
-//Moje
+//My
 function greet() {
   return "hello world!";
 }
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 const quarterOf = m => Math.ceil(m/3);
 */

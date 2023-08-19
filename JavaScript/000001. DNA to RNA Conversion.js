@@ -1,4 +1,4 @@
-/*Tasl
+/*Task
 Deoxyribonucleic acid, DNA is the primary information storage molecule in biological systems.
 It is composed of four nucleic acid bases Guanine ('G'), Cytosine ('C'), Adenine ('A'), and Thymine ('T').
 
@@ -17,7 +17,6 @@ The input string can be of arbitrary length - in particular, it may be empty. Al
 */
 ///Solution
 //My
-
 function DNAtoRNA(dna) 
 {
   let word = "";

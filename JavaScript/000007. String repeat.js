@@ -7,11 +7,11 @@ Examples (input -> output)
 
 */
 ///Solution
-//Moje
+//My
 function repeatStr (n, s) {
     let word = ""; for (i = 1; i <= n; i++) word += s; return word;
 }
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 function repeatStr (n, s) {
   return s.repeat(n);
