@@ -18,36 +18,33 @@ In Fortran - as in any other language - the returned string is not permitted to 
 
 */
 ///Solution
-//My soloution
+//My
+
 export const listSquared = (m:number, n:number):number[][] => {
   var result = new Array;
   for (m; m <= n; m++) {
     var _m = m;
     var arr1 = new Array;
-    for (var i = 2; i <= _m; i++) {
-      if (_m % i == 0) {
-        arr1.push([_m, i]);
-        _m = _m / i;
+    for (let i = 2; i <= _m; i++) {
+      if (_m % i === 0) {
+        arr1.push(i);
+        _m /= i;
         i = 1; //will gain +1 after this line
       }
     }
-    arr1.push([_m,_m]);    
+    arr1.push(_m);    
     var arr2 = new Array;
     var _arr2 = new Array;
     arr2.push(1);
-    for (var i = arr1.length - 1; i > 0; i--) {
+    for (let i = arr1.length - 1; i > 0; i--) {
       _arr2 = arr2;
-      arr2.push(_arr2.map((x) => x * arr1[i - 1][1]));
+      arr2.push(_arr2.map((x) => x * arr1[i - 1]));
       _arr2 = [];
       arr2 = Array.from(new Set(arr2.flat()));
     }
-    arr2.sort((a, b) => a - b);
-    var arr3_toNumber = Array.from(arr2).map((x) => x**2).reduce((a, b) => a + b);
-    if (Math.sqrt(arr3_toNumber) % 2 == 0) {
+    var arr3_toNumber = arr2.map((x) => x ** 2).reduce((a, b) => a + b);
+    if (Math.sqrt(arr3_toNumber) % 1 === 0) {
       result.push([m, arr3_toNumber]);
-    }
-    if (m == 1) {
-      result.push([1, 1]);
     }
   }
   return result;
