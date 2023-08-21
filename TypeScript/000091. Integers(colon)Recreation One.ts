@@ -23,7 +23,7 @@ In Fortran - as in any other language - the returned string is not permitted to 
 export const listSquared = (m:number, n:number):number[][] => {
   const result = new Array;
   for (let i = m; i <= n; i++) {
-    const div = [];
+    const div = new Array;
     const sqrt = Math.sqrt(i);
     for (let j = 1; j <= sqrt; j++) {
       if (i % j === 0) {
