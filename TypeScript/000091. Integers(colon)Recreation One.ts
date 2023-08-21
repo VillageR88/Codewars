@@ -21,8 +21,6 @@ In Fortran - as in any other language - the returned string is not permitted to 
 //My soloution
 export const listSquared = (m:number, n:number):number[][] => {
   var result = new Array;
-  m = 2; n = 2;
-  m = 399; n = 2094;
   for (m; m <= n; m++) {
     var _m = m;
     var arr1 = new Array;
