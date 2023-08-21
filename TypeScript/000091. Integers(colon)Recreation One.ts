@@ -21,10 +21,10 @@ In Fortran - as in any other language - the returned string is not permitted to 
 //My
 
 export const listSquared = (m:number, n:number):number[][] => {
-  var result = new Array;
+  const result = new Array;
   for (m; m <= n; m++) {
-    var _m = m;
-    var arr1 = new Array;
+    let _m = m;
+    let arr1 = new Array;
     for (let i = 2; i <= _m; i++) {
       if (_m % i === 0) {
         arr1.push(i);
@@ -33,8 +33,8 @@ export const listSquared = (m:number, n:number):number[][] => {
       }
     }
     arr1.push(_m);    
-    var arr2 = new Array;
-    var _arr2 = new Array;
+    let arr2 = new Array;
+    let _arr2 = new Array;
     arr2.push(1);
     for (let i = arr1.length - 1; i > 0; i--) {
       _arr2 = arr2;
@@ -42,7 +42,7 @@ export const listSquared = (m:number, n:number):number[][] => {
       _arr2 = [];
       arr2 = Array.from(new Set(arr2.flat()));
     }
-    var arr3_toNumber = arr2.map((x) => x ** 2).reduce((a, b) => a + b);
+    const arr3_toNumber = arr2.map((x) => x ** 2).reduce((a, b) => a + b);
     if (Math.sqrt(arr3_toNumber) % 1 === 0) {
       result.push([m, arr3_toNumber]);
     }
