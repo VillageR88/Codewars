@@ -20,32 +20,43 @@ In Fortran - as in any other language - the returned string is not permitted to 
 ///Solution
 //My soloution
 export const listSquared = (m:number, n:number):number[][] => {
-  m = 144; n = 144; // debug;
   var result = new Array;
+  m = 2; n = 2;
+  m = 399; n = 2094;
   for (m; m <= n; m++) {
     var _m = m;
     var arr1 = new Array;
-    arr1.push([_m, 1]);
-    for (var i = 2; i <= m / 2; i++) {
-      //console.log("result", result); //debug off
-      console.log(arr1);
+    for (var i = 2; i <= _m; i++) {
       if (_m % i == 0) {
         console.log("divisor found:", _m, i);
         arr1.push([_m, i]);
-       // = Math.sqrt(_m);
-       //i = 1; //will gain +1 after this line
+        _m = _m / i;
+        i = 1; //will gain +1 after this line
       }
     }
     arr1.push([_m,_m]);
     console.log(arr1);
-    var arr3 = Array.from(new Set(arr1.flat().sort((a, b) => a - b))).map((x) => x**2);
-    var c = arr3.reduce((p, v) => p + v);
-    var d = Math.sqrt(arr3.reduce((p, v) => p + v));
-    if (!(c % d)) {
-      result.push([m, c]);
-      console.log("result", result);
-
+    
+    var arr2 = new Array;
+    var _arr2 = new Array;
+    arr2.push(1);
+    for (var i = arr1.length - 1; i > 0; i--) {
+      _arr2 = arr2;
+      arr2.push(_arr2.map((x) => x * arr1[i - 1][1]));
+      _arr2 = [];
+      arr2 = Array.from(new Set(arr2.flat()));
     }
+    arr2.sort((a, b) => a - b);
+    console.log(arr2);
+
+    var arr3_toNumber = Array.from(arr2).map((x) => x**2).reduce((a, b) => a + b);
+    if (Math.sqrt(arr3_toNumber) % 2 == 0) {
+      result.push([m, arr3_toNumber]);
+    }
+    if (m == 1) {
+      result.push([1, 1]);
+    }
+     console.log("result", result);
   }
   return result;
 }
