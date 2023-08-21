@@ -26,15 +26,12 @@ export const listSquared = (m:number, n:number):number[][] => {
     var arr1 = new Array;
     for (var i = 2; i <= _m; i++) {
       if (_m % i == 0) {
-        console.log("divisor found:", _m, i);
         arr1.push([_m, i]);
         _m = _m / i;
         i = 1; //will gain +1 after this line
       }
     }
-    arr1.push([_m,_m]);
-    console.log(arr1);
-    
+    arr1.push([_m,_m]);    
     var arr2 = new Array;
     var _arr2 = new Array;
     arr2.push(1);
@@ -45,8 +42,6 @@ export const listSquared = (m:number, n:number):number[][] => {
       arr2 = Array.from(new Set(arr2.flat()));
     }
     arr2.sort((a, b) => a - b);
-    console.log(arr2);
-
     var arr3_toNumber = Array.from(arr2).map((x) => x**2).reduce((a, b) => a + b);
     if (Math.sqrt(arr3_toNumber) % 2 == 0) {
       result.push([m, arr3_toNumber]);
@@ -54,7 +49,6 @@ export const listSquared = (m:number, n:number):number[][] => {
     if (m == 1) {
       result.push([1, 1]);
     }
-     console.log("result", result);
   }
   return result;
 }
