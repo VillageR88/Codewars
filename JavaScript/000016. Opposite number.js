@@ -16,19 +16,19 @@ function opposite(number) {
 //Codewars recommended
 /*
 */
-///Tester => JS 'Codewars' 'Sample Test' (JSCSTT) Tester v0.1.0 by VR.
-//Main
+///Tester => JS 'Codewars' 'Sample Test' Tester
+//Declarations and definitions - part adjusted to VSC
 const Test = require('@codewars/test-compat');
 const chai = require("chai");
 const assert = chai.assert;
 chai.config.truncateThreshold=0;
-function describe (opis, funkcja) {
-  funkcja();
+function describe (tag, func) {
+  func();
 };
-function it (opis, funkcja) {
-  funkcja();
+function it (tag, func) {
+  func();
 };
-//Describe
+//Describe - invariant part
 describe('Fixed tests', () => {
   it('Is it a function?', () => {
     assert.strictEqual(typeof opposite, 'function', 'opposite should be a function');

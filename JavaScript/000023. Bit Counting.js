@@ -94,19 +94,19 @@ var countBits = function(n) {
 /*
 countBits = n => n.toString(2).split('0').join('').length;
 */
-///Tester => JS 'Codewars' 'Sample Test' Tester (JSCSTT) v0.1.0 by VR.
-//Deklaracje i definicje - część dostosowana do VSC
+///Tester => JS 'Codewars' 'Sample Test' Tester
+//Declarations and definitions - part adjusted to VSC
 const Test = require('@codewars/test-compat');
 const chai = require("chai");
 const assert = chai.assert;
 chai.config.truncateThreshold=0;
-function describe (opis, funkcja) {
-  funkcja();
+function describe (tag, func) {
+  func();
 };
-function it (opis, funkcja) {
-  funkcja();
+function it (tag, func) {
+  func();
 };
-//Describe - część niezmieniana
+//Describe - invariant part
 describe("Basic tests", () => {
   it("Testing for fixed tests", () => {
     //assert.strictEqual(countBits(0), 0);

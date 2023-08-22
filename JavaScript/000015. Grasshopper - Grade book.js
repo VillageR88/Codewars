@@ -32,25 +32,25 @@ function getGrade (s1, s2, s3) {
     else if (avg < 90) return "B";
     else return "A";
 }
-/
-/Albo
+OR
 function getGrade (s1, s2, s3) {
   var s = (s1 + s2 + s3) / 3
   return s >= 90 ? "A" : s >= 80 ? "B" : s >= 70 ? "C" : s >= 60 ? "D" : "F"
 }
 */
-///Tester
-//JS 'Codewars' 'Sample Test' (JSCSTT) Tester v0.1.0 by VR.
+///Tester => JS 'Codewars' 'Sample Test' Tester
+//Declarations and definitions - part adjusted to VSC
 const Test = require('@codewars/test-compat');
 const chai = require("chai");
 const assert = chai.assert;
 chai.config.truncateThreshold=0;
-function describe (opis, funkcja) {
-  funkcja();
+function describe (tag, func) {
+  func();
 };
-function it (opis, funkcja) {
-  funkcja();
+function it (tag, func) {
+  func();
 };
+//Describe - invariant part
 describe('grade book', function () {
   it('should return an A', function () {
     Test.assertEquals(getGrade(95,90,93), 'A')

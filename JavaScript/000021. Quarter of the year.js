@@ -22,19 +22,19 @@ const quarterOf = (month) => {
 /*
 const quarterOf = m => Math.ceil(m/3);
 */
-///Tester => JS 'Codewars' 'Sample Test' Tester (JSCSTT) v0.1.0 by VR.
-//Deklaracje i definicje - część dostosowana do VSC
+///Tester => JS 'Codewars' 'Sample Test' Tester
+//Declarations and definitions - part adjusted to VSC
 const Test = require('@codewars/test-compat');
 const chai = require("chai");
 const assert = chai.assert;
 chai.config.truncateThreshold=0;
-function describe (opis, funkcja) {
-  funkcja();
+function describe (tag, func) {
+  func();
 };
-function it (opis, funkcja) {
-  funkcja();
+function it (tag, func) {
+  func();
 };
-//Describe - część niezmieniana
+//Describe - invariant part
 describe("Basic Tests", () =>{
   it("Testing for fixed tests", () => {
     assert.strictEqual(quarterOf(3), 1)

@@ -26,13 +26,12 @@ class SmallestIntegerFinder {
   }
 }
 */
-///Tester
-//JS 'Codewars' 'Sample Test' (JSCSTT) Tester v(nazwa pliku) by VR.
-//const Test = require('@codewars/test-compat'); *przechowalnia
-//const getMsg = (n) => `Player ${n} won!`; *przechowalnia
+///Tester => JS 'Codewars' 'Sample Test' Tester
+//Declarations and definitions - part adjusted to VSC
 const chai = require("chai");
 const assert = chai.assert;
 chai.config.truncateThreshold=0;
+//Describe - invariant part
 let sif = new SmallestIntegerFinder();
 assert.strictEqual(sif.findSmallestInt([78,56,232,12,8]),8,'Should return the smallest int 8');
 assert.strictEqual(sif.findSmallestInt([78,56,232,12,18]),12,'Should return the smallest int 12');

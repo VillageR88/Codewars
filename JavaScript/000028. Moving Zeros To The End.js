@@ -30,19 +30,19 @@ var moveZeros = function (arr) {
   return arr.filter(function(x) {return x !== 0}).concat(arr.filter(function(x) {return x === 0;}));
 }
 */
-///Tester => JS 'Codewars' 'Sample Test' Tester (JSCSTT) v0.1.0 by VR.
-//Deklaracje i definicje - część dostosowana do VSC
+///Tester => JS 'Codewars' 'Sample Test' Tester
+//Declarations and definitions - part adjusted to VSC
 const Test = require('@codewars/test-compat');
 const chai = require("chai");
 const assert = chai.assert;
 chai.config.truncateThreshold=0;
-function describe (opis, funkcja) {
-  funkcja();
+function describe (tag, func) {
+  func();
 };
-function it (opis, funkcja) {
-  funkcja();
+function it (tag, func) {
+  func();
 };
-//Describe - część niezmieniana
+//Describe - invariant part
 describe("Tests", () => {
   it("test", () => {
     assert.deepEqual(moveZeros([1,2,0,1,0,1,0,3,0,1]), [1, 2, 1, 1, 3, 1, 0, 0, 0, 0]);

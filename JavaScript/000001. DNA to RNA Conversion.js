@@ -1,5 +1,5 @@
-/*Task
-Deoxyribonucleic acid, DNA is the primary information storage molecule in biological systems.
+///Task
+/*Deoxyribonucleic acid, DNA is the primary information storage molecule in biological systems.
 It is composed of four nucleic acid bases Guanine ('G'), Cytosine ('C'), Adenine ('A'), and Thymine ('T').
 
 Ribonucleic acid, RNA, is the primary messenger molecule in cells.
@@ -34,11 +34,8 @@ function DNAtoRNA(dna){
 }
 */
 
-///Tester
-///Tester => JS 'Codewars' 'Sample Test' Tester (JSCSTT) v0.1.0 by VR.
-//Deklaracje i definicje - część adjusted to VSC
-//import Test from '@codewars/test-compat';
-//import { assert as _assert, config } from "chai";
+///Tester => JS 'Codewars' 'Sample Test' Tester
+//Declarations and definitions - part adjusted to VSC
 const chai = require("chai");
 const assert = chai.assert;
 function describe (opis, funkcja) {

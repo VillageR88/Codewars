@@ -1,4 +1,5 @@
-/*Zadanie
+///Task
+/*
 You were camping with your friends far away from home, but when it's time to go back,
 you realize that your fuel is running out and the nearest pump is 50 miles away!
 You know that on average, your car runs on about 25 miles per gallon. There are 2 gallons left.
@@ -19,11 +20,10 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
   return distanceToPump/mpg <= fuelLeft
 };
 */
-///Tester
-//JS 'Codewars' 'Sample Test' (JSCSTT) Tester v(nazwa pliku) by VR.
-//const Test = require('@codewars/test-compat'); *przechowalnia
-//const getMsg = (n) => `Player ${n} won!`; *przechowalnia
+///Tester => JS 'Codewars' 'Sample Test' Tester
+//Declarations and definitions - part adjusted to VSC
 const chai = require("chai");
 const assert = chai.assert;
+//Describe - invariant part
 assert.equal(zeroFuel(50, 25, 2), true);
 assert.equal(zeroFuel(100, 50, 1), false);

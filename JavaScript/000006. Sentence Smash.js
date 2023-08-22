@@ -1,4 +1,5 @@
-/*Zadanie
+///Task
+/*
 Sentence Smash
 
 Write a function that takes an array of words and smashes them together into a sentence and returns the sentence.
@@ -24,12 +25,11 @@ function smash (words) {
 /*
 
 */
-///Tester
-//JS 'Codewars' 'Sample Test' (JSCSTT) Tester v(nazwa pliku) by VR.
-//const Test = require('@codewars/test-compat'); *przechowalnia
-//const getMsg = (n) => `Player ${n} won!`; *przechowalnia
+///Tester => JS 'Codewars' 'Sample Test' Tester
+//Declarations and definitions - part adjusted to VSC
 const chai = require("chai");
 const assert = chai.assert;
+//Describe - invariant part
 assert.strictEqual(smash([]), "");
 assert.strictEqual(smash(["hello"]), "hello");
 assert.strictEqual(smash(["hello", "world"]), "hello world");

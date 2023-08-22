@@ -36,12 +36,12 @@ function bmi(weight, height) {
   
 }
 */
-///Tester
-//JS 'Codewars' 'Sample Test' (JSCSTT) Tester v(nazwa pliku) by VR.
-//const Test = require('@codewars/test-compat'); *przechowalnia
-//const getMsg = (n) => `Player ${n} won!`; *przechowalnia
+///Tester => JS 'Codewars' 'Sample Test' Tester
+//Declarations and definitions - part adjusted to VSC
+
 const Test = require('@codewars/test-compat');
 const chai = require("chai");
 const assert = chai.assert;
 chai.config.truncateThreshold=0;
+//Describe - invariant part
 Test.assertEquals(bmi(80, 1.80), "Normal");

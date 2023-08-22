@@ -1,4 +1,6 @@
-/*Zadanie
+///Task
+/*
+/*
 Write a function that accepts an integer n and a string s as parameters, and returns a string of s repeated exactly n times.
 Examples (input -> output)
 
@@ -17,12 +19,11 @@ function repeatStr (n, s) {
   return s.repeat(n);
 }
 */
-///Tester
-//JS 'Codewars' 'Sample Test' (JSCSTT) Tester v(nazwa pliku) by VR.
-//const Test = require('@codewars/test-compat'); *przechowalnia
-//const getMsg = (n) => `Player ${n} won!`; *przechowalnia
+///Tester => JS 'Codewars' 'Sample Test' Tester
+//Declarations and definitions - part adjusted to VSC
 const chai = require("chai");
 const assert = chai.assert;
+//Describe - invariant part
 assert.strictEqual(repeatStr(3, "*"), "***");
 assert.strictEqual(repeatStr(5, "#"), "#####");
 assert.strictEqual(repeatStr(2, "ha "), "ha ha ");

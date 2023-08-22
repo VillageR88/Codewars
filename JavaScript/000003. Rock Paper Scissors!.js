@@ -1,4 +1,5 @@
-/*Zadanie
+///Task
+/*
 Rock Paper Scissors
 
 Let's play! You have to return which player won! In case of a draw return Draw!.
@@ -30,9 +31,10 @@ const rps = (p1, p2) => {
   }
 };
 */
-///Tester
-//JS 'Codewars' 'Sample Test' (JSCSTT) Tester v0.1.0 by VR. - prototyp
+///Tester => JS 'Codewars' 'Sample Test' Tester
+//Declarations and definitions - part adjusted to VSC
 const Test = require('@codewars/test-compat');
+//Describe - invariant part
 const getMsg = (n) => `Player ${n} won!`;
 Test.assertEquals(rps('rock', 'scissors'), getMsg(1));
 Test.assertEquals(rps('scissors', 'paper'), getMsg(1));
