@@ -15,9 +15,6 @@ uniqueInOrder([1,2,2,3,3])       == [1,2,3]
 //My
 var uniqueInOrder = function (iterable) {
   return  [...iterable].filter((_, i, a) => a[i] != a[i - 1]);
-
-  //return [...iterable].includes(0|1|2|3|4|5|6|7|8|9) ? [iterable].filter((x, y) => x^y) : [...[...iterable].reduce((x, y, i, a) => `${x}` + (a[i - 1] == `${y}` ? "" : `${y}`))];
-  //return [...[...iterable].reduce((x, y, i, a) => `${x}` + (a[i - 1] == `${y}` ? "" : `${y}`))];
 }
 //Codewars recommended
 /*
