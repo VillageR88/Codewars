@@ -13,7 +13,6 @@ n = 2  ==> [1, 2, 4]  # [2^0, 2^1, 2^2]
 const powersOfTwo = (n) => [...Array(n + 1)].map((_, i) => 2 ** i);
 //Codewars recommended
 /*
-
 */
 ///Tester => JS 'Codewars' 'Sample Test' Tester
 //Declarations and definitions - part adjusted to VSC
