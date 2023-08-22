@@ -25,10 +25,6 @@ function minMax(arr){
 }
 //Codewars recommended
 /*
-function minMax(arr){
-  _arr = [...arr].sort((a, b) => a - b);
-  return [_arr[0], _arr[[..._arr].length - 1]];
-}
 */
 ///Tester => JS 'Codewars' 'Sample Test' Tester
 //Declarations and definitions - part adjusted to VSC
