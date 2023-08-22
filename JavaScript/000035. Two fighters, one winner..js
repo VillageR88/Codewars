@@ -22,7 +22,8 @@ Example:
 */
 ///Solution
 //My
-const declareWinner = (fighter1, fighter2, firstAttacker) => (fighter1.health > 0 || fighter2.health > 0) ? (fighter1.name == [firstAttacker] ? (fighter2.health -= fighter1.damagePerAttack, firstAttacker = fighter2.name) : (fighter1.health -= fighter2.damagePerAttack, firstAttacker = fighter1.name)) && declareWinner(fighter1, fighter2, firstAttacker) : firstAttacker;//Codewars recommended
+const declareWinner = (fighter1, fighter2, firstAttacker) => (fighter1.health > 0 || fighter2.health > 0) ? (fighter1.name == [firstAttacker] ? (fighter2.health -= fighter1.damagePerAttack, firstAttacker = fighter2.name) : (fighter1.health -= fighter2.damagePerAttack, firstAttacker = fighter1.name)) && declareWinner(fighter1, fighter2, firstAttacker) : firstAttacker;
+//Codewars recommended
 /*
 */
 ///Tester => JS 'Codewars' 'Sample Test' Tester
