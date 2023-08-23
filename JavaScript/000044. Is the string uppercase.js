@@ -22,7 +22,6 @@ String.prototype.isUpperCase = function() {
 }
 //Codewars recommended
 /*
-String.prototype.isUpperCase=function() {return this==this.toUpperCase()}
 */
 ///Tester => JS 'Codewars' 'Sample Test' Tester
 //Declarations and definitions - part adjusted to VSC
