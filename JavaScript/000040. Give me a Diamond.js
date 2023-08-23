@@ -31,7 +31,7 @@ A size 5 diamond:
 */
 ///Solution
 //My
-  const diamond = (n) => new Array(n).fill("*").map((x, i, a) => ((i > n / 2) ? i = n / 2 * (-1) : i = i = " ".repeat(a.length / 2 - i) + x.repeat(2 * i + 1)+"\n")).join("");
+const diamond = (n) => n <= 0 || n % 2 == 0 ? null : new Array(n).fill("*").map((x, i) => i < n / 2 ? i = " ".repeat(n / 2 - i) + x.repeat(2 * i + 1)+ "\n" : " ".repeat(n / 2 - n + 1 + i) + x.repeat((n - i) * 2 - 1) + "\n").join("");
 /*
 }
 */
