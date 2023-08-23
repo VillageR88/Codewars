@@ -11,8 +11,8 @@ Example
 ///Solution
 //My
 const solution = (string) => string.replace(/[A-Z]/g, " "+"$&");
+//Codewars recommended
 /*
-}
 */
 ///Tester => JS 'Codewars' 'Sample Test' Tester
 //Declarations and definitions - part adjusted to VSC
