@@ -76,6 +76,5 @@ describe("Sample tests", function() {
     assert.strictEqual(queueTime([10,2,3,3], 2), 10);
     assert.strictEqual(queueTime([2,3,10,2], 2), 12);
   });
-  
   //add some more example tests here, if you like
 });
