@@ -38,18 +38,29 @@ P.S. The situation in this kata can be likened to the more-computer-science-rela
 */
 ///Solution
 //My
-function queueTime (customers, n, co = 0) {
+function queueTime (customers, n, counter = 0) {
   while (customers.find((x) => x > 0)) {
     for (var i = 1, k = -1; i <= n; i++) {
-      j = customers.findIndex((v, index) => ((index > k) && v > 0));
+      j = customers.findIndex((v, index) => (index > k && v > 0));
       if (j == -1) break;
       customers[j] -= 1;
       k = j;
     }
-    co += 1;
+    counter += 1;
   }
-  return co;
+  return counter;
 }
+//Codewars recommended
+/* 
+function queueTime(customers, n) {
+  var w = new Array(n).fill(0);
+  for (let t of customers) {
+    let idx = w.indexOf(Math.min(...w));
+    w[idx] += t;
+  }
+  return Math.max(...w);
+}
+*/
 ///Tester => JS 'Codewars' 'Sample Test' Tester
 //Declarations and definitions - part adjusted to VSC
 const Test = require('@codewars/test-compat');
@@ -72,7 +83,7 @@ describe("Sample tests", function() {
     assert.strictEqual(queueTime([1,2,3,4], 1), 10);
     assert.strictEqual(queueTime([2,2,3,3,4,4], 2), 9);
     assert.strictEqual(queueTime([1,2,3,4,5], 100), 5);
-    //assert.strictEqual(queueTime([2], 5), 2);
+    assert.strictEqual(queueTime([2], 5), 2);
   });
 
   it("Examples", () => {
