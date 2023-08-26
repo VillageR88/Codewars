@@ -27,9 +27,10 @@ Examples:
 */
 ///Solution
 //My
-const bouncingBall = (h,  bounce,  window, counter = 0, _h = h, _bounce = bounce, _window = window) => !((_h > 0) && (_bounce > 0) && (_bounce < 1)) ? -1 : ((h * bounce) > window) ? bouncingBall(h = h * bounce, bounce, window, counter +=1): counter
+const bouncingBall = (h,  bounce,  window, counter = 1, _h = h, _bounce = bounce, _window = window) => !(_h > 0 && _bounce > 0 && _bounce < 1 && _window < _h) ? -1 : h * bounce > window ? bouncingBall(h *= bounce, bounce, window, counter += 2): counter;
 //Codewars recommended
 /* 
+const bouncingBall=(h, b, w)=>(b>=1 || h<w || b<=0) ? -1 : Math.ceil(Math.log(w/h)/Math.log(b))*2-1;
 */
 ///Tester => JS 'Codewars' 'Sample Test' Tester
 //Declarations and definitions - part adjusted to VSC
