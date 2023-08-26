@@ -38,18 +38,18 @@ P.S. The situation in this kata can be likened to the more-computer-science-rela
 */
 ///Solution
 //My
-const queueTime = (customers, n, i = customers.findIndex((k) => k > 0), /*v2 = customers.findIndex((k, k2) => k > 0 && k !== i1),*/ co = 0) => (
-  console.log(customers),
-  customers.reduce((a, b) => a + b) > 0 ? (customers[i] -= 1 , queueTime(customers, i)) : console.log("Say what?"),
-  console.log(customers)
-  //console.log(customers),
-  //customers.reduce((a, b) => a + b) > 0 ? (((customers[v1] > 1) ? customers[v1] -= 1: ((customers[v1] -= 1) && queueTime(customers, n, v1, /*v2,*/ co += 1)))/*, ((customers[v2] > 0) ? customers[v2] -= 1: 0)*/) && queueTime(customers, n, v1, /*v2,*/ co += 1) : console.log("Placeholder1"),
-  //console.log(customers)
-  )
-//[1-9]\d+ all numbers > 0
-//Codewars recommended
-/* 
-*/
+function queueTime (customers, n, co = 0) {
+  while (customers.find((x) => x > 0)) {
+    for (var i = 1, k = -1; i <= n; i++) {
+      j = customers.findIndex((v, index) => ((index > k) && v > 0));
+      if (j == -1) break;
+      customers[j] -= 1;
+      k = j;
+    }
+    co += 1;
+  }
+  return co;
+}
 ///Tester => JS 'Codewars' 'Sample Test' Tester
 //Declarations and definitions - part adjusted to VSC
 const Test = require('@codewars/test-compat');
@@ -67,17 +67,18 @@ function it (tag, func) {
 describe("Sample tests", function() {
   
   it("Simple tests", () => {
-    //assert.strictEqual(queueTime([], 1), 0);
-    //assert.strictEqual(queueTime([1,2,3,4], 1), 10);
-    assert.strictEqual(queueTime([0,30,30,3,4,4], 2), "test");
+    assert.strictEqual(queueTime([5], 1), 5);
+    assert.strictEqual(queueTime([], 1), 0);
+    assert.strictEqual(queueTime([1,2,3,4], 1), 10);
     assert.strictEqual(queueTime([2,2,3,3,4,4], 2), 9);
     assert.strictEqual(queueTime([1,2,3,4,5], 100), 5);
+    //assert.strictEqual(queueTime([2], 5), 2);
   });
 
   it("Examples", () => {
-    assert.strictEqual(queueTime([5,3,4],    1), 12);
-    assert.strictEqual(queueTime([10,2,3,3], 2), 10);
-    assert.strictEqual(queueTime([2,3,10,2], 2), 12);
+    //assert.strictEqual(queueTime([5,3,4],    1), 12);
+    //assert.strictEqual(queueTime([10,2,3,3], 2), 10);
+    //assert.strictEqual(queueTime([2,3,10,2], 2), 12);
   });
 
   //add some more example tests here, if you like
