@@ -21,6 +21,7 @@ function describe (tag, func) {
 function it (tag, func) {
   func();
 };
+//Describe - invariant part
 describe("Basic tests", () => {
   it("Testing for fixed tests", () => {
     assert.strictEqual(problem("hello"), "Error");

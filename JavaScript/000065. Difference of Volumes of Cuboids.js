@@ -30,6 +30,7 @@ function describe (tag, func) {
 function it (tag, func) {
   func();
 };
+//Describe - invariant part
 describe("Tests", function(){
   it("Basic tests", function(){
     assert.strictEqual(findDifference([3, 2, 5], [1, 4, 4]), 14);

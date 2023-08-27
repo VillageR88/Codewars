@@ -40,6 +40,7 @@ function describe (tag, func) {
 function it (tag, func) {
   func();
 };
+//Describe - invariant part
 describe("Tests", function() {
   it("Fixed tests", function() {
       assert.deepEqual(sumDigPow(1, 10), [1, 2, 3, 4, 5, 6, 7, 8, 9])

@@ -32,6 +32,7 @@ function describe (tag, func) {
 function it (tag, func) {
   func();
 };
+//Describe - invariant part
 describe("Example tests",function(){
   it("Test 1",function(){
     Test.assertDeepEquals(sortByLength(["Beg", "Life", "I", "To"]),["I", "To", "Beg", "Life"]);
