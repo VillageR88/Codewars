@@ -18,7 +18,7 @@ Try to do it without using if statements!
 ///Solution
 //My
 const arithmetic = (a, b, operator) => eval(a + {add: "+", subtract: "-", multiply: "*", divide: "/"}[operator] + b);
-  //Codewars recommended
+//Codewars recommended
 /*
 */
 ///Tester => JS 'Codewars' 'Sample Test' Tester
