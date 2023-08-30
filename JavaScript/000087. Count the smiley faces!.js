@@ -24,7 +24,6 @@ In case of an empty array return 0. You will not be tested with invalid input (i
 Order of the face (eyes, nose, mouth) elements will always be the same.
 */
 ///Solution
-//
 //My
 //return the total number of smiling faces in the array
 const countSmileys = arr => arr.filter((x) => x.match(/:\)|:D|;-D|;~D|:~\)|:-D|:~D|;\)|:-\)|;D|:\)|:-\)|;~\)|:~\)|;-\)/g)).length;

@@ -33,7 +33,6 @@ Notes:
     See "Samples Tests" for the return.
 */
 ///Solution
-//
 //My
 const stockList = (listOfArt, listOfCat) => listOfArt == 0 ? "" : listOfCat.map((x) => (`(${x} : ` + `${0 + (listOfArt.filter((v) => v[0] == x))}`.match(/[0-9]+/g).reduce((a, b) => +a + +b) + ")")).join(" - ");
 //Codewars recommended

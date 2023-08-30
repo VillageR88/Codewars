@@ -24,7 +24,6 @@ m = 1
 result - division by zero (refer to the specifications on how to handle this in your language)
 */
 ///Solution
-//
 //My
 const remainder = (n, m) => Math.max(n, m) % Math.min(n, m);
 //Codewars recommended
