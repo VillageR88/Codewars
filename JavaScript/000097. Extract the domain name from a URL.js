@@ -10,11 +10,24 @@ Write a function that when given a URL as a string, parses out just the domain n
 //My
 // write the function isAnagram
 function domainName(url){
-  console.log(url);
-  return url.match(/\w+(?=\.org)|(?=w)|((?<=w\.)|(?<=\/\/))\S+?(?=\.)||(?<=org)/g).join("");
+  if (url.match("http://")) url = url.replace("http://", "");
+  else if (url.match("https://")) url = url.replace("https://", "");
+  if (url.match("www.")) url = url.replace("www.", "");
+  return url.match(/\S+?(?=\.)/);
   }
 //Codewars recommended
 /*
+function domainName(url){
+  return url.match(/(?:http(?:s)?:\/\/)?(?:w{3}\.)?([^\.]+)/i)[1];
+}
+OR
+function domainName(url){  
+  return url.replace(/.+\/\/|www.|\..+/g, '')
+}
+OR
+function domainName(url){
+  return url.replace(/(https?:\/\/)?(www\.)?/, '').split('.')[0]
+}
 */
 ///Tester => JS 'Codewars' 'Sample Test' Tester
 //Declarations and definitions - part adjusted to VSC
