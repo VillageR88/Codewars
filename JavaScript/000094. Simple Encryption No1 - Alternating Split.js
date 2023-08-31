@@ -19,21 +19,8 @@ If the string S is an empty value or the integer N is not positive, return the f
 ///Solution
 //My
 // write the function isAnagram
-const encrypt = (t, n, _t = t) => (t == "") || (t == 0) || (t == null) ? t : (n > 0) ? (_t = [], [...t].map((x, i) => i % 2 != 0 && _t.push(x)) , [...t].map((x, i) => i % 2 == 0 && _t.push(x)) , (_t = _t.join(""), encrypt(t = _t, n -= 1, _t))) : _t;
-function decrypt (t, n, _t = t) {
-  //console.log(t);
-  //console.log(n);
-  if (t == null) return t;
-  else if (t == 0) return t;
-  else if (t == "") return t;
-  else if (t == []) return t;
-  if (n == 0) return t;
-  var condition = t.split(" ").length;
-  var param = 1;
-  //console.log(t.length, "<", n);
-  if (condition == 1) {condition = (t.length - param)};
-  return (t == null ? null : condition - n > 0 && (condition - n) < condition + 1) ? (_t = [], [...t].map((x, i) => i % 2 != 0 && _t.push(x)) , [...t].map((x, i) => i % 2 == 0 && _t.push(x)) , (_t = _t.join(""), decrypt(t = _t, n += 1, _t))) : _t
-}
+const encrypt = (t, n, _t = t) => (t == "") || (t == 0) || (t == null) ? t : (n > 0) ? (_t = [], [...t].map((x, i) => (i % 2) && _t.push(x)) , [...t].map((x, i) => !(i % 2) && _t.push(x)) , _t = _t.join(""), encrypt(t = _t, n -= 1, _t)) : _t;
+const decrypt = (t, n, p1 , p2) => (t == "") || (t == 0) || (t == null) ? t : (n > 0) ? (p1 = t.slice(0, t.length / 2), p2 = t.slice(t.length / 2, t.length)) && (t = ([...t].map((_, i) => !(i % 2) ? p2[Math.floor(i * 0.5)] : p1[Math.floor(i * 0.5)]).join("")), decrypt(t, n -= 1, p1, p2)) : t;
 //Codewars recommended
 /*
 */
