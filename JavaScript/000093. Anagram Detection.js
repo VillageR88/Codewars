@@ -13,7 +13,6 @@ Examples
 */
 ///Solution
 //My
-// write the function isAnagram
 function isAnagram (test, original) { 
 function func() {return [...this.toLowerCase()].sort().join()};
 return func.call(test) == func.call(original)};

@@ -8,7 +8,6 @@ Write a function that when given a URL as a string, parses out just the domain n
 */
 ///Solution
 //My
-// write the function isAnagram
 function domainName(url){
   if (url.match("http://")) url = url.replace("http://", "");
   else if (url.match("https://")) url = url.replace("https://", "");

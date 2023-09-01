@@ -11,7 +11,6 @@ move(3, 6) should equal 15
 */
 ///Solution
 //My
-// write the function isAnagram
 const move = (p, r) => p + 2 * r;
 //Codewars recommended
 /*

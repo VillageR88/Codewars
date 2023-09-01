@@ -20,7 +20,6 @@ Notes:
 */
 ///Solution
 //My
-// write the function isAnagram
 const derive = (c, e) => "" + c * e + "x^" + (e - 1);
 //Codewars recommended
 /*
