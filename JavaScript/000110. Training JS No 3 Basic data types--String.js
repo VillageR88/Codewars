@@ -47,9 +47,7 @@ function answer3(){
 
 //Codewars recommended
 /*
-function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
-  return enteredCode === correctCode && Date.parse(expirationDate) >= Date.parse(currentDate)
-}*/
+*/
 ///Tester => JS 'Codewars' 'Sample Test' Tester
 //Declarations and definitions - part adjusted to VSC
 const Test = require('@codewars/test-compat');
