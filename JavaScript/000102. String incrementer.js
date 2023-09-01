@@ -21,7 +21,6 @@ Attention: If the number has leading zeros the amount of digits should be consid
 */
 ///Solution
 //My
-//\d+(?!\S)
 function incrementString (s, p0, p1) {
   try {p0 = s.match(/.+(?<!\d)/g)[0];} catch (error) {p0 = "";}
   try {p1 = s.match(/\d+$/g)[0];} catch (error) {p1 = "x"; return p0 + 1;}
