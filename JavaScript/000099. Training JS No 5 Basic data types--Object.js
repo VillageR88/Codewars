@@ -27,7 +27,6 @@ In the end, click "Submit" to submit your code pass this kata.
 */
 ///Solution
 //My
-//const animal = (obj, arr = Object.keys(obj)) => `This ${obj[arr[2]]} ${obj[arr[0]]} has ${obj[arr[1]]} legs.`;
 const animal = (o, a = Object.keys(o)) => `This ${o[a[2]]} ${o[a[0]]} has ${o[a[1]]} legs.`;
 //Codewars recommended
 /*
