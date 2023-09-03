@@ -1,7 +1,0 @@
-{
-    "git.enableCommitSigning": true,
-    "git.postCommitCommand": "sync",
-    "git.rememberPostCommitCommand": true,
-    "git.useCommitInputAsStashMessage": false,
-    "git.useEditorAsCommitInput": true
-}
