@@ -1,0 +1,5 @@
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000001. Regular Ball Super Ball\obj\Debug\net7.0\000001. Regular Ball Super Ball.csproj.AssemblyReference.cache
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000001. Regular Ball Super Ball\obj\Debug\net7.0\000001. Regular Ball Super Ball.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000001. Regular Ball Super Ball\obj\Debug\net7.0\000001. Regular Ball Super Ball.AssemblyInfoInputs.cache
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000001. Regular Ball Super Ball\obj\Debug\net7.0\000001. Regular Ball Super Ball.AssemblyInfo.cs
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000001. Regular Ball Super Ball\obj\Debug\net7.0\000001. Regular Ball Super Ball.csproj.CoreCompileInputs.cache

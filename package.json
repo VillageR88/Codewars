@@ -2,7 +2,9 @@
   "dependencies": {
     "@codewars/test-compat": "^1.1.0",
     "chai": "^4.3.7",
-    "latest": "^0.2.0"
+    "latest": "^0.2.0",
+    "nunit": "^0.2.1",
+    "nunit-command": "^0.1.5"
   },
   "devDependencies": {
     "@testing-library/dom": "^9.3.1",
