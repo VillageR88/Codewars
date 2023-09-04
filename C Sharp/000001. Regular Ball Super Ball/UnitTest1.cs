@@ -10,10 +10,11 @@ ball2 = new Ball("super");
 ball1.ballType     //=> "regular"
 ball2.ballType     //=> "super"
 */
+///Tester => C# 'Codewars' 'Sample Tests' Tester - part 1 (invariant) directives
+using NUnit.Framework;
 ///Solution
 //My
 using System;
-using NUnit.Framework;
 
 public class Ball {
   public string ballType { get; set; }
@@ -29,8 +30,17 @@ public class Ball {
 }
 //Codewars recommended
 /*
+using System;
+
+public class Ball {
+  public string ballType { get; set; }
+  
+  public Ball(string ballType = "regular") {
+    this.ballType = ballType;
+  }
+}
 */
-///Tester => C# 'Codewars' 'Sample Tests' Tester
+///Tester => C# 'Codewars' 'Sample Tests' Tester - part 2 (adjusted) sample tests
 [TestFixture]
 public class FactorialTests {
   [Test]
