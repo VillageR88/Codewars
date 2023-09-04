@@ -4,7 +4,8 @@
     "chai": "^4.3.7",
     "latest": "^0.2.0",
     "nunit": "^0.2.1",
-    "nunit-command": "^0.1.5"
+    "nunit-command": "^0.1.5",
+    "nunit-console-runner": "^3.9.0-1"
   },
   "devDependencies": {
     "@testing-library/dom": "^9.3.1",

@@ -6,7 +6,8 @@ You are given a string containing a sequence of character sequences separated by
 
 Write a function which returns a new string containing the same character sequences except the first and the last ones but this time separated by spaces.
 
-If the input string is empty or the removal of the first and last items would cause the resulting string to be empty, return an empty value (represented as a generic value NULL in the examples below).
+If the input string is empty or the removal of the first and last items would cause the resulting string to be empty, 
+return an empty value (represented as a generic value NULL in the examples below).
 Examples
 
 "1,2,3"      =>  "2"
@@ -20,30 +21,46 @@ Examples
 ///Tester => C# 'Codewars' 'Sample Tests' Tester - part 1 (invariant) directives
 using NUnit.Framework;
 using System.Linq;
+
 ///Solution
 //My
 using System;
+
+
 public static class Kata
 {
   public static string Array(string s)
   {
-    Console.WriteLine(s);
-    Console.WriteLine(s.Split(",").Length);
     if (s.Split(",").Length > 2) {
-      s = s.Remove(0, 2);
-      s = s.Remove(s.Length - 2);
-      s = s.Replace(",", " ");
-      s = s.Trim();
-      return s;}
-      else return null;
+      var range = s.Split(",").Length - 2;
+      string[] newTab = new string[range];
+      for (var i = 0; i < range; i++) {
+        newTab[i] = s.Split(",")[i + 1];
+      }
+      return string.Join(" ", newTab);
+    }
+    else return null;
   }
 }
 //Codewars recommended
 /*
+using System.Linq;
+
+public static class Kata
+{
+    public static string Array(string s)
+    {
+        var arr = s.Split(",");
+        return arr.Length > 2 ? string.Join(" ", arr[1..^1]) : null;
+    }
+}
 */
-///Tester => C# 'Codewars' 'Sample Tests' Tester - part 2 (adjusted) sample testspublic class KataTests
+///Tester => C# 'Codewars' 'Sample Tests' Tester - part 2 (adjusted) sample testspublic class KataTests <summary>
+/// Tester => C# 'Codewars' 'Sample Tests' Tester - part 2 (adjusted) sample testspublic class KataTests
+/// </summary>
 public class KataTests
 {
+  
     [Test]
     public void SampleTest()
     {
@@ -52,5 +69,5 @@ public class KataTests
         Assert.AreEqual(null, Kata.Array("1, 3"));
         Assert.AreEqual("2", Kata.Array("1,2,3"));
         Assert.AreEqual("2 3", Kata.Array("1,2,3,4"));
-    }
+    } 
 }
