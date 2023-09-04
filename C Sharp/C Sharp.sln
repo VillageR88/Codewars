@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000001. Regular Ball Super Ball", "000001. Regular Ball Super Ball\000001. Regular Ball Super Ball.csproj", "{AE1A8FFF-8BA0-4EE0-AA6B-B8DE9E8C4816}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000002. Simple validation of a username with regex", "000002. Simple validation of a username with regex\000002. Simple validation of a username with regex.csproj", "{3E7A09DF-24CB-4690-ABC3-EA129613274E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{AE1A8FFF-8BA0-4EE0-AA6B-B8DE9E8C4816}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE1A8FFF-8BA0-4EE0-AA6B-B8DE9E8C4816}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE1A8FFF-8BA0-4EE0-AA6B-B8DE9E8C4816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E7A09DF-24CB-4690-ABC3-EA129613274E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E7A09DF-24CB-4690-ABC3-EA129613274E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E7A09DF-24CB-4690-ABC3-EA129613274E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E7A09DF-24CB-4690-ABC3-EA129613274E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
