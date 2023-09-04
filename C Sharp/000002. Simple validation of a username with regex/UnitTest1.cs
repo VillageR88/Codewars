@@ -25,6 +25,15 @@ public class Kata
 }
 //Codewars recommended
 /*
+using System.Text.RegularExpressions;
+
+public class Kata
+{
+  public static bool ValidateUsr(string username) 
+  {
+    return Regex.IsMatch(username, "^[a-z0-9_]{4,16}$");
+  }
+}
 */
 ///Tester => C# 'Codewars' 'Sample Tests' Tester - part 2 (adjusted) sample tests
 public class Tests
