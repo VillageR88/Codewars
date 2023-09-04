@@ -11,9 +11,9 @@ ball1.ballType     //=> "regular"
 ball2.ballType     //=> "super"
 */
 ///Solution
+using NUnit.Framework;
 //My
 using System;
-using NUnit.Framework;
 
 public class Ball {
   public string ballType { get; set; }
@@ -29,6 +29,15 @@ public class Ball {
 }
 //Codewars recommended
 /*
+using System;
+
+public class Ball {
+  public string ballType { get; set; }
+  
+  public Ball(string ballType = "regular") {
+    this.ballType = ballType;
+  }
+}
 */
 ///Tester => C# 'Codewars' 'Sample Tests' Tester
 [TestFixture]
