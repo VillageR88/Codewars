@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GnofdGttDyobqhAxv4ssb3Cd2XVLGiP34kfyAznWoiEu+lKu3iusfNfZeYm9MOxPeyBJnm+V77jjbvvu56y34Q==",
+  "dgSpecHash": "YvIzDjXhIUqmpF7cLQSjLi1TMtjXBgotq/D7faZ7NqYtRf5sALe+JV4s+AA4VGpDIPI3th6mmUqvrYgoqKIgMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000005. Check same case\\000005. Check same case\\000005. Check same case.csproj",
+  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000005. Check same case\\000005. Check same case.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
