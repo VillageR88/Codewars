@@ -18,8 +18,13 @@ using NUnit.Framework;
 public class Ball {
   public string ballType { get; set; }
   
+  public Ball()
+  {
+      ballType = "regular";
+  }
+  
   public Ball(string ballType) {
-
+    if (ballType == "super") this.ballType = "super";
   }
 }
 //Codewars recommended
