@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000003. Remove First and La
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000004. Contamination No 1 -String-", "000004. Contamination No 1 -String-\000004. Contamination No 1 -String-.csproj", "{0456D76F-38F2-473E-9418-804B799D4AB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000005. Check same case", "000005. Check same case.csproj", "{50D5E22C-6D59-45DD-B215-9DB59AD6A81B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000006. Printing Array elements with Comma delimiters", "000006. Printing Array elements with Comma delimiters\000006. Printing Array elements with Comma delimiters.csproj", "{4A840580-D11E-41D7-BF11-39B42F8D348E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{0456D76F-38F2-473E-9418-804B799D4AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0456D76F-38F2-473E-9418-804B799D4AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0456D76F-38F2-473E-9418-804B799D4AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC10A7B8-ABFB-4A4C-8666-23233B99AC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC10A7B8-ABFB-4A4C-8666-23233B99AC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC10A7B8-ABFB-4A4C-8666-23233B99AC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC10A7B8-ABFB-4A4C-8666-23233B99AC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A840580-D11E-41D7-BF11-39B42F8D348E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A840580-D11E-41D7-BF11-39B42F8D348E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A840580-D11E-41D7-BF11-39B42F8D348E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A840580-D11E-41D7-BF11-39B42F8D348E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
