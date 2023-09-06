@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a+05uy5zrs7/fXClNxIrONp6hhLF86kMsC7fdkCWdNmHCzsydLK33jrzuu6uCODP6uF8OqcaMzF15nF7sh9qcg==",
+  "dgSpecHash": "TO6nXUHoyM+rnht2X2iQEpjMpIfUJdoUMCSnKx790y3LPgkMYHcYt8jeejRPDPeCq7ytrbPyKuptet9EY8ZAAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000012. Define a card suit\\000012. Define a card suit.csproj",
+  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000012. Define a card suit\\000012. Define a card suit.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
