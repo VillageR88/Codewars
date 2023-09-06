@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000012. Define a card suit"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000013. Student's Final Grade", "000013. Student's Final Grade\000013. Student's Final Grade.csproj", "{301D5BBB-A3EE-47FE-969A-FA7DA8A97807}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000014. Greet Me", "000014. Greet Me\000014. Greet Me.csproj", "{7AA2F278-0ECC-4AD1-9B44-F4B117886707}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{301D5BBB-A3EE-47FE-969A-FA7DA8A97807}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{301D5BBB-A3EE-47FE-969A-FA7DA8A97807}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{301D5BBB-A3EE-47FE-969A-FA7DA8A97807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA2F278-0ECC-4AD1-9B44-F4B117886707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA2F278-0ECC-4AD1-9B44-F4B117886707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA2F278-0ECC-4AD1-9B44-F4B117886707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA2F278-0ECC-4AD1-9B44-F4B117886707}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
