@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000008. Do you speak Englis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000009. Return the day", "000009. Return the day\000009. Return the day.csproj", "{698D40E1-2365-4230-A528-74C001E2878F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000010. The 'if' function", "000010. The 'if' function\000010. The 'if' function.csproj", "{EFFCB2C9-CE75-4B32-BF7F-EB4EFE714025}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{698D40E1-2365-4230-A528-74C001E2878F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{698D40E1-2365-4230-A528-74C001E2878F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{698D40E1-2365-4230-A528-74C001E2878F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFFCB2C9-CE75-4B32-BF7F-EB4EFE714025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFFCB2C9-CE75-4B32-BF7F-EB4EFE714025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFFCB2C9-CE75-4B32-BF7F-EB4EFE714025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFFCB2C9-CE75-4B32-BF7F-EB4EFE714025}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

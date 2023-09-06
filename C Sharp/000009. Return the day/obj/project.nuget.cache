@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jrJt5Vh7tq/Hi1TDDHwIFACCV1PBxc17sAB+bm5po0umebDHZhoq4y9GaG/tGufQ8d2hIfJeq/CyTkOD4igrfQ==",
+  "dgSpecHash": "19+kjKqiibNI7DV/M9PxAP2CVUQoRQ/aAxWI7riFdb2hsLwO+I7m4lt/ymMQ8wkQms3qg58ZMnQUdb11JYZT2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000009. Return the day\\000009. Return the day.csproj",
+  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000009. Return the day\\000009. Return the day.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
