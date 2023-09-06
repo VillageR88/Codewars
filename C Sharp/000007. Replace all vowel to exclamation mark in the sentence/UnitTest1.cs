@@ -21,11 +21,12 @@ using System.Text.RegularExpressions;
 
 public static class Kata
 {
-  public static string Replace(string s)
-  {
-    return Regex.Replace(s, "[aeiouAEIOU]", "!");
-  }
+    public static string Replace(string s)
+    {
+        return Regex.Replace(s, "[aeiouAEIOU]", "!");
+    }
 }
+
 //Codewars recommended
 /*
 using System.Text.RegularExpressions;
@@ -37,21 +38,21 @@ public static class Kata
 }
 */
 /// Tester => C# 'Codewars' 'Sample Tests' Tester - part 2 (adjusted) sample tests
-namespace Solution 
+namespace Solution
 {
-  using NUnit.Framework;
-  using System;
+    using NUnit.Framework;
+    using System;
 
-  [TestFixture]
-  public class SolutionTest
-  {
-    [Test, Description("Basic Tests")]
-    public void BasicTest()
+    [TestFixture]
+    public class SolutionTest
     {
-      Assert.AreEqual("H!!", Kata.Replace("Hi!"));
-      Assert.AreEqual("!H!! H!!", Kata.Replace("!Hi! Hi!"));
-      Assert.AreEqual("!!!!!", Kata.Replace("aeiou"));
-      Assert.AreEqual("!BCD!", Kata.Replace("ABCDE"));
+        [Test, Description("Basic Tests")]
+        public void BasicTest()
+        {
+            Assert.AreEqual("H!!", Kata.Replace("Hi!"));
+            Assert.AreEqual("!H!! H!!", Kata.Replace("!Hi! Hi!"));
+            Assert.AreEqual("!!!!!", Kata.Replace("aeiou"));
+            Assert.AreEqual("!BCD!", Kata.Replace("ABCDE"));
+        }
     }
-  }
 }

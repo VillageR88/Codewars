@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000007. Replace all vowel t
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000008. Do you speak English", "000008. Do you speak English\000008. Do you speak English.csproj", "{04E4F704-2301-488B-9F9A-44EC69F65016}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000009. Return the day", "000009. Return the day\000009. Return the day.csproj", "{698D40E1-2365-4230-A528-74C001E2878F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{04E4F704-2301-488B-9F9A-44EC69F65016}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04E4F704-2301-488B-9F9A-44EC69F65016}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04E4F704-2301-488B-9F9A-44EC69F65016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{698D40E1-2365-4230-A528-74C001E2878F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698D40E1-2365-4230-A528-74C001E2878F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698D40E1-2365-4230-A528-74C001E2878F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698D40E1-2365-4230-A528-74C001E2878F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

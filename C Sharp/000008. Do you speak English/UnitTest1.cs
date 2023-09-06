@@ -26,15 +26,9 @@ namespace Solution
         }
     }
 }
+
 //Codewars recommended
 /*
-using System.Text.RegularExpressions;
-
-public static class Kata
-{
-  public static string Replace(string s)
-   => Regex.Replace(s, @"[aeiou]","!", RegexOptions.IgnoreCase);
-}
 */
 /// Tester => C# 'Codewars' 'Sample Tests' Tester - part 2 (adjusted) sample tests
 namespace Solution

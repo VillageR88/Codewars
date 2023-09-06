@@ -17,13 +17,17 @@ using System;
 //My
 using System.Collections.Generic;
 using System.Linq;
+
 public class Kata
 {
-  public static string PrintArray(object[] array)
+    public static string PrintArray(object[] array)
     {
         if (string.Join(",", array).Contains("System.Object[]"))
         {
-            return string.Join(",", array.SelectMany(subArray => (IEnumerable<object>)subArray).ToArray());
+            return string.Join(
+                ",",
+                array.SelectMany(subArray => (IEnumerable<object>)subArray).ToArray()
+            );
         }
         else
         {
@@ -31,6 +35,7 @@ public class Kata
         }
     }
 }
+
 //Codewars recommended
 /*
 using System;
@@ -55,19 +60,19 @@ public class Kata
 }
 */
 /// Tester => C# 'Codewars' 'Sample Tests' Tester - part 2 (adjusted) sample tests
-namespace Solution 
+namespace Solution
 {
-  using NUnit.Framework;
-  using System;  
+    using NUnit.Framework;
+    using System;
 
-  [TestFixture]
-  public class KataTests
-  {
-    [Test]
-    public void BasicTests()
+    [TestFixture]
+    public class KataTests
     {
-      var data = new object[] { 2, 4, 5, 2 };
-      Assert.AreEqual("2,4,5,2", Kata.PrintArray(data), "int test failed");
+        [Test]
+        public void BasicTests()
+        {
+            var data = new object[] { 2, 4, 5, 2 };
+            Assert.AreEqual("2,4,5,2", Kata.PrintArray(data), "int test failed");
+        }
     }
-  }
 }

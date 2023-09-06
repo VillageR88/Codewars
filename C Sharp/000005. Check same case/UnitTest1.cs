@@ -24,61 +24,77 @@ using System;
 ///Solution
 //My
 using System.Text.RegularExpressions;
-public class Kata {
-  public static int SameCase(char a, char b) {
-       if ((Regex.IsMatch(a.ToString(), "[a-z]") && Regex.IsMatch(b.ToString(), "[a-z]")) || (Regex.IsMatch(a.ToString(), "[A-Z]") && Regex.IsMatch(b.ToString(), "[A-Z]"))) return 1;
-       else if ((Regex.IsMatch(a.ToString(), "[a-z]") && Regex.IsMatch(b.ToString(), "[A-Z]")) || (Regex.IsMatch(a.ToString(), "[A-Z]") && Regex.IsMatch(b.ToString(), "[a-z]"))) return 0;
-       else return -1;
-  }
+
+public class Kata
+{
+    public static int SameCase(char a, char b)
+    {
+        if (
+            (Regex.IsMatch(a.ToString(), "[a-z]") && Regex.IsMatch(b.ToString(), "[a-z]"))
+            || (Regex.IsMatch(a.ToString(), "[A-Z]") && Regex.IsMatch(b.ToString(), "[A-Z]"))
+        )
+            return 1;
+        else if (
+            (Regex.IsMatch(a.ToString(), "[a-z]") && Regex.IsMatch(b.ToString(), "[A-Z]"))
+            || (Regex.IsMatch(a.ToString(), "[A-Z]") && Regex.IsMatch(b.ToString(), "[a-z]"))
+        )
+            return 0;
+        else
+            return -1;
+    }
 }
+
 //Codewars recommended
 /*
 public class Kata {
-  public static int SameCase(char a, char b) 
+  public static int SameCase(char a, char b)
   {
     if (!char.IsLetter(a) || !char.IsLetter(b))
       return -1;
-    return char.IsLower(a) == char.IsLower(b) ? 1 : 0; 
+    return char.IsLower(a) == char.IsLower(b) ? 1 : 0;
   }
 }
 */
 /// Tester => C# 'Codewars' 'Sample Tests' Tester - part 2 (adjusted) sample tests
-namespace Solution {
-  using NUnit.Framework;
-  using System;
-  
-  [TestFixture]
-  public class SolutionTest
-  {
-    [Test]
-    public void TrueTests()
+namespace Solution
+{
+    using NUnit.Framework;
+    using System;
+
+    [TestFixture]
+    public class SolutionTest
     {
-      Assert.AreEqual(1, Kata.SameCase('a', 'u'));
-      Assert.AreEqual(1, Kata.SameCase('A', 'U'));
-      Assert.AreEqual(1, Kata.SameCase('Q', 'P'));
-      Assert.AreEqual(1, Kata.SameCase('w', 'y'));
-      Assert.AreEqual(1, Kata.SameCase('c', 'm'));
-      Assert.AreEqual(1, Kata.SameCase('N', 'W'));
+        [Test]
+        public void TrueTests()
+        {
+            Assert.AreEqual(1, Kata.SameCase('a', 'u'));
+            Assert.AreEqual(1, Kata.SameCase('A', 'U'));
+            Assert.AreEqual(1, Kata.SameCase('Q', 'P'));
+            Assert.AreEqual(1, Kata.SameCase('w', 'y'));
+            Assert.AreEqual(1, Kata.SameCase('c', 'm'));
+            Assert.AreEqual(1, Kata.SameCase('N', 'W'));
+        }
+
+        [Test]
+        public void FalseTests()
+        {
+            Assert.AreEqual(0, Kata.SameCase('a', 'U'));
+            Assert.AreEqual(0, Kata.SameCase('A', 'u'));
+            Assert.AreEqual(0, Kata.SameCase('Q', 'p'));
+            Assert.AreEqual(0, Kata.SameCase('w', 'Y'));
+            Assert.AreEqual(0, Kata.SameCase('c', 'M'));
+            Assert.AreEqual(0, Kata.SameCase('N', 'w'));
+        }
+
+        [Test]
+        public void NotLetters()
+        {
+            Assert.AreEqual(-1, Kata.SameCase('a', '*'));
+            Assert.AreEqual(-1, Kata.SameCase('A', '%'));
+            Assert.AreEqual(-1, Kata.SameCase('Q', '1'));
+            Assert.AreEqual(-1, Kata.SameCase('w', '-'));
+            Assert.AreEqual(-1, Kata.SameCase('c', '8'));
+            Assert.AreEqual(-1, Kata.SameCase('N', ':'));
+        }
     }
-    [Test]
-    public void FalseTests()
-    {
-      Assert.AreEqual(0, Kata.SameCase('a', 'U'));
-      Assert.AreEqual(0, Kata.SameCase('A', 'u'));
-      Assert.AreEqual(0, Kata.SameCase('Q', 'p'));
-      Assert.AreEqual(0, Kata.SameCase('w', 'Y'));
-      Assert.AreEqual(0, Kata.SameCase('c', 'M'));
-      Assert.AreEqual(0, Kata.SameCase('N', 'w'));
-    }
-    [Test]
-    public void NotLetters()
-    {
-      Assert.AreEqual(-1, Kata.SameCase('a', '*'));
-      Assert.AreEqual(-1, Kata.SameCase('A', '%'));
-      Assert.AreEqual(-1, Kata.SameCase('Q', '1'));
-      Assert.AreEqual(-1, Kata.SameCase('w', '-'));
-      Assert.AreEqual(-1, Kata.SameCase('c', '8'));
-      Assert.AreEqual(-1, Kata.SameCase('N', ':'));
-    }
-  }
 }
