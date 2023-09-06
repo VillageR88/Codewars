@@ -1,4 +1,4 @@
-##Zadanie
+###Task
 """
 Consider an array/list of sheep where some sheep may be missing from their place. 
 We need a function that counts the number of sheep present in the array (true means present).
@@ -17,13 +17,13 @@ The correct answer would be 17.
 Hint: Don't forget to check for bad values like null/undefined
 
 """
-##Solution
-#Moje
+###Solution
+##My
 def count_sheeps(sheep):
     return (sheep.count(True))
-#Najlepsze rozwiązanie od Codewars
+##Codewars recommended
 pass
-##Tester - codewars_test framework z pominiętym import solution, który jest zawarty w kodzie
+###Tester => Python 'Codewars' 'Sample Tests' Tester
 import codewars_test as test
 
 @test.describe("Basic Tests")

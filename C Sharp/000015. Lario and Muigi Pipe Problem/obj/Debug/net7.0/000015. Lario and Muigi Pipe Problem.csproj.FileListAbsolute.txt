@@ -1,0 +1,5 @@
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000015. Lario and Muigi Pipe Problem\obj\Debug\net7.0\000015. Lario and Muigi Pipe Problem.csproj.AssemblyReference.cache
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000015. Lario and Muigi Pipe Problem\obj\Debug\net7.0\000015. Lario and Muigi Pipe Problem.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000015. Lario and Muigi Pipe Problem\obj\Debug\net7.0\000015. Lario and Muigi Pipe Problem.AssemblyInfoInputs.cache
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000015. Lario and Muigi Pipe Problem\obj\Debug\net7.0\000015. Lario and Muigi Pipe Problem.AssemblyInfo.cs
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000015. Lario and Muigi Pipe Problem\obj\Debug\net7.0\000015. Lario and Muigi Pipe Problem.csproj.CoreCompileInputs.cache

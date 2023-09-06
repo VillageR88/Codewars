@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000014. Greet Me\\000014. Greet Me.csproj": {}
+    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000015. Lario and Muigi Pipe Problem\\000015. Lario and Muigi Pipe Problem.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000014. Greet Me\\000014. Greet Me.csproj": {
+    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000015. Lario and Muigi Pipe Problem\\000015. Lario and Muigi Pipe Problem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000014. Greet Me\\000014. Greet Me.csproj",
-        "projectName": "000014. Greet Me",
-        "projectPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000014. Greet Me\\000014. Greet Me.csproj",
+        "projectUniqueName": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000015. Lario and Muigi Pipe Problem\\000015. Lario and Muigi Pipe Problem.csproj",
+        "projectName": "000015. Lario and Muigi Pipe Problem",
+        "projectPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000015. Lario and Muigi Pipe Problem\\000015. Lario and Muigi Pipe Problem.csproj",
         "packagesPath": "C:\\Users\\Karol\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000014. Greet Me\\obj\\",
+        "outputPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000015. Lario and Muigi Pipe Problem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

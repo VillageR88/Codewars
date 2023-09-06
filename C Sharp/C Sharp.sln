@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000013. Student's Final Gra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000014. Greet Me", "000014. Greet Me\000014. Greet Me.csproj", "{7AA2F278-0ECC-4AD1-9B44-F4B117886707}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000015. Lario and Muigi Pipe Problem", "000015. Lario and Muigi Pipe Problem\000015. Lario and Muigi Pipe Problem.csproj", "{2161A680-41C8-4F51-AFA3-F208047E64BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,5 +98,9 @@ Global
 		{7AA2F278-0ECC-4AD1-9B44-F4B117886707}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AA2F278-0ECC-4AD1-9B44-F4B117886707}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AA2F278-0ECC-4AD1-9B44-F4B117886707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2161A680-41C8-4F51-AFA3-F208047E64BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2161A680-41C8-4F51-AFA3-F208047E64BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2161A680-41C8-4F51-AFA3-F208047E64BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2161A680-41C8-4F51-AFA3-F208047E64BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,4 +1,4 @@
-##Zadanie
+###Task
 """
 You might know some pretty large perfect squares. But what about the NEXT one?
 
@@ -14,8 +14,8 @@ Examples:(Input --> Output)
 114 --> -1 since 114 is not a perfect square
 
 """
-##Solution
-#Moje
+###Solution
+##My
 def find_next_square(sq):
   import math
   nxtSq = sq + 1
@@ -25,14 +25,13 @@ def find_next_square(sq):
     return nxtSq
   else:
     return -1
-#Najlepsze rozwiązanie od Codewars
+##Codewars recommended
 def find_next_square(sq):
     root = sq ** 0.5
     if root.is_integer():
         return (root + 1)**2
     return -1
-
-##Tester - codewars_test framework z pominiętym import solution, który jest zawarty w kodzie
+###Tester => Python 'Codewars' 'Sample Tests' Tester
 import codewars_test as test
 
 @test.describe("Fixed Tests")

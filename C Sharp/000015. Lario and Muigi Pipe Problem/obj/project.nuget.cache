@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W4mRiG4GO2WkK1sEB2gvsIIpWmgcErhX/vyD+OvsJX0fM2epyCk7lU7l4yWmTaxeioH1rPrHek2KRshhUJusKA==",
+  "dgSpecHash": "N1kE0SucfNoExozjSAGmZ19p+pkS0ewERau+ErtYmeYBPbKOlSmaUoUeG/20fNLK1Wf8DSX/5qLVTBOLS7Sb8w==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000014. Greet Me\\000014. Greet Me.csproj",
+  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000015. Lario and Muigi Pipe Problem\\000015. Lario and Muigi Pipe Problem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
