@@ -17,30 +17,16 @@ def paperwork(n, m):
     return calculation
 ##Codewars recommended
 ###Tester => Python 'Codewars' 'Sample Tests' Tester
+import codewars_test as test
 
-#Test/wywołanie
-print(paperwork(5,5))
-print(paperwork(1,2))
-print(paperwork(-5,5))
-print(paperwork(5,-5))
-print(paperwork(-5,-5))
-print(paperwork(5,0))
-#Koniec
+@test.describe("Fixed Tests")
+def basic_tests():
+    @test.it('Basic Test Cases')
+    def basic_test_cases():
+        test.assert_equals(paperwork(5,5), 25, "Failed at Paperwork(5,5)")
+        test.assert_equals(paperwork(1,2), 2, "Failed at Paperwork(1,2)")
+        test.assert_equals(paperwork(-5,5), 0, "Failed at Paperwork(-5,5)")
+        test.assert_equals(paperwork(5,-5), 0, "Failed at Paperwork(5,-5)")
+        test.assert_equals(paperwork(-5,-5), 0, "Failed at Paperwork(-5,-5)")
+        test.assert_equals(paperwork(5,0), 0, "Failed at Paperwork(5,0)")
 
-
-def paperwork(n, m):
-    return n * m if n > 0 and m > 0 else 0
-print(paperwork(5,5))
-print(paperwork(1,2))
-print(paperwork(-5,5))
-print(paperwork(5,-5))
-print(paperwork(-5,-5))
-print(paperwork(5,0))
-"""
-test.assert_equals(paperwork(5,5), 25, "Failed at Paperwork(5,5)")
-test.assert_equals(paperwork(1,2), 2, "Failed at Paperwork(1,2)")
-test.assert_equals(paperwork(-5,5), 0, "Failed at Paperwork(-5,5)")
-test.assert_equals(paperwork(5,-5), 0, "Failed at Paperwork(5,-5)")
-test.assert_equals(paperwork(-5,-5), 0, "Failed at Paperwork(-5,-5)")
-test.assert_equals(paperwork(5,0), 0, "Failed at Paperwork(5,0)")
-"""

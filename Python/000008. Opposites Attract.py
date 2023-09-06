@@ -15,24 +15,13 @@ def lovefunc( flower1, flower2 ):
     return (flower1+flower2)%2
 ###Tester => Python 'Codewars' 'Sample Tests' Tester
 #Tester (wersja 2b - rewizja w kata nr 7)
-#półkopia z Codewars basic_test_cases
-def basic_test_cases():
-    test.assert_equals(lovefunc(1,4), True)
-    test.assert_equals(lovefunc(2,2), False)
-    test.assert_equals(lovefunc(0,1), True)
-    test.assert_equals(lovefunc(0,0), False)
-#implementacja samorobnego testera
-def codewars_sample_tests_workaround_implementation():
-    worklist = []
-    import inspect
-    cos = inspect.getsource(basic_test_cases).splitlines()
-    for i in range(1, len(cos)):
-        newi = cos[i].strip().lstrip(str("test.assert_equals")).lstrip("(")
-        end_index = newi.find(")")
-        result = newi[:end_index + 1]
-        worklist.append(result)
-    worklist2 = []
-    for i in worklist:
-        evali = eval(i)
-        print(evali)
-codewars_sample_tests_workaround_implementation()
+import codewars_test as test
+
+@test.describe("Fixed Tests")
+def fixed_tests():
+    @test.it('Basic Test Cases')
+    def basic_test_cases():
+        test.assert_equals(lovefunc(1,4), True)
+        test.assert_equals(lovefunc(2,2), False)
+        test.assert_equals(lovefunc(0,1), True)
+        test.assert_equals(lovefunc(0,0), False)

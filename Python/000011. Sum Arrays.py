@@ -31,28 +31,14 @@ def sum_array(a):
 
 ##Codewars recommended
 ###Tester => Python 'Codewars' 'Sample Tests' Tester
-#Tester (wersja 2c - rewizja w kata nr 7 (wersja b), rewizja w kata nr 11 (wersja c))
-#półkopia z Codewars basic_test_cases
-def fixed_tests(): 
-    test.assert_equals(sum_array([]), 0)
-    test.assert_equals(sum_array([1, 2, 3]), 6)
-    test.assert_equals(sum_array([1.1, 2.2, 3.3]), 6.6)
-    test.assert_equals(sum_array([4, 5, 6]), 15)
-    test.assert_equals(sum_array(range(101)), 5050)
-#implementacja samorobnego testera
-def codewars_sample_tests_workaround_implementation():
-    worklist = []
-    import inspect
-    cos = inspect.getsource(fixed_tests).splitlines()
-    for i in range(1, len(cos)):
-        newi = cos[i].strip().lstrip(str("test.assert_equals")).lstrip("(")
-        #poprawiony end_index aby szukał ")" przedostatniego
-        #stary-> end_index = newi.find(")")
-        end_index = newi.rfind(")",0,newi.__len__()-1)
-        result = newi[:end_index + 1]
-        worklist.append(result)
-    worklist2 = []
-    for i in worklist:
-        evali = eval(i)
-        print(evali)
-codewars_sample_tests_workaround_implementation()
+import codewars_test as test
+
+@test.describe("Testing sum array")
+def tests():
+    @test.it("Fixed tests")
+    def fixed_tests(): 
+        test.assert_equals(sum_array([]), 0)
+        test.assert_equals(sum_array([1, 2, 3]), 6)
+        test.assert_equals(sum_array([1.1, 2.2, 3.3]), 6.6)
+        test.assert_equals(sum_array([4, 5, 6]), 15)
+        test.assert_equals(sum_array(range(101)), 5050)

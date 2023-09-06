@@ -24,27 +24,12 @@ def count_positives_sum_negatives(arr):
     return[positive_count, negative_count]
 ##Codewars recommended
 ###Tester => Python 'Codewars' 'Sample Tests' Tester
-#Tester (wersja 2)
-#półkopia z Codewars basic_test_cases
-def basic_test_cases():
-    test.assert_equals(count_positives_sum_negatives([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]),[10,-65])
-    test.assert_equals(count_positives_sum_negatives([0, 2, 3, 0, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14]),[8,-50])
-    test.assert_equals(count_positives_sum_negatives([1]),[1,0])
-    test.assert_equals(count_positives_sum_negatives([-1]),[0,-1])
-    test.assert_equals(count_positives_sum_negatives([0,0,0,0,0,0,0,0,0]),[0,0])
-    test.assert_equals(count_positives_sum_negatives([]),[])
-#implementacja samorobnego testera
-def codewars_sample_tests_workaround_implementation():
-    worklist = []
-    import inspect
-    cos = inspect.getsource(basic_test_cases).splitlines()
-    for i in range(1, len(cos)):
-        newi = cos[i].strip().lstrip(f"test.assert_equals(")
-        end_index = newi.find(")")
-        result = newi[:end_index + 1]
-        worklist.append(result)
-    worklist2 = []
-    for i in worklist:
-        evali = eval(i)
-        print(evali)
-codewars_sample_tests_workaround_implementation()
+import codewars_test as test
+
+@test.describe("Fixed Tests")
+def fixed_tests():
+    @test.it('Basic Test Cases')
+    def basic_test_cases():
+        test.assert_equals(find_needle(['3', '123124234', None, 'needle', 'world', 'hay', 2, '3', True, False]), 'found the needle at position 3')
+        test.assert_equals(find_needle(['283497238987234', 'a dog', 'a cat', 'some random junk', 'a piece of hay', 'needle', 'something somebody lost a while ago']), 'found the needle at position 5')
+        test.assert_equals(find_needle([1,2,3,4,5,6,7,8,8,7,5,4,3,4,5,6,67,5,5,3,3,4,2,34,234,23,4,234,324,324,'needle',1,2,3,4,5,5,6,5,4,32,3,45,54]), 'found the needle at position 30')
