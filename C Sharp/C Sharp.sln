@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000005. Check same case", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000006. Printing Array elements with Comma delimiters", "000006. Printing Array elements with Comma delimiters\000006. Printing Array elements with Comma delimiters.csproj", "{4A840580-D11E-41D7-BF11-39B42F8D348E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000007. Replace all vowel to exclamation mark in the sentence", "000007. Replace all vowel to exclamation mark in the sentence\000007. Replace all vowel to exclamation mark in the sentence.csproj", "{CD53AE7E-6FD9-4D66-95B9-05A6A0B69C99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{4A840580-D11E-41D7-BF11-39B42F8D348E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A840580-D11E-41D7-BF11-39B42F8D348E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A840580-D11E-41D7-BF11-39B42F8D348E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD53AE7E-6FD9-4D66-95B9-05A6A0B69C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD53AE7E-6FD9-4D66-95B9-05A6A0B69C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD53AE7E-6FD9-4D66-95B9-05A6A0B69C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD53AE7E-6FD9-4D66-95B9-05A6A0B69C99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

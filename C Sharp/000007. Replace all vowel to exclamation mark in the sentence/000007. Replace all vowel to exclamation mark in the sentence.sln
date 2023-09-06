@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "000007. Replace all vowel to exclamation mark in the sentence", "000007. Replace all vowel to exclamation mark in the sentence.csproj", "{48AC7046-2F5A-4CA4-84F6-2A8C95B00E40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48AC7046-2F5A-4CA4-84F6-2A8C95B00E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48AC7046-2F5A-4CA4-84F6-2A8C95B00E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48AC7046-2F5A-4CA4-84F6-2A8C95B00E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48AC7046-2F5A-4CA4-84F6-2A8C95B00E40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBC59335-91B9-4563-9537-9BD1FF598997}
+	EndGlobalSection
+EndGlobal
