@@ -1,4 +1,4 @@
-##Zadanie
+###Task
 """
 ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits.
 
@@ -9,9 +9,8 @@ Examples (Input --> Output)
 "12345"  -->  false
 "a234"   -->  false
 """
-
-##Solution
-#Moje
+###Solution
+##My
 def validate_pin(pin):
     mylist = []
     for i in pin:
@@ -20,10 +19,10 @@ def validate_pin(pin):
         mylist.append(i)
     if mylist.__len__() != 4 and mylist.__len__() != 6: return False
     else: return True
-#Najlepsze rozwiązanie od Codewars
+##Codewars recommended
 def validate_pin(pin):
     return len(pin) in (4, 6) and pin.isdigit()
-##Tester - codewars_test framework z pominiętym import solution, który jest zawarty w kodzie
+###Tester => Python 'Codewars' 'Sample Tests' Tester
 import codewars_test as test
 
 @test.describe("Fixed Tests")

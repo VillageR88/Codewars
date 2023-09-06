@@ -1,4 +1,4 @@
-##Zadanie
+###Task
 """
 Given the triangle of consecutive odd numbers:
 
@@ -14,9 +14,8 @@ Calculate the sum of the numbers in the nth row of this triangle (starting at in
 1 -->  1
 2 --> 3 + 5 = 8
 """
-
-##Solution
-#Moje
+###Solution
+##My
 def row_sum_odd_numbers(n):
     value = -1
     for i in range(1, n+1):
@@ -25,10 +24,10 @@ def row_sum_odd_numbers(n):
             value += 2
             total += value
     return total
-#Najlepsze rozwiązanie od Codewars
+##Codewars recommended
 def row_sum_odd_numbers(n):
     return n ** 3
-##Tester - codewars_test framework z pominiętym import solution, który jest zawarty w kodzie
+###Tester => Python 'Codewars' 'Sample Tests' Tester
 import codewars_test as test
 
 @test.describe("Fixed Tests")

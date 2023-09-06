@@ -1,4 +1,4 @@
-##Zadanie
+###Task
 """
 In a small town the population is p0 = 1000 at the beginning of a year. 
 The population regularly increases by 2 percent per year and moreover 50 new inhabitants per year come to live in the town. 
@@ -32,17 +32,17 @@ Note:
 Don't forget to convert the percent parameter as a percentage in the body of your function:
 if the parameter percent is 2 you have to convert it to 0.02.
 """
-##Solution
-#Moje
+###Solution
+##My
 def nb_year(p0, percent, aug, p):
     years = 0
     while p0 < p:
         p0 += int(int((int(p0)/100)*float(percent))+int(aug))
         years += 1
     return years
-#Najlepsze rozwiązanie od Codewars
+##Codewars recommended
 pass
-##Tester - codewars_test framework z pominiętym import solution, który jest zawarty w kodzie
+###Tester => Python 'Codewars' 'Sample Tests' Tester
 import codewars_test as test
 
 @test.describe("nb_year")

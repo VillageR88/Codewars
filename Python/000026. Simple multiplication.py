@@ -1,17 +1,17 @@
-##Zadanie
+###Task
 """
 This kata is about multiplying a given number by eight if it is an even number and by nine otherwise.
 
 """
-##Solution
-#Moje
+###Solution
+##My
 def simple_multiplication(number) :
     if number%2: return number*9 
     else: return number*8
-#Najlepsze rozwiązanie od Codewars
+##Codewars recommended
 def simple_multiplication(number) :
     return number * 9 if number % 2 else number * 8
-##Tester - codewars_test framework z pominiętym import solution, który jest zawarty w kodzie
+###Tester => Python 'Codewars' 'Sample Tests' Tester
 import codewars_test as test
 
 @test.describe("Fixed Tests")

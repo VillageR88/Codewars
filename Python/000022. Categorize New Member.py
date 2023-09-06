@@ -1,4 +1,4 @@
-##Zadanie
+###Task
 """
 The Western Suburbs Croquet Club has two categories of membership, Senior and Open. They would like your help with an application form that will tell prospective members which category they will be placed.
 
@@ -14,9 +14,8 @@ Example
 input =  [[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]]
 output = ["Open", "Open", "Senior", "Open", "Open", "Senior"]
 """
-
-##Solution
-#Moje
+###Solution
+##My
 def open_or_senior(data):
     mylist = []
     for i, j in data:
@@ -24,10 +23,10 @@ def open_or_senior(data):
             mylist.append("Senior")
         else: mylist.append("Open")
     return mylist
-#Najlepsze rozwiązanie od Codewars
+##Codewars recommended
 def openOrSenior(data):
   return ["Senior" if age >= 55 and handicap >= 8 else "Open" for (age, handicap) in data]
-##Tester - codewars_test framework z pominiętym import solution, który jest zawarty w kodzie
+###Tester => Python 'Codewars' 'Sample Tests' Tester
 import codewars_test as test
 
 @test.describe("Fixed Tests")

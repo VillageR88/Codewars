@@ -1,4 +1,4 @@
-##Zadanie
+###Task
 """
 You get an array of numbers, return the sum of all of the positives ones.
 
@@ -6,18 +6,18 @@ Example [1,-4,7,12] => 1 + 7 + 12 = 20
 
 Note: if there is nothing to sum, the sum is default to 0.
 """
-##Solution
-#Moje
+###Solution
+##My
 def positive_sum(arr):
     positvie_numbers_count = 0
     for i in arr:
         if i > 0:
             positvie_numbers_count += i
     return positvie_numbers_count
-#Najlepsze rozwiązanie od Codewars
+##Codewars recommended
 def positive_sum(arr):
     return sum(x for x in arr if x > 0)
-##Tester - codewars_test framework z pominiętym import solution, który jest zawarty w kodzie
+###Tester => Python 'Codewars' 'Sample Tests' Tester
 import codewars_test as test
 
 @test.describe("positive_sum")
