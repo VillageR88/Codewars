@@ -1,5 +1,4 @@
-
-##Zadanie
+###Task
 """
 In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
 Examples
@@ -14,9 +13,8 @@ Notes
     There will always be at least one number in the input string.
     Output string must be two numbers separated by a single space, and highest number is first.
 """
-
-##Solution
-#Moje
+###Solution
+##My
 def high_and_low(numbers):
     realnumbers = []
     for i in numbers.split():
@@ -24,12 +22,11 @@ def high_and_low(numbers):
     realnumbers.sort()
     numbers = f"{max(realnumbers)} {min(realnumbers)}"
     return numbers
-#Najlepsze rozwiązanie od Codewars
+##Codewars recommended
 def high_and_low(numbers): #z.
     nn = [int(s) for s in numbers.split(" ")]
     return "%i %i" % (max(nn),min(nn))
-
-##Tester - codewars_test framework z pominiętym import solution, który jest zawarty w kodzie
+###Tester => Python 'Codewars' 'Sample Tests' Tester
 import codewars_test as test
 @test.describe("Example Tests")
 def fixed_tests():

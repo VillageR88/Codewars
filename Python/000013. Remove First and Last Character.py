@@ -1,14 +1,16 @@
-#Zadanie
+###Task
 """
 It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. 
 You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
 """
-#Mój kod
+###Solution
+##My
 def remove_char(s):
     return s.removeprefix(s[0]).removesuffix(s[s.__len__()-1])
-#Najlepsze rozwiązanie od Codewars
+##Codewars recommended
 def remove_char(s):
     return s[1 : -1]
+###Tester => Python 'Codewars' 'Sample Tests' Tester
 #Tester (wersja 2d "Definder" - rewizja w kata nr 7 (wersja b), rewizja w kata nr 11 (wersja c),
 # rewizja w kata nr 12 (wersja d "Definder"))
 #półkopia z Codewars basic_test_cases

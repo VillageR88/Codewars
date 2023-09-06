@@ -1,4 +1,4 @@
-#Zadanie
+###Task
 """
 Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0.
 
@@ -7,15 +7,16 @@ For example (Input -> Output):
 2 -> 3 (1 + 2)
 8 -> 36 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8)
 """
-#Mój kod
+###Solution
+##My
 def summation(num):
     incr_list = []
     for i in range(1, num+1): incr_list.append(i)
     return sum(incr_list)
-#Najlepsze rozwiązanie od Codewars
+##Codewars recommended
 def summation(num):
     return sum(range(num + 1))
-########################################################################################################################
+###Tester => Python 'Codewars' 'Sample Tests' Tester
 #Tester (wersja 2d "Definder" - rewizja w kata nr 7 (wersja b), rewizja w kata nr 11 (wersja c),
 # rewizja w kata nr 12 (wersja d "Definder"))
 #półkopia z Codewars basic_test_cases

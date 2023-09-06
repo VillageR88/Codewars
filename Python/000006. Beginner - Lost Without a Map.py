@@ -1,17 +1,19 @@
-#Zadanie
+###Task
 """
 Given an array of integers, return a new array with each value doubled.
 For example:
 [1, 2, 3] --> [2, 4, 6]
 """
-#Mój kod
+###Solution
+##My
 def maps(a):
     for i in range(len(a)):
         a[i]*=2
     return a
-#Najlepsze rozwiązanie od Codewars
+##Codewars recommended
 def maps(a):
     return [2 * x for x in a]
+###Tester => Python 'Codewars' 'Sample Tests' Tester
 #Tester (wersja 2)
 #półkopia z Codewars basic_test_cases
 def basic_test_cases():

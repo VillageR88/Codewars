@@ -1,4 +1,4 @@
-#Zadanie
+###Task
 """
 Introduction:
 The first century spans from the year 1 up to and including the year 100,
@@ -13,14 +13,15 @@ Examples:
 1601 --> 17
 2000 --> 20
 """
-#Mój kod
+###Solution
+##My
 def century(year):
     if year/100 > int(year/100): return int(year/100+1)
     else: return int(year/100)
-#Najlepsze rozwiązanie od Codewars
+##Codewars recommended
 def century(year):
     return (year + 99) // 100
-########################################################################################################################
+###Tester => Python 'Codewars' 'Sample Tests' Tester
 #Tester (wersja 2d "Definder" - rewizja w kata nr 7 (wersja b), rewizja w kata nr 11 (wersja c),
 # rewizja w kata nr 12 (wersja d "Definder"))
 #półkopia z Codewars basic_test_cases

@@ -1,4 +1,4 @@
-#Zadanie
+###Task
 """
 Given a set of numbers, return the additive inverse of each. Each positive becomes negatives, and the negatives become positives.
 
@@ -8,14 +8,16 @@ invert([]) == []
 
 You can assume that all values are integers. Do not mutate the input array/list.
 """
-#Mój kod
+###Solution
+##My
 def invert(lst):
     lst2 = []
     for i in lst: lst2.append(-i)
     return lst2
-#Najlepsze rozwiązanie od Codewars
+##Codewars recommended
 def invert(lst):
     return [-x for x in lst]
+###Tester => Python 'Codewars' 'Sample Tests' Tester
 #Tester (wersja 2b - rewizja w kata nr 7)
 #półkopia z Codewars basic_test_cases
 def basic_test_cases():

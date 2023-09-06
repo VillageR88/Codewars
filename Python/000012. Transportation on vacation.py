@@ -1,4 +1,4 @@
-#Zadanie
+###Task
 """
 After a hard quarter in the office you decide to get some rest on a vacation. So you will book a flight for you and your girlfriend and try to leave all the mess behind you.
 
@@ -8,12 +8,13 @@ Every day you rent the car costs $40. If you rent the car for 7 or more days, yo
 
 Write a code that gives out the total amount for different days(d).
 """
-#Mój kod
+###Solution
+##My
 def rental_car_cost(d):
     if d > 0 and d < 3: return (d * 40)
     elif d >= 3 and d < 7: return (d * 40 - 20)
     elif d >= 7: return (d * 40 - 50)
-#Najlepsze rozwiązanie od Codewars
+##Codewars recommended
 def rental_car_cost(d):
     result = d * 40
     if d >= 7:
@@ -21,6 +22,7 @@ def rental_car_cost(d):
     elif d >= 3:
         result -= 20
     return result
+###Tester => Python 'Codewars' 'Sample Tests' Tester
 #Tester (wersja 2d "Definder" - rewizja w kata nr 7 (wersja b), rewizja w kata nr 11 (wersja c),
 # rewizja w kata nr 12 (wersja d "Definder"))
 #półkopia z Codewars basic_test_cases

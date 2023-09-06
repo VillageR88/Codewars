@@ -1,10 +1,11 @@
-#Zadanie
+###Task
 """
 Simple, given a string of words, return the length of the shortest word(s).
 
 String will never be empty and you do not need to account for different data types.
 """
-#Mój kod
+###Solution
+##My
 def find_short(s):
     if s.split().__len__() > 1:
         l = s.split()[0].__len__()
@@ -14,9 +15,10 @@ def find_short(s):
     else:
         l = s.__len__()
     return l # l: shortest word length
-#Najlepsze rozwiązanie od Codewars
+##Codewars recommended
 def find_short(s):
     return min(len(x) for x in s.split())
+###Tester => Python 'Codewars' 'Sample Tests' Tester
 ##Tester ver. 2.4 "Definder"
 #rev. kata no. 7 (ver. 2.2)
 #rev. kata no. 11 (ver. 2.3)

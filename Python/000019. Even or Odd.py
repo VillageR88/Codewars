@@ -1,12 +1,14 @@
-#Zadanie
+###Task
 """
 Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 """
-#Mój kod
+###Solution
+##My
 def even_or_odd(number):
     return list(["Even","Odd"])[number%2]
-#Najlepsze rozwiązanie od Codewars
+##Codewars recommended
 pass
+###Tester => Python 'Codewars' 'Sample Tests' Tester
 ##Tester ver. 2.4 "Definder"
 #rev. kata no. 7 (ver. 2.2)
 #rev. kata no. 11 (ver. 2.3)

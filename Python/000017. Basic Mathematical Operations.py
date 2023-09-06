@@ -1,4 +1,4 @@
-#Zadanie
+###Task
 """
 Your task is to create a function that does four basic mathematical operations.
 
@@ -11,11 +11,12 @@ Examples(Operator, value1, value2) --> output
 ('*', 5, 5) --> 25
 ('/', 49, 7) --> 7
 """
-#Mój kod
+###Solution
+##My
 def basic_op(operator, value1, value2):
     return eval(f"{value1}{operator}{value2}")
-#Najlepsze rozwiązanie od Codewars
-pass
+##Codewars recommended
+###Tester => Python 'Codewars' 'Sample Tests' Tester
 ##Tester ver. 2.4 "Definder"
 #rev. kata no. 7 (ver. 2.2)
 #rev. kata no. 11 (ver. 2.3)

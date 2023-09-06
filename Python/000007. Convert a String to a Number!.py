@@ -1,4 +1,4 @@
-#Zadanie
+###Task
 """
 Note: This kata is inspired by Convert a Number to a String!. Try that one too.
 Description
@@ -13,11 +13,12 @@ Examples
 "1405" --> 1405
 "-7" --> -7
 """
-#Mój kod
+###Solution
+##My
 def string_to_number(s):
     return int(s)
-#Najlepsze rozwiązanie od Codewars
-pass
+##Codewars recommended
+###Tester => Python 'Codewars' 'Sample Tests' Tester
 #Tester (wersja 2b - rewizja w kata nr 7)
 #półkopia z Codewars basic_test_cases
 def basic_test_cases():

@@ -1,4 +1,4 @@
-#Zadanie
+###Task
 """
 Implement a function that adds two numbers together and returns their sum in binary. 
 The conversion can be done before, or after the addition.
@@ -10,13 +10,14 @@ Examples:(Input1, Input2 --> Output (explanation)))
 1, 1 --> "10" (1 + 1 = 2 in decimal or 10 in binary)
 5, 9 --> "1110" (5 + 9 = 14 in decimal or 1110 in binary)
 """
-#Mój kod
+###Solution
+##My
 def add_binary(a,b):
     return bin(a+b).removeprefix("0b")
-#Najlepsze rozwiązanie od Codewars
+##Codewars recommended
 def add_binary(a,b):
     return bin(a+b)[2:]
-########################################################################################################################
+###Tester => Python 'Codewars' 'Sample Tests' Tester
 #Tester (wersja 2d "Definder" - rewizja w kata nr 7 (wersja b), rewizja w kata nr 11 (wersja c),
 # rewizja w kata nr 12 (wersja d "Definder"))
 #półkopia z Codewars basic_test_cases

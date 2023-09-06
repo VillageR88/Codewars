@@ -1,4 +1,4 @@
-#Zadanie
+###Task
 """
 Can you find the needle in the haystack?
 Write a function findNeedle() that takes an array full of junk but containing one "needle"
@@ -8,12 +8,15 @@ Example(Input --> Output)
 ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5" 
 Note: In COBOL, it should return "found the needle at position 6"
 """
-#Mój kod
+###Solution
+##My
 def find_needle(haystack):
     word = "needle"
     for i in range(len(haystack)):
         if word == haystack[i]:
             return f"found the needle at position {i}"
+##Codewars recommended
+###Tester => Python 'Codewars' 'Sample Tests' Tester
 #Test
 def test():
     print(find_needle(['3', '123124234', None, 'needle', 'world', 'hay', 2, '3', True, False]))
