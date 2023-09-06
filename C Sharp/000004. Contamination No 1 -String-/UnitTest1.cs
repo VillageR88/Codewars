@@ -50,9 +50,7 @@ public class Kata
   }
 }
 */
-///Tester => C# 'Codewars' 'Sample Tests' Tester - part 2 (adjusted) sample testspublic class KataTests <summary>
-/// Tester => C# 'Codewars' 'Sample Tests' Tester - part 2 (adjusted) sample testspublic class KataTests
-/// </summary>
+/// Tester => C# 'Codewars' 'Sample Tests' Tester - part 2 (adjusted) sample tests
 namespace Solution {
   using NUnit.Framework;
   using System;
