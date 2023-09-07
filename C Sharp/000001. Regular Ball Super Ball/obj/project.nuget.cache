@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wTpSiaq2rKgEJaZvCZy6KtvHRPra2JjeI4QZa+NEXanzxhywZd4M/5pb0NZ9BrTTfSsmDQV6hktHW2NVIAO1rw==",
+  "dgSpecHash": "loNwdvgV0FQiu6Fh/LrFO5VR2Es/0LGq/XLy1t0QfNa0sgQtVDNu8tFm0+oW+rCltoNweF3kVKr4ulRAsvMt3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000001. Regular Ball Super Ball\\000001. Regular Ball Super Ball.csproj",
+  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000001. Regular Ball Super Ball\\000001. Regular Ball Super Ball.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

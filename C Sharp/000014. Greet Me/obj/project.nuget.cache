@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9n3Ofgp4Q7IzbCLFL4KMaw7zqoJBlXWUR9JhOsH2Q96A22uKD17jhiJ0BaRILlFwrxSCPYSv466huOlo7maoFw==",
+  "dgSpecHash": "W4mRiG4GO2WkK1sEB2gvsIIpWmgcErhX/vyD+OvsJX0fM2epyCk7lU7l4yWmTaxeioH1rPrHek2KRshhUJusKA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000014. Greet Me\\000014. Greet Me.csproj",
+  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000014. Greet Me\\000014. Greet Me.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
