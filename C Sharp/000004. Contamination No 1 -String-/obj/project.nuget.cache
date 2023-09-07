@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UVXjfCmx2HJ+YGlCbhLIGlue4jbflerljLU5txoe0O0Uld8vGtu7ZiyIiqxtRj5lDwPKxaF/q45FjY/Y3dxLQA==",
+  "dgSpecHash": "9CJjC2dp7p6LIXQPek9u+G8zrzJ3lOYdV8+aQm5Bt+PagQfAxcd3mpigDCJEJc4lRxcB9Ne89NGcDMoLi+XMIQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000004. Contamination No 1 -String-\\000004. Contamination No 1 -String-.csproj",
+  "projectFilePath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000004. Contamination No 1 -String-\\000004. Contamination No 1 -String-.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000015. Lario and Muigi Pip
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000016. Remove n exclamation marks in the sentence", "000016. Remove n exclamation marks in the sentence\000016. Remove n exclamation marks in the sentence.csproj", "{5A238B60-C17C-4C63-AE70-C9D4E10B4311}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000017. Find out whether the shape is a cube", "000017. Find out whether the shape is a cube\000017. Find out whether the shape is a cube.csproj", "{4F571579-5835-4171-9691-63FE723F310D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -108,5 +110,9 @@ Global
 		{5A238B60-C17C-4C63-AE70-C9D4E10B4311}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A238B60-C17C-4C63-AE70-C9D4E10B4311}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A238B60-C17C-4C63-AE70-C9D4E10B4311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F571579-5835-4171-9691-63FE723F310D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F571579-5835-4171-9691-63FE723F310D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F571579-5835-4171-9691-63FE723F310D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F571579-5835-4171-9691-63FE723F310D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

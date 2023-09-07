@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000009. Return the day\\000009. Return the day.csproj": {}
+    "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000009. Return the day\\000009. Return the day.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000009. Return the day\\000009. Return the day.csproj": {
+    "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000009. Return the day\\000009. Return the day.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000009. Return the day\\000009. Return the day.csproj",
+        "projectUniqueName": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000009. Return the day\\000009. Return the day.csproj",
         "projectName": "000009. Return the day",
-        "projectPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000009. Return the day\\000009. Return the day.csproj",
+        "projectPath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000009. Return the day\\000009. Return the day.csproj",
         "packagesPath": "C:\\Users\\Karol\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000009. Return the day\\obj\\",
+        "outputPath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000009. Return the day\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
