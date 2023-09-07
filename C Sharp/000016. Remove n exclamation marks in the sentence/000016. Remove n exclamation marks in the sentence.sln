@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "000016. Remove n exclamation marks in the sentence", "000016. Remove n exclamation marks in the sentence.csproj", "{9F30B164-EB23-4181-95ED-E6F8F9DCFBDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F30B164-EB23-4181-95ED-E6F8F9DCFBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F30B164-EB23-4181-95ED-E6F8F9DCFBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F30B164-EB23-4181-95ED-E6F8F9DCFBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F30B164-EB23-4181-95ED-E6F8F9DCFBDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D913F27C-C71C-42AE-BB1C-FC0C02835C15}
+	EndGlobalSection
+EndGlobal

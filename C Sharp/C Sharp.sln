@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000014. Greet Me", "000014.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000015. Lario and Muigi Pipe Problem", "000015. Lario and Muigi Pipe Problem\000015. Lario and Muigi Pipe Problem.csproj", "{2161A680-41C8-4F51-AFA3-F208047E64BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000016. Remove n exclamation marks in the sentence", "000016. Remove n exclamation marks in the sentence\000016. Remove n exclamation marks in the sentence.csproj", "{5A238B60-C17C-4C63-AE70-C9D4E10B4311}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +104,9 @@ Global
 		{2161A680-41C8-4F51-AFA3-F208047E64BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2161A680-41C8-4F51-AFA3-F208047E64BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2161A680-41C8-4F51-AFA3-F208047E64BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A238B60-C17C-4C63-AE70-C9D4E10B4311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A238B60-C17C-4C63-AE70-C9D4E10B4311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A238B60-C17C-4C63-AE70-C9D4E10B4311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A238B60-C17C-4C63-AE70-C9D4E10B4311}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
