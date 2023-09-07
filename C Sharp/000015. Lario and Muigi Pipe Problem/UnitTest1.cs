@@ -22,22 +22,29 @@ using NUnit.Framework;
 ///Solution
 //My
 using System.Collections.Generic;
-using System.Linq;
 
 public class Fixer
 {
   public static List<int> PipeFix(List<int> numbers)
   {
-    //Good luck!
+    List<int> list = new List<int>();
+    for (int i = numbers[0]; i <= numbers[numbers.Count - 1]; i++)
+      list.Add(i);
+    return list;
   }
 }
 //Codewars recommended
 /*
-public static class Kata
+using System.Collections.Generic;
+
+public class Fixer
 {
-  public static string Greet(string name)
+  public static List<int> PipeFix(List<int> numbers)
   {
-    return $"Hello {name.ToUpper()[0] + name.ToLower().Substring(1)}!";
+    List<int> list = new List<int>();
+    for (int i = numbers[0]; i <= numbers[numbers.Count - 1]; i++)
+      list.Add(i);
+    return list;
   }
 }
 */
