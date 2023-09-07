@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "//MD8C59Ec9mYLj8etDgH+ejvGjgjz9frRuJ5Qe2KF1KL4hi/FIlj99AV+qyZKWXrafxeGo8fcNym/mJcTmBTQ==",
+  "dgSpecHash": "lO4s5mx+zzhJOfXP5PLLIZdgF8uX3OSHH6jyQH7FolygLmYNEsbBDUPwwcRcUDPtrpoSZPWtuu0O11MRAaGWdQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000018. Enumerable Magic - Does My List Include This\\000018. Enumerable Magic - Does My List Include This.csproj",
+  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000019. L1 Bartender, drinks!\\000019. L1 Bartender, drinks!.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

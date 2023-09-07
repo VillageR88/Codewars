@@ -31,22 +31,6 @@ namespace CubeCheck
 }
 //Codewars recommended
 /*
-using System.Text.RegularExpressions;
-
-public class Kata
-{
-  public static string Remove(string s, int n) =>
-    new Regex("!").Replace(s, "", n);
-}
-OR
-using System.Linq;
-public class Kata
-{
-  public static string Remove(string s, int n)
-  {
-    return string.Concat(s.Where(c => c == '!' ? n-- <= 0 : true));
-  }
-}
 */
 /// Tester => C# 'Codewars' 'Sample Tests' Tester - part 2 (adjusted) sample tests
 namespace CubeCheck

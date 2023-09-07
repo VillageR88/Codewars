@@ -1,0 +1,5 @@
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000019. L1 Bartender, drinks!\obj\Debug\net7.0\000019. L1 Bartender, drinks!.csproj.AssemblyReference.cache
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000019. L1 Bartender, drinks!\obj\Debug\net7.0\000019. L1 Bartender, drinks!.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000019. L1 Bartender, drinks!\obj\Debug\net7.0\000019. L1 Bartender, drinks!.AssemblyInfoInputs.cache
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000019. L1 Bartender, drinks!\obj\Debug\net7.0\000019. L1 Bartender, drinks!.AssemblyInfo.cs
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000019. L1 Bartender, drinks!\obj\Debug\net7.0\000019. L1 Bartender, drinks!.csproj.CoreCompileInputs.cache

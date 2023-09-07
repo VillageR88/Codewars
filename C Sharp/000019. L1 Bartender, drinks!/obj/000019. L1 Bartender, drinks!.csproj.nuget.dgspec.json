@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000018. Enumerable Magic - Does My List Include This\\000018. Enumerable Magic - Does My List Include This.csproj": {}
+    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000019. L1 Bartender, drinks!\\000019. L1 Bartender, drinks!.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000018. Enumerable Magic - Does My List Include This\\000018. Enumerable Magic - Does My List Include This.csproj": {
+    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000019. L1 Bartender, drinks!\\000019. L1 Bartender, drinks!.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000018. Enumerable Magic - Does My List Include This\\000018. Enumerable Magic - Does My List Include This.csproj",
-        "projectName": "000018. Enumerable Magic - Does My List Include This",
-        "projectPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000018. Enumerable Magic - Does My List Include This\\000018. Enumerable Magic - Does My List Include This.csproj",
+        "projectUniqueName": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000019. L1 Bartender, drinks!\\000019. L1 Bartender, drinks!.csproj",
+        "projectName": "000019. L1 Bartender, drinks!",
+        "projectPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000019. L1 Bartender, drinks!\\000019. L1 Bartender, drinks!.csproj",
         "packagesPath": "C:\\Users\\Karol\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000018. Enumerable Magic - Does My List Include This\\obj\\",
+        "outputPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000019. L1 Bartender, drinks!\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
