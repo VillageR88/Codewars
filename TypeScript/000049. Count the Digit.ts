@@ -22,25 +22,7 @@ Note that 121 has twice the digit 1.
 
 */
 ///Solution
-//My 1st soloution
-/*
-export class G964 {
-  public static nbDig(n: number, d: number): number {
-    var array1 = new Array;
-    for (var i = d; i <= n; i++) {
-      array1.push(i**2);
-    }
-    var counter = 0;
-    for (var x of array1.join("")) {
-      if (x == d.toString()) {
-        counter++;
-      }
-    }
-    return counter;
-  }
-}
-*/
-//My 2nd soloution
+//My
 export class G964 {
   public static nbDig(n: number, d: number): number {
     return Number(Array(n+1).fill(0).map((_,indx)=>(indx)**2).join("").match(new RegExp(String(d),"g"))?.length);
@@ -50,7 +32,7 @@ export class G964 {
 /*
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_opis: any, func: any) {func();};
 function it (_opis: any, func: any) {func();};

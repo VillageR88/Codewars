@@ -21,7 +21,7 @@ and some elements may be repeated.
 
 */
 ///Solution
-//My soloution
+//My
 export function gooseFilter (birds: string[]): string[] {
   const geese: string[] = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
   return birds.filter((x) => !geese.includes(x));
@@ -30,7 +30,7 @@ export function gooseFilter (birds: string[]): string[] {
 /*
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_desc: any, func: any) {func();};
 function it (_desc: any, func: any) {func();};

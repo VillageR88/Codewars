@@ -17,7 +17,7 @@ It will never give you an empty array (that's not a walk, that's standing still!
 
 */
 ///Solution
-//My soloution
+//My
 export function isValidWalk(walk: string[]) {
   return Array.from([
     (walk.reduce((acc, x) => acc += {n: 1, s: -1}[x as keyof void] ?? 0, 0)),
@@ -28,7 +28,7 @@ export function isValidWalk(walk: string[]) {
 /*
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_desc: any, func: any) {func();};
 function it (_desc: any, func: any) {func();};

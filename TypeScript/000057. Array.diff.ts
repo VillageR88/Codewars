@@ -12,7 +12,7 @@ array_diff({1, 2, 2, 2, 3}, 5, {2}, 1, *z) == {1, 3} (z == 2)
 
 */
 ///Solution
-//My soloution (What have happened to me? Total refusal...)
+//My
 export function arrayDiff(a: number[], b: number[]): number[] {
   for (var i in a) {
     for (var j in b) {
@@ -36,7 +36,7 @@ export function arrayDiff(a: number[], b: number[]): number[] {
 }
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_opis: any, func: any) {func();};
 function it (_opis: any, func: any) {func();};

@@ -8,13 +8,13 @@ Given a string, detect whether or not it is a pangram. Return True if it is, Fal
 
 */
 ///Solution
-//My soloution
+//My
 export const isPangram = (phrase: string): boolean => new Set(phrase.toLowerCase().match(/[a-z]/g)).size >= 26;
 //Codewars recommended
 /*
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_desc: any, func: any) {func();};
 function it (_desc: any, func: any) {func();};

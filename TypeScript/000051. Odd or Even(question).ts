@@ -22,7 +22,7 @@ Have fun!
 
 */
 ///Solution
-//My soloution
+//My
 export function oddOrEven(array: number[]):any {
   return array.length==0?"even":array.reduce((a,b)=>a+b)%2?"odd":"even";
 }
@@ -30,7 +30,7 @@ export function oddOrEven(array: number[]):any {
 /*
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_opis: any, func: any) {func();};
 function it (_opis: any, func: any) {func();};

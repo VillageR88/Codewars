@@ -14,7 +14,7 @@ Note: For 4 or more names, the number in "and 2 others" simply increases.
 
 */
 ///Solution
-//My soloution
+//My
 export const likes = (a : string[]) : string => {
   return a.length>=4?a[0]+", "+a[1]+" and "+(a.length-2)+" others like this":
   a.length==3?a[0]+", "+a[1]+" and "+a[2]+" like this":
@@ -25,7 +25,7 @@ export const likes = (a : string[]) : string => {
 /*
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_opis: any, func: any) {func();};
 function it (_opis: any, func: any) {func();};

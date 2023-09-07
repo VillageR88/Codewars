@@ -13,16 +13,16 @@ If this one is an alligator (case-insensitive) return small otherwise return wid
 
 */
 ///Solution
-//My soloution
+//My
 export function mouthSize(animal: string): string {
   return animal.toLowerCase() == 'alligator' ? 'small' : 'wide';
 }
-//Codewars recommended)
+//Codewars recommended
 /*
 export const mouthSize = (animal: string): string => /alligator/i.test(animal) ? 'small' : 'wide';
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_desc: any, func: any) {func();};
 function it (_desc: any, func: any) {func();};

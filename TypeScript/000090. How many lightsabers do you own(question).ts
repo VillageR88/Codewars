@@ -24,7 +24,7 @@ export const howManyLightsabersDoYouOwn = (name?: any) => Number({Zach: 18}[name
 export const howManyLightsabersDoYouOwn = (name?: any): number => name === 'Zach' ? 18 : 0
 */  
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_desc: any, func: any) {func();};
 function it (_desc: any, func: any) {func();};

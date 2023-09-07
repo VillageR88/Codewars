@@ -27,21 +27,7 @@ dig_pow(46288, 3) should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 236068
 
 */
 ///Solution
-//My 1st soloution (tryout)
-/*
-export class G964 {
-  public static digPow = (n: number, p: number) => {
-    var value1 = 0;
-    var multip = p;
-    for (var i of n.toString().split("")) {
-      value1 += Number(i)**multip;
-      multip++;
-    }
-    return value1%n==0?value1/n:-1;
-  }
-}
-*/
-//My 2nd soloution (TODO)
+//My
 export class G964 {
   public static digPow = (n: number, p: number) => {
     const result = n.toString().split("").map((x, indx) => Number(x) ** (p + indx)).reduce((accu, curval) => accu + curval);
@@ -58,7 +44,7 @@ export class G964 {
 }
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_opis: any, func: any) {func();};
 function it (_opis: any, func: any) {func();};

@@ -21,7 +21,7 @@ or the given array is an empty list or a list with only 1 element, return 0.
 
 */
 ///Solution
-//My soloution
+//My
 export function sumArray(array:number[] | null) : number {
   return array == null || array.length < 3 ? 0 : 
   Number(array?.sort((a, b) => a - b).splice(1, array.length - 2).reduce((pv, cv) => pv + cv));
@@ -35,7 +35,7 @@ OR
 export const sumArray = ($:number[] | null) => !$ ? 0 : $.sort((a, b)=> a - b).slice(1,-1).reduce((acc, el)=> acc + el, 0)
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_desc: any, func: any) {func();};
 function it (_desc: any, func: any) {func();};

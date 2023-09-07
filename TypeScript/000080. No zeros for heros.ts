@@ -19,7 +19,7 @@ Zero alone is fine, don't worry about it. Poor guy anyway
 export function noBoringZeros(n: number): number {
   return Number(n.toString().split(/0+$/g).join(""));
 }
-//Codewars recommended)
+//Codewars recommended
 /*
 export function noBoringZeros(n: number): number {
   return +n.toString().replace(/0+$/, "");
@@ -27,7 +27,7 @@ export function noBoringZeros(n: number): number {
 
 */  
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_desc: any, func: any) {func();};
 function it (_desc: any, func: any) {func();};

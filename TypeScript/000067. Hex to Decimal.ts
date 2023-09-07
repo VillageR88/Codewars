@@ -4,7 +4,7 @@ Complete the function which converts hex number (given as a string) to a decimal
 
 */
 ///Solution
-//My soloution
+//My
 export function hexToDec(hexString:string):number {
   return parseInt(hexString, 16);
 }
@@ -12,7 +12,7 @@ export function hexToDec(hexString:string):number {
 /*
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_desc: any, func: any) {func();};
 function it (_desc: any, func: any) {func();};

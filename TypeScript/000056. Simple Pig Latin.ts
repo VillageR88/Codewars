@@ -8,7 +8,7 @@ pigIt('Hello world !');     // elloHay orldway !
 
 */
 ///Solution
-//My soloution
+//My
 export const pigIt = (a : string) : string =>  {
   return a.split(" ").map((x, y, z) => !x.match(/[a-z]/gi) ? x:z[y].slice(1) + (z[y][0]) + "ay").join(" ");
 }
@@ -16,7 +16,7 @@ export const pigIt = (a : string) : string =>  {
 /*
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_opis: any, func: any) {func();};
 function it (_opis: any, func: any) {func();};

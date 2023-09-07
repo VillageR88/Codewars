@@ -24,12 +24,12 @@ In the end, click "Submit" to submit your code and pass this kata.
 export function saleHotdogs(n: number): number {
   return n < 5 ? n * 100 : n >= 10 ? n * 90 : n * 95;
 }
-//Codewars recommended)
+//Codewars recommended
 /*
 export const saleHotdogs = n => n<5?n*100:n>=5&&n<10?n*95:n*90
 */  
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_desc: any, func: any) {func();};
 function it (_desc: any, func: any) {func();};

@@ -14,7 +14,7 @@ All letters will be lowercase and all inputs will be valid.
 
 */
 ///Solution
-//My soloution
+//My
 export const high = (str: string): string => str.split(" ")[str.split(" ").map(x => [...x].map(x => x.charCodeAt(0) - 96).reduce((p, c) => p + c)).findIndex((x, _, z) => x == z.reduce((p, c) => c > p ? p = c : p))];
 //Codewars recommended
 /*
@@ -27,7 +27,7 @@ export const high = (str: string): string => {
 }
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_desc: any, func: any) {func();};
 function it (_desc: any, func: any) {func();};

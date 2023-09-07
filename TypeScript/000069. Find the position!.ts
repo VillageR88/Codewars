@@ -8,7 +8,7 @@ Ouput :: "Position of alphabet: 1"
 
 */
 ///Solution
-//My soloution
+//My
 export function position(alphabet:string):string {
   return ("Position of alphabet: " + String(alphabet.charCodeAt(0) - 96));
 }
@@ -17,7 +17,7 @@ export function position(alphabet:string):string {
 export const position = (alphabet: any): string => `Position of alphabet: ${alphabet.charCodeAt() - 96}`;
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_desc: any, func: any) {func();};
 function it (_desc: any, func: any) {func();};

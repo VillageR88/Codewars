@@ -20,11 +20,11 @@ export function findNb(m: number): number {
   }
   return m == i[0] ? i[1] - 2 : -1;
 }
-//Codewars recommended)
+//Codewars recommended
 /*
 */  
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_desc: any, func: any) {func();};
 function it (_desc: any, func: any) {func();};

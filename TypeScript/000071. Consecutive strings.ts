@@ -27,15 +27,15 @@ consecutive strings : follow one after another without an interruption
 
 */
 ///Solution
-//My soloution
+//My
 export function longestConsec(strarr: string[], k: number): string {
   return k > strarr.length || k < 1 ? "" : Array.from({length : strarr.length - k + 1}).map((_, i) => strarr.slice(i, i + k).join("")).reduce((p, v) => v.length > p.length ? v : p);
 }
-//Codewars recommended)
+//Codewars
 /*
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_desc: any, func: any) {func();};
 function it (_desc: any, func: any) {func();};

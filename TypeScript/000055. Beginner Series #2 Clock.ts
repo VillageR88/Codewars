@@ -20,7 +20,7 @@ Input constraints:
 
 */
 ///Solution
-//My soloution
+//My
 export function past(h: number, m: number, s: number): number {
   return h*3600000+m*60000+s*1000;
 }
@@ -28,7 +28,7 @@ export function past(h: number, m: number, s: number): number {
 /*
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_opis: any, func: any) {func();};
 function it (_opis: any, func: any) {func();};

@@ -14,27 +14,15 @@ Note you should only return a number, the count of divisors. The numbers between
 
 */
 ///Solution
-//My 1st soloution - tryout
-/*
-export function divisors(n: number) {
-  let counter = 0;
-  for (var i = 1; i <= n; i++) {
-    if (n % i == 0) {
-      counter++;
-    } 
-  }
-  return counter;
-}
-*/
-//My 2nd solution - submitted
+//My
 export function divisors(n: number) {
   return Array.from({length : n}, (v, k) => Number(n % (v = 1 + k) == 0)).reduce((x, y) => x + y);
 }
-//Codewars recommended)
+//Codewars recommended
 /*
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_desc: any, func: any) {func();};
 function it (_desc: any, func: any) {func();};

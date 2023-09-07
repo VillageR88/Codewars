@@ -17,12 +17,12 @@ Note: String will have at least one element; words will always be separated by a
 export function addLength(str: string): string[] {
   return str.split(" ").map((x) => x + " " + x.length);
 }
-//Codewars recommended)
+//Codewars recommended
 /*
 return str.split(" ").map((x) => x + " " + x.length);
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_desc: any, func: any) {func();};
 function it (_desc: any, func: any) {func();};

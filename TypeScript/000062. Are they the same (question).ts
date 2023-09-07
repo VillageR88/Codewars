@@ -41,7 +41,7 @@ The two arrays have the same size (> 0) given as parameter in function comp.
 
 */
 ///Solution
-//My soloution
+//My
 export function comp(a1: number[] | null, a2: number[] | null): boolean {
   return a1?.map((x) => x**2).sort().toString() == a2?.sort().toString();
 }
@@ -49,7 +49,7 @@ export function comp(a1: number[] | null, a2: number[] | null): boolean {
 /*
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_desc: any, func: any) {func();};
 function it (_desc: any, func: any) {func();};

@@ -8,7 +8,7 @@ For example, if the parameters passed are (2, 6), the function should return [2,
 
 */
 ///Solution
-//My soloution
+//My
 export function findMultiples(integer: number, limit: number): number[] {
   return Array.from({length: limit / integer}, (x, y) => x = integer + y * integer);
 }
@@ -16,7 +16,7 @@ export function findMultiples(integer: number, limit: number): number[] {
 /*
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_desc: any, func: any) {func();};
 function it (_desc: any, func: any) {func();};

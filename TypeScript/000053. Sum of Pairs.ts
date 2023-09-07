@@ -33,31 +33,7 @@ NOTE: There will also be lists tested of lengths upwards of 10,000,000 elements.
 
 */
 ///Solution
-//My 1st soloution (ineffective in Codewars - exceeded server time)
-/*
-export function sumPairs(ints: number[], s: number): [number, number] | void {  
-  var k = 0;
-  var array1 = new Array;
-  var j_memory = (ints.length+1);
-  for (var i = 0; i<ints.length; i++) {
-    var j = 0; 
-    k++;
-    j+=k;
-    for (j; j<ints.length; j++) {
-      if (ints[i]+ints[j] == s) {
-        if (j<j_memory) {
-          array1 = [];
-          array1.push([Number(ints[i]),Number(ints[j])]);
-          j_memory = j;
-        }
-      }
-    }
-  }
-  for (var l of array1)
-  return array1.length==0?undefined:array1[0];
-}
-*/
-//My 2nd soloution (submitted)
+//My
 export function sumPairs(ints: number[], s: number): [number, number] | void { 
   var ints2 = Array.from(ints,(x,k)=>ints[k]==ints[k+1]?"spare":x).filter((ints2)=>ints2!="spare");
   var j_memory = (ints2.length);
@@ -83,7 +59,7 @@ export function sumPairs(ints: number[], s: number): [number, number] | void {
 
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_opis: any, func: any) {func();};
 function it (_opis: any, func: any) {func();};

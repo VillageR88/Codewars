@@ -20,7 +20,7 @@ is empty in the first bus stop.
 
 */
 ///Solution
-//My soloution
+//My
 export function number(busStops: [number, number][]): number {
   return busStops.reduce((x, y) => [x[0] + y[0], x[1] + y[1]]).reduce((x, y) => x - y);
 }
@@ -36,7 +36,7 @@ export function number(busStops:number[][]):number {
 }
 */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (_desc: any, func: any) {func();};
 function it (_desc: any, func: any) {func();};
