@@ -10,22 +10,22 @@ false    | false    => false
 
 */
 ///Solution
-//Moje
+//My
 export function setAlarm(employed: boolean, vacation: boolean) {
   if (employed == true && vacation == true) return false;
   else if (employed == false && vacation == true) return false;
   else if (employed == true && vacation == false) return true;
   else return false;
   }
-//Najlepsze rozwiązanie od Codewars
+//Codewars recommended
 /*
 export function setAlarm(employed: boolean, vacation: boolean) {
 return employed && !vacation
 
 }
 */
-///Tester => JS 'Codewars' 'Sample Test' Tester (JSCSTT) v0.1.0 by VR.
-//Deklaracje i definicje - część dostosowana do VSC
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
+//Declarations and definitions - part adjusted to VSC
 //const Test = require('@codewars/test-compat');
 //const chai = require("chai");
 //const assert = chai.assert;
@@ -36,7 +36,7 @@ function describe (opis: any, funkcja: any) {
 function it (opis: any, funkcja: any) {
   funkcja();
 };
-//Describe - część niezmieniana
+//Describe - invariant part
 import { assert } from "chai";
 //import { setAlarm } from "./solution";
 

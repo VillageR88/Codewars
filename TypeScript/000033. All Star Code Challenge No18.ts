@@ -28,7 +28,7 @@ export function strCount(str: string, letter: string): number {
 export const strCount = (str: string, letter: string) => [...str].filter(c => c === letter).length;
  */
 
-///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 function describe (opis: any, func: any) {
   func();

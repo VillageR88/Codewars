@@ -26,7 +26,7 @@ export const doubleChar = (str: string): string =>
     .join('');
 */
 
-///Tester => TS 'Codewars' 'Sample Test' Tester (TSCSTT) v0.1.0 by VR.
+///Tester => TrueScript 'Codewars' 'Sample Test' Tester (TSCSTT)
 //Declarations and definitions - part adjusted to VSC
 //const Test = require('@codewars/test-compat');
 //const chai = require("chai");
