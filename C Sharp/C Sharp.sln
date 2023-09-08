@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000021. Find Nearest square
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000022. Deodorant Evaporator", "000022. Deodorant Evaporator\000022. Deodorant Evaporator.csproj", "{F7B306AA-C1BD-48D5-A7D9-EEB838C3B490}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000023. Convert number to reversed array of digits", "000023. Convert number to reversed array of digits\000023. Convert number to reversed array of digits.csproj", "{247CEE8C-C13F-408B-BEB1-5EC39BC46EC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -144,5 +146,13 @@ Global
 		{F7B306AA-C1BD-48D5-A7D9-EEB838C3B490}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7B306AA-C1BD-48D5-A7D9-EEB838C3B490}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7B306AA-C1BD-48D5-A7D9-EEB838C3B490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91C44462-9049-4F56-8015-B3B6536ABB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C44462-9049-4F56-8015-B3B6536ABB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C44462-9049-4F56-8015-B3B6536ABB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C44462-9049-4F56-8015-B3B6536ABB64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{247CEE8C-C13F-408B-BEB1-5EC39BC46EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{247CEE8C-C13F-408B-BEB1-5EC39BC46EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{247CEE8C-C13F-408B-BEB1-5EC39BC46EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{247CEE8C-C13F-408B-BEB1-5EC39BC46EC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

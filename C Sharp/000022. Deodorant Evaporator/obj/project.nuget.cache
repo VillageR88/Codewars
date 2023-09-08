@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jwUyOzzF9sS3Ccgz5nIEh1Q57j/EFU4b4agKP7L2BvBWOWVAigKMHGdO3kyEkEOA7yVuBXX8fLMi2CyA65xwww==",
+  "dgSpecHash": "LtYefj2k1go7JQejlwtZbmQ4HUpIljLoo9qoGSJqR3ABg9NJx/a60GIBKWIzlrz45y91dgPy3yeDJ2tasQYXKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000022. Deodorant Evaporator\\000022. Deodorant Evaporator.csproj",
+  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000022. Deodorant Evaporator\\000022. Deodorant Evaporator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
