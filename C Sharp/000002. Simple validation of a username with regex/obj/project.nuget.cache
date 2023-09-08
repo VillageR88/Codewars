@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7xoSOvoSJvDdaGpAt3QRb8Ej9Jl97i4vdBXSV9FaAt+iOnm951oRDFF9pCMGfF3M5gJLnhjV5ZI3qFr0bhUFjQ==",
+  "dgSpecHash": "KZYmfD7C4Sm16ThAsFT6g7qfb3ScQ1eI/2LSJqHlkVi02f/Tf+CnQK1VKYq/MsJHzZFLNmmKT+wKr9HSeqbyOw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000002. Simple validation of a username with regex\\000002. Simple validation of a username with regex.csproj",
+  "projectFilePath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000002. Simple validation of a username with regex\\000002. Simple validation of a username with regex.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

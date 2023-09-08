@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000014. Greet Me\\000014. Greet Me.csproj": {}
+    "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000014. Greet Me\\000014. Greet Me.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000014. Greet Me\\000014. Greet Me.csproj": {
+    "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000014. Greet Me\\000014. Greet Me.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000014. Greet Me\\000014. Greet Me.csproj",
+        "projectUniqueName": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000014. Greet Me\\000014. Greet Me.csproj",
         "projectName": "000014. Greet Me",
-        "projectPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000014. Greet Me\\000014. Greet Me.csproj",
+        "projectPath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000014. Greet Me\\000014. Greet Me.csproj",
         "packagesPath": "C:\\Users\\Karol\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000014. Greet Me\\obj\\",
+        "outputPath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000014. Greet Me\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

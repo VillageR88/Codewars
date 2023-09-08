@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hWMNJjFBeyLGrtBRWtanFNAhh+q+QnYwJxQNSc+kmdMRJJkfitjgaFHiR1+oi+OXc+NkCMq2S88EAcbU00dMPA==",
+  "dgSpecHash": "nCZHxf7oWYDUNLjH31akAdyOLzUHjRtolUmld3Nzw6aq6gjk4pG7yYDQhlSrDz7R3w9Pt2mRl9bNrIXnvijKNA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000017. Find out whether the shape is a cube\\000017. Find out whether the shape is a cube.csproj",
+  "projectFilePath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000017. Find out whether the shape is a cube\\000017. Find out whether the shape is a cube.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
