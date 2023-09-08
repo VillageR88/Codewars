@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000018. Enumerable Magic - 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000019. L1 Bartender, drinks!", "000019. L1 Bartender, drinks!\000019. L1 Bartender, drinks!.csproj", "{3BB1DFE6-0EB8-47D1-BC45-4E86581C0E33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000020. USD CNY", "000020. USD CNY\000020. USD CNY.csproj", "{3AD40D4D-D1C6-456A-A5A5-1025CF6DB7FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -126,5 +128,9 @@ Global
 		{3BB1DFE6-0EB8-47D1-BC45-4E86581C0E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BB1DFE6-0EB8-47D1-BC45-4E86581C0E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BB1DFE6-0EB8-47D1-BC45-4E86581C0E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD40D4D-D1C6-456A-A5A5-1025CF6DB7FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD40D4D-D1C6-456A-A5A5-1025CF6DB7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD40D4D-D1C6-456A-A5A5-1025CF6DB7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD40D4D-D1C6-456A-A5A5-1025CF6DB7FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
