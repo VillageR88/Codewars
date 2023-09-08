@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000012. Define a card suit\\000012. Define a card suit.csproj": {}
+    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000012. Define a card suit\\000012. Define a card suit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000012. Define a card suit\\000012. Define a card suit.csproj": {
+    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000012. Define a card suit\\000012. Define a card suit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000012. Define a card suit\\000012. Define a card suit.csproj",
+        "projectUniqueName": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000012. Define a card suit\\000012. Define a card suit.csproj",
         "projectName": "000012. Define a card suit",
-        "projectPath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000012. Define a card suit\\000012. Define a card suit.csproj",
+        "projectPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000012. Define a card suit\\000012. Define a card suit.csproj",
         "packagesPath": "C:\\Users\\Karol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000012. Define a card suit\\obj\\",
+        "outputPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000012. Define a card suit\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

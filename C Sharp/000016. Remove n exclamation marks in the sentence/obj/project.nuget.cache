@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h8Yh98sJ2ctvORhrdii4DRb7CjVjkeaS6rj68mH5cL7IBwu17PU1Rd+FdwitdcwZWStJCU9bcdRDPaVHBqXEkA==",
+  "dgSpecHash": "stvtykyRHVS2T+pjpKsSpjkiCPSvO768E5IYAHmpJuxYn62Cnya6BfkXIxFa+5nw1lJ77LIs95CHIsp4T6u9PA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000016. Remove n exclamation marks in the sentence\\000016. Remove n exclamation marks in the sentence.csproj",
+  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000016. Remove n exclamation marks in the sentence\\000016. Remove n exclamation marks in the sentence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

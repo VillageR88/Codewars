@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000019. L1 Bartender, drinks!\\000019. L1 Bartender, drinks!.csproj": {}
+    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000019. L1 Bartender, drinks!\\000019. L1 Bartender, drinks!.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000019. L1 Bartender, drinks!\\000019. L1 Bartender, drinks!.csproj": {
+    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000019. L1 Bartender, drinks!\\000019. L1 Bartender, drinks!.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000019. L1 Bartender, drinks!\\000019. L1 Bartender, drinks!.csproj",
+        "projectUniqueName": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000019. L1 Bartender, drinks!\\000019. L1 Bartender, drinks!.csproj",
         "projectName": "000019. L1 Bartender, drinks!",
-        "projectPath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000019. L1 Bartender, drinks!\\000019. L1 Bartender, drinks!.csproj",
+        "projectPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000019. L1 Bartender, drinks!\\000019. L1 Bartender, drinks!.csproj",
         "packagesPath": "C:\\Users\\Karol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000019. L1 Bartender, drinks!\\obj\\",
+        "outputPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000019. L1 Bartender, drinks!\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000018. Enumerable Magic - Does My List Include This\\000018. Enumerable Magic - Does My List Include This.csproj": {}
+    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000018. Enumerable Magic - Does My List Include This\\000018. Enumerable Magic - Does My List Include This.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000018. Enumerable Magic - Does My List Include This\\000018. Enumerable Magic - Does My List Include This.csproj": {
+    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000018. Enumerable Magic - Does My List Include This\\000018. Enumerable Magic - Does My List Include This.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000018. Enumerable Magic - Does My List Include This\\000018. Enumerable Magic - Does My List Include This.csproj",
+        "projectUniqueName": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000018. Enumerable Magic - Does My List Include This\\000018. Enumerable Magic - Does My List Include This.csproj",
         "projectName": "000018. Enumerable Magic - Does My List Include This",
-        "projectPath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000018. Enumerable Magic - Does My List Include This\\000018. Enumerable Magic - Does My List Include This.csproj",
+        "projectPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000018. Enumerable Magic - Does My List Include This\\000018. Enumerable Magic - Does My List Include This.csproj",
         "packagesPath": "C:\\Users\\Karol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000018. Enumerable Magic - Does My List Include This\\obj\\",
+        "outputPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000018. Enumerable Magic - Does My List Include This\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000020. USD CNY", "000020. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000021. Find Nearest square number", "000021. Find Nearest square number\000021. Find Nearest square number.csproj", "{450EB5EC-C818-4D78-AD68-0C4BDBB737E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000022. Deodorant Evaporator", "000022. Deodorant Evaporator\000022. Deodorant Evaporator.csproj", "{F7B306AA-C1BD-48D5-A7D9-EEB838C3B490}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -138,5 +140,9 @@ Global
 		{450EB5EC-C818-4D78-AD68-0C4BDBB737E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{450EB5EC-C818-4D78-AD68-0C4BDBB737E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{450EB5EC-C818-4D78-AD68-0C4BDBB737E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B306AA-C1BD-48D5-A7D9-EEB838C3B490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B306AA-C1BD-48D5-A7D9-EEB838C3B490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B306AA-C1BD-48D5-A7D9-EEB838C3B490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B306AA-C1BD-48D5-A7D9-EEB838C3B490}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

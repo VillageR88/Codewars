@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000006. Printing Array elements with Comma delimiters\\000006. Printing Array elements with Comma delimiters.csproj": {}
+    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000006. Printing Array elements with Comma delimiters\\000006. Printing Array elements with Comma delimiters.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000006. Printing Array elements with Comma delimiters\\000006. Printing Array elements with Comma delimiters.csproj": {
+    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000006. Printing Array elements with Comma delimiters\\000006. Printing Array elements with Comma delimiters.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000006. Printing Array elements with Comma delimiters\\000006. Printing Array elements with Comma delimiters.csproj",
+        "projectUniqueName": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000006. Printing Array elements with Comma delimiters\\000006. Printing Array elements with Comma delimiters.csproj",
         "projectName": "000006. Printing Array elements with Comma delimiters",
-        "projectPath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000006. Printing Array elements with Comma delimiters\\000006. Printing Array elements with Comma delimiters.csproj",
+        "projectPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000006. Printing Array elements with Comma delimiters\\000006. Printing Array elements with Comma delimiters.csproj",
         "packagesPath": "C:\\Users\\Karol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000006. Printing Array elements with Comma delimiters\\obj\\",
+        "outputPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000006. Printing Array elements with Comma delimiters\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

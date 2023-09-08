@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ArNIpq5qDbfbW11O+xIrCpedkIJ+jhgM4TssFLfGOWwuEfjYTTp8qubBmUfM3U+reLcwbMJXU7BWESBzQfBjgg==",
+  "dgSpecHash": "kLUw1FiQgA8BthbQGR++iySLdUOybqnhkOpgOX97UdQJAyNXg4sIO2X9Z0+t4vItT5zLLIPFW7PdxtLElH0QAQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000003. Remove First and Last Character Part Two\\000003. Remove First and Last Character Part Two.csproj",
+  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000003. Remove First and Last Character Part Two\\000003. Remove First and Last Character Part Two.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

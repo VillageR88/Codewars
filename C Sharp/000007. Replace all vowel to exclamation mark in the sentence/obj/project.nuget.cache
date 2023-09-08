@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VBNyU64bMULug7vzouY4+26aia1moes5MRTiUC752O+D9sCqDE0PtNlYQo8L8FUjMwxXpscRmMkpj+AB22rlOA==",
+  "dgSpecHash": "H4qDIx9p7mCBABKj7S5qxH46FabufQSPSa1lujY2rWQY57HpR7C2DyJz9rXvf23wXWo4uDeliDK7LK+zVBS9ug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000007. Replace all vowel to exclamation mark in the sentence\\000007. Replace all vowel to exclamation mark in the sentence.csproj",
+  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000007. Replace all vowel to exclamation mark in the sentence\\000007. Replace all vowel to exclamation mark in the sentence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
