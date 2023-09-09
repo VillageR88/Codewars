@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000022. Deodorant Evaporato
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000023. Convert number to reversed array of digits", "000023. Convert number to reversed array of digits\000023. Convert number to reversed array of digits.csproj", "{247CEE8C-C13F-408B-BEB1-5EC39BC46EC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000024. Sum of numbers from 0 to N", "000024. Sum of numbers from 0 to N\000024. Sum of numbers from 0 to N.csproj", "{B680BB68-95F1-4A68-9683-B7AD6BBC3286}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -154,5 +156,9 @@ Global
 		{247CEE8C-C13F-408B-BEB1-5EC39BC46EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{247CEE8C-C13F-408B-BEB1-5EC39BC46EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{247CEE8C-C13F-408B-BEB1-5EC39BC46EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B680BB68-95F1-4A68-9683-B7AD6BBC3286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B680BB68-95F1-4A68-9683-B7AD6BBC3286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B680BB68-95F1-4A68-9683-B7AD6BBC3286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B680BB68-95F1-4A68-9683-B7AD6BBC3286}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000023. Convert number to reversed array of digits\\000023. Convert number to reversed array of digits.csproj": {}
+    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000023. Convert number to reversed array of digits\\000023. Convert number to reversed array of digits.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000023. Convert number to reversed array of digits\\000023. Convert number to reversed array of digits.csproj": {
+    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000023. Convert number to reversed array of digits\\000023. Convert number to reversed array of digits.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000023. Convert number to reversed array of digits\\000023. Convert number to reversed array of digits.csproj",
+        "projectUniqueName": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000023. Convert number to reversed array of digits\\000023. Convert number to reversed array of digits.csproj",
         "projectName": "000023. Convert number to reversed array of digits",
-        "projectPath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000023. Convert number to reversed array of digits\\000023. Convert number to reversed array of digits.csproj",
+        "projectPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000023. Convert number to reversed array of digits\\000023. Convert number to reversed array of digits.csproj",
         "packagesPath": "C:\\Users\\Karol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000023. Convert number to reversed array of digits\\obj\\",
+        "outputPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000023. Convert number to reversed array of digits\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
