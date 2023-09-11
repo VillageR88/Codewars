@@ -21,11 +21,17 @@ If the States are united then display "Code for everyone"
 
 If the States aren't united then display "Make America code again"
 */
+///Tester => JSX# 'Codewars' 'Sample Tests' Tester - part 1 (invariant) directives
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Adapter from "enzyme-adapter-react-16";
+import Enzyme, { shallow } from "enzyme";
+import { expect } from "chai";
+import './index.css';
+Enzyme.configure({ adapter: new Adapter() });
 ///Solution
 //My
 //
-import React from "react";
-
 export class States extends React.Component {
   constructor() {
     super();
@@ -52,50 +58,53 @@ export class States extends React.Component {
     );
   }
 }
-
 //Codewars recommended
 /*
- */
-///Tester => JS 'Codewars' 'Sample Test' Tester
+*/
+/// Tester => JSX 'Codewars' 'Sample Tests' Tester - part 2 (adjusted) sample tests
 //Declarations and definitions - part adjusted to VSC
-// Uses Jest
-import React from "react";
-import Adapter from "enzyme-adapter-react-16";
-import Enzyme, { shallow } from "enzyme";
-Enzyme.configure({ adapter: new Adapter() });
-
-import { States } from "./solution";
-
-describe("Default State", () => {
+function describe(tag, func) {
+  func();
+};
+function it(tag, func) {
+  func();
+};
+describe('Default State', () => {
   const wrapper = shallow(<States />);
 
-  it("It has a state called united", () => {
-    expect(wrapper.state("united")).not.toEqual(null);
+  it('It has a state called united', () => {
+    expect(wrapper.state('united')).not.to.equal(null);
   });
 
-  it("It has a state 'united' witha value of false", () => {
-    expect(wrapper.state("united")).toEqual(false);
+  it("It has a state 'united' with a value of false", () => {
+    expect(wrapper.state('united')).to.equal(false);
   });
 });
 
-describe("Changing of state", () => {
+describe('Changing of state', () => {
   const wrapper = shallow(<States />);
-
+  
   it("Components United state is changed to true when 'unite' function is called", () => {
     wrapper.instance().unite();
-    expect(wrapper.state("united")).toEqual(true);
+    expect(wrapper.state('united')).to.equal(true);
   });
+  
 });
 
-describe("State based render", () => {
+describe('State based render', () => {
   const wrapper = shallow(<States />);
-
+  
   it("Renders text 'Make America code again' if state.united is false", () => {
-    expect(wrapper.find(".status").text()).toEqual("Make America code again");
+    expect(wrapper.find('.status').text()).to.equal('Make America code again');
   });
-
+  
   it("Renders text 'Code for everyone' if state.united is true", () => {
     wrapper.instance().unite();
-    expect(wrapper.find(".status").text()).toEqual("Code for everyone");
+    expect(wrapper.find('.status').text()).to.equal('Code for everyone');
   });
+  
 });
+
+///Component Render
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<States />);

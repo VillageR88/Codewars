@@ -1,15 +1,37 @@
+///Task
+/*
+United State of React
+
+Some say The United States has never been so divided. This Kata is a chance for you to unite a once great nation and MAKE AMERICA CODE AGAIN!
+What's Involved
+
+    State
+    Changing State
+    Conditional Rendering based on state
+
+The challenge
+
+You will be given a component called States. You will need to establish an initial state for the component called united and for it to be set to false.
+
+Then write a unite function that changes this state to true.
+
+Then conditionally render a bespoke message in the component.
+
+If the States are united then display "Code for everyone"
+
+If the States aren't united then display "Make America code again"
+*/
+///Tester => JSX# 'Codewars' 'Sample Tests' Tester - part 1 (invariant) directives
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Adapter from "enzyme-adapter-react-16";
 import Enzyme, { shallow } from "enzyme";
 import { expect } from "chai";
-
 import './index.css';
-
-// Konfiguracja Enzyme
 Enzyme.configure({ adapter: new Adapter() });
-
-// Komponent React
+///Solution
+//My
+//
 export class States extends React.Component {
   constructor() {
     super();
@@ -36,7 +58,10 @@ export class States extends React.Component {
     );
   }
 }
-///Tester => JS 'Codewars' 'Sample Test' Tester
+//Codewars recommended
+/*
+*/
+/// Tester => JSX 'Codewars' 'Sample Tests' Tester - part 2 (adjusted) sample tests
 //Declarations and definitions - part adjusted to VSC
 function describe(tag, func) {
   func();
@@ -44,7 +69,6 @@ function describe(tag, func) {
 function it(tag, func) {
   func();
 };
-// Testy jednostkowe
 describe('Default State', () => {
   const wrapper = shallow(<States />);
 
@@ -81,6 +105,6 @@ describe('State based render', () => {
   
 });
 
-// Renderowanie komponentu React
+///Component Render
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<States />);
