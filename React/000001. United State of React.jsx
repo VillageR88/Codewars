@@ -31,7 +31,6 @@ import './index.css';
 Enzyme.configure({ adapter: new Adapter() });
 ///Solution
 //My
-//
 export class States extends React.Component {
   constructor() {
     super();
