@@ -1,0 +1,2 @@
+npx babel Test1.jsx --presets @babel/react --watch --out-file Test1_compiled.js
+"type": "module",
