@@ -28,7 +28,6 @@ import './index.css';
 Enzyme.configure({ adapter: new Adapter() });
 ///Solution
 //My
-
 export const EasterEgg = ({ name, id }) => {
   return <li key={id}>{name}</li>;
 };
