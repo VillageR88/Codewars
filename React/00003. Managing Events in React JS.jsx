@@ -23,26 +23,26 @@ import ReactDOM from 'react-dom';
 import Adapter from 'enzyme-adapter-react-16';
 import Enzyme, { shallow } from "enzyme";
 import { expect } from "chai";
+import './index.css';
 Enzyme.configure({ adapter: new Adapter() });
 ///Solution
 //My
+import React from 'react';
 
-class Counter extends React.Component {
-  constructor(props) {  
+export class Counter extends React.Component {
+  constructor(props) {
     super(props);
     this.state = {
       counter: 0,
     };
   }
 
-  // Event handler for incrementing the counter
   handleIncrement = () => {
     this.setState((prevState) => ({
       counter: prevState.counter + 1,
     }));
   }
 
-  // Event handler for decrementing the counter
   handleDecrement = () => {
     this.setState((prevState) => ({
       counter: prevState.counter - 1,
