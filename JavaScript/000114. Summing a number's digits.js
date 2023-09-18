@@ -30,7 +30,7 @@ function describe(tag, func) {
 function it(tag, func) {
   func();
 };
-//Describe - invariant partdescribe("Fixed Tests", function () {
+//Describe - invariant part describe
 const { assert } = require("chai")
 
 describe("Basic tests", () => {
