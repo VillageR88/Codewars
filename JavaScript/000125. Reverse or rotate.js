@@ -29,24 +29,17 @@ s = "123456" gives "234561".
 ///Solution
 //My
 function revrot(str, sz) {
-  console.log(str, "length:", str.length, "sz:", sz, "proportion:", Math.floor(str.length / sz));
-  const propotion = Math.floor(str.length / sz);
   var new_str = "";
   if (sz <= 0 || sz > str.length) return "";
   else
-    for (var i = 0; i < propotion; i++)
-      new_str += str.substring(1 + sz * i, sz * (i + 1)) + str[sz * i];
-    //  1 23456 9 87654
-
-    //  733049910872815764 , 5 -- > 330479108928157
-    //  7 3304 9 9108 7 28157 64 --> 33047 91089 28157
-    //  563000655734469485, 4 --> 0365065073456944
-
-  //str.substring(1, sz) + str[sz * 0] + str.substring(sz + 1, sz * 2) + str[sz * 1];
+    for (var i = 0; i < Math.floor(str.length / sz); i++) {
+      var temp_str = str.substring(0 + sz * i, sz * (i + 1));
+      if (([...temp_str].map(x => Math.pow(x, 3)).reduce((a, b) => a + b) % 2)) temp_str = temp_str.slice(1) + temp_str[0];
+      else temp_str = [...temp_str].reverse().join("");
+      new_str += temp_str;
+    }
   return new_str;
 }
-//+ str.substring(sz * 2 + 1, sz * 3)
-//+ str.substring([sz * 2]
 //Codewars recommended
 /*
 */
@@ -72,12 +65,11 @@ function testing(actual, expected) {
 
 describe("revrot", function () {
   it("Basic tests", function () {
-    //testing(revrot("123456987654", 6), "234561876549")
+    testing(revrot("123456987654", 6), "234561876549")
     //testing(revrot("1234", 0), "")
     //testing(revrot("", 0), "")
     //testing(revrot("1234", 5), "")
     //testing(revrot("733049910872815764", 5), "330479108928157")
-    testing(revrot("85205431669475962869931042311146866", 35), "450258166943596287013996111324")
-
+    //testing(revrot("85205431669475962869931042311146866", 35), "450258166943596287013996111324")
   })
 })
