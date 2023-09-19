@@ -14,8 +14,11 @@ For the given example, the return value should be:
 */
 ///Solution
 //My
-multiplicationTable = function(size) {
-  // insert code here
+multiplicationTable = function (s, c = []) {
+  for (var i = 1; i <= s; i++) {
+    c.push(new Array(s).fill(i).map((x, i) => x * (i + 1)));
+  }
+  return c;
 }
 //Codewars recommended
 /*
@@ -38,6 +41,6 @@ function it(tag, func) {
 //Describe - invariant part describe
 describe("Tests", () => {
   it("test", () => {
-Test.assertSimilar(multiplicationTable(3), [[1,2,3], [2,4,6], [3,6,9]]);
+    Test.assertSimilar(multiplicationTable(3), [[1, 2, 3], [2, 4, 6], [3, 6, 9]]);
   });
 });
