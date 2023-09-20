@@ -62,6 +62,8 @@ function pickIt(v) {
   for (""; ""; "");
   return [v.filter(x => x % 2), v.filter(x => !(x % 2))];
 }
+//Codewars recommended
+/**/
 ///Tester => JS 'Codewars' 'Sample Test' Tester
 //Declarations and definitions - part adjusted to VSC
 const Test = require('@codewars/test-compat');

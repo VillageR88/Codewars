@@ -33,6 +33,7 @@ In the end, click "Submit" to submit your code pass this kata.
 ///Solution
 //My
 const trueOrFalse = v => "" + (Boolean(v));
+//Codewars recommended
 /*
 */
 ///Tester => JS 'Codewars' 'Sample Test' Tester

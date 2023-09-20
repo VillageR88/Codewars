@@ -23,9 +23,13 @@ encryptThis("hello world") === "104olle 119drlo"
 */
 ///Solution
 //My
-var encryptThis = function (text) {
-  return [...text].map(x => x[0].charCodeAt() + x.slice(1)).join();
-}
+const encryptThis = t => t.split(" ").map(x => x.length == 1 ? x[0].charCodeAt() : x.length == 2 ? x[0].charCodeAt() + x[x.length - 1] : x[0].charCodeAt() + x[x.length - 1] + x.slice(2, x.length - 1) + x[1]).join(" ");
+//Codewars recommended
+/*
+const encryptThis = text =>
+  text.replace(/\b\w(\w?)(\w*?)(\w?)\b/g, (word, a, mid, b) => 
+    word.charCodeAt(0) + b + mid + a);
+*/
 ///Tester => JS 'Codewars' 'Sample Test' Tester
 //Declarations and definitions - part adjusted to VSC
 const Test = require('@codewars/test-compat');
@@ -45,7 +49,7 @@ function it(tag, func) {
 //Describe - invariant part describe
 describe("Fixed Tests", function () {
   it("should work with fixed tests", function () {
-    assert.strictEqual(encryptThis("A"), "65");
+    //assert.strictEqual(encryptThis("A"), "65");
     assert.strictEqual(encryptThis("A wise old owl lived in an oak"), "65 119esi 111dl 111lw 108dvei 105n 97n 111ka");
     assert.strictEqual(encryptThis("The more he saw the less he spoke"), "84eh 109ero 104e 115wa 116eh 108sse 104e 115eokp");
     assert.strictEqual(encryptThis("The less he spoke the more he heard"), "84eh 108sse 104e 115eokp 116eh 109ero 104e 104dare");

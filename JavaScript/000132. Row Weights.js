@@ -36,7 +36,8 @@ The first element 80 is the total weight of team 1, and the second element 0 is 
 //My
 const rowWeights = (arr, a = [], b = [], c = 0, r = v => v.reduce((x, y) => x + y, 0)) => arr.length <= c ? [r(a), r(b)] :
   !(c % 2) ? (a.push(arr[c]), c++, rowWeights(arr, a, b, c, r)) : (b.push(arr[c]), c++, rowWeights(arr, a, b, c, r))
-
+//Codewars recommended
+/**/
 ///Tester => JS 'Codewars' 'Sample Test' Tester
 //Declarations and definitions - part adjusted to VSC
 const Test = require('@codewars/test-compat');

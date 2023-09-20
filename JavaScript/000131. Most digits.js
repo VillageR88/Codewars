@@ -7,8 +7,8 @@ If two numbers in the argument array have the same number of digits, return the 
 ///Solution
 //My
 const findLongest = (a, b = a.map(x => ("" + x).length)) => a[b.findIndex(x => x == (Math.max(...b)))];
-/*
-*/
+//Codewars recommended
+/**/
 ///Tester => JS 'Codewars' 'Sample Test' Tester
 //Declarations and definitions - part adjusted to VSC
 const Test = require('@codewars/test-compat');

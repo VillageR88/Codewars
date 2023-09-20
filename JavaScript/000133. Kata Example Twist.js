@@ -7,6 +7,8 @@ Add the value "codewars" to the array websites 1,000 times.
 ///Solution
 //My
 var websites = new Array(1000);
+//Codewars recommended
+/**/
 ///Tester => JS 'Codewars' 'Sample Test' Tester
 //Declarations and definitions - part adjusted to VSC
 const Test = require('@codewars/test-compat');

@@ -25,6 +25,8 @@ If you make it, return "Alive!", if not, return "Shark Bait!".
 ///Solution
 //My
 const shark = (pD, sD, yS, sS, d) => pD / yS < sD / (d ? sS / 2 : sS) ? "Alive!" : "Shark Bait!";
+//Codewars recommended
+/**/
 ///Tester => JS 'Codewars' 'Sample Test' Tester
 //Declarations and definitions - part adjusted to VSC
 const Test = require('@codewars/test-compat');
