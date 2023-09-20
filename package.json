@@ -16,6 +16,9 @@
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
+  "dependencies":{
+    "angular/cli" :"{}"
+   },
   "devDependencies": {
     "@babel/core": "^7.22.17",
     "@babel/preset-env": "^7.22.15",
