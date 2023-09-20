@@ -31,12 +31,14 @@ var encryptThis = function (text) {
 const Test = require('@codewars/test-compat');
 const chai = require("chai");
 const mocha = require('mocha');
-const { describe } = require('mocha');
 const assert = chai.assert;
 const { matchAll } = require('nunit-command/regex');
 const deeepEqual = chai.assert.deepEqual;
 const strictEqual = require('chai').assert.strictEqual;
 chai.config.truncateThreshold = 0;
+function describe(tag, func) {
+  func();
+};
 function it(tag, func) {
   func();
 };
