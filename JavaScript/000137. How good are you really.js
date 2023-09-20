@@ -14,7 +14,7 @@ For calculating the average point you may add your point to the given array!
 ///Solution
 //My
 const betterThanAverage = (c, y) => y > [...c].reduce((a, b) => a + b) / c.length;
-//Codewars recommended
+//Codewars recommended 
 /*
 const encryptThis = text =>
   text.replace(/\b\w(\w?)(\w*?)(\w?)\b/g, (word, a, mid, b) => 
