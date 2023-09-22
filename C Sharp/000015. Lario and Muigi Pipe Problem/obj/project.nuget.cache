@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N1kE0SucfNoExozjSAGmZ19p+pkS0ewERau+ErtYmeYBPbKOlSmaUoUeG/20fNLK1Wf8DSX/5qLVTBOLS7Sb8w==",
+  "dgSpecHash": "AkPrElIsgJOMXSIxYc2dGFPthpz/nXsC0BFfp8IKN7AxRcF7M7XNaQ7poi8VNI6LdQcyHyktE+8nnt1jFNrKlQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000015. Lario and Muigi Pipe Problem\\000015. Lario and Muigi Pipe Problem.csproj",
+  "projectFilePath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000015. Lario and Muigi Pipe Problem\\000015. Lario and Muigi Pipe Problem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

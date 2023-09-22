@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000022. Deodorant Evaporator\\000022. Deodorant Evaporator.csproj": {}
+    "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000022. Deodorant Evaporator\\000022. Deodorant Evaporator.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000022. Deodorant Evaporator\\000022. Deodorant Evaporator.csproj": {
+    "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000022. Deodorant Evaporator\\000022. Deodorant Evaporator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000022. Deodorant Evaporator\\000022. Deodorant Evaporator.csproj",
+        "projectUniqueName": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000022. Deodorant Evaporator\\000022. Deodorant Evaporator.csproj",
         "projectName": "000022. Deodorant Evaporator",
-        "projectPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000022. Deodorant Evaporator\\000022. Deodorant Evaporator.csproj",
+        "projectPath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000022. Deodorant Evaporator\\000022. Deodorant Evaporator.csproj",
         "packagesPath": "C:\\Users\\Karol\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000022. Deodorant Evaporator\\obj\\",
+        "outputPath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000022. Deodorant Evaporator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

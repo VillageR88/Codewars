@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F5EzcFlPAXeuipZS10CFW25rSvOTca8bO3Pd7KfEamiczIBsRpmkUWr9bJraezqNY9MIBDOw1wcYWQL8ptblDw==",
+  "dgSpecHash": "6os7L7+5zh7oH3V13jD244mw3h5qs4xX2Qw2iwDEUisSQYnUgU2mqbajXgVgD33SvLPIB9R5A9isgPpa6j2Q+Q==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000013. Student's Final Grade\\000013. Student's Final Grade.csproj",
+  "projectFilePath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000013. Student's Final Grade\\000013. Student's Final Grade.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

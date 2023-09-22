@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000021. Find Nearest square number\\000021. Find Nearest square number.csproj": {}
+    "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000021. Find Nearest square number\\000021. Find Nearest square number.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000021. Find Nearest square number\\000021. Find Nearest square number.csproj": {
+    "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000021. Find Nearest square number\\000021. Find Nearest square number.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000021. Find Nearest square number\\000021. Find Nearest square number.csproj",
+        "projectUniqueName": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000021. Find Nearest square number\\000021. Find Nearest square number.csproj",
         "projectName": "000021. Find Nearest square number",
-        "projectPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000021. Find Nearest square number\\000021. Find Nearest square number.csproj",
+        "projectPath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000021. Find Nearest square number\\000021. Find Nearest square number.csproj",
         "packagesPath": "C:\\Users\\Karol\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000021. Find Nearest square number\\obj\\",
+        "outputPath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000021. Find Nearest square number\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

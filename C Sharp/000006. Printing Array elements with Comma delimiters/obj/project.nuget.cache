@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5yLqFdX3BIuKLeZ6lj2IsuYRYL77JklVAjkEwzgO9Ksg4cOj8Rv9XT/TdCdwqpAtGs+Tma3pyILo0ahf6/QslQ==",
+  "dgSpecHash": "ir9OUluYLCfLt1+8FjTU/nCpYCDcskTDf10Nml5wMiNM8N/WE2Vtae7kz4t2kidC6xzoVRa0ck+PGqwGRIKYLA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000006. Printing Array elements with Comma delimiters\\000006. Printing Array elements with Comma delimiters.csproj",
+  "projectFilePath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000006. Printing Array elements with Comma delimiters\\000006. Printing Array elements with Comma delimiters.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

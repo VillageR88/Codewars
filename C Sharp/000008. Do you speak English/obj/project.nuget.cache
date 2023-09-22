@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HV/W3/GJYc+sgX8i8G1co7BzBwxKl8qDPyQlgx6f3uPyOMjBePrgrYyXUAQaZEpVCVFL7TdtlMSq1/e10Kk5cA==",
+  "dgSpecHash": "codTTrmFz9WUQJB6PXYsmthzZ1/IRztnNDlrWN2uknSrpmdax+0u3eozl97LgAuJ4h03ggNMV2DAIU3Tso7+VA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000008. Do you speak English\\000008. Do you speak English.csproj",
+  "projectFilePath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000008. Do you speak English\\000008. Do you speak English.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

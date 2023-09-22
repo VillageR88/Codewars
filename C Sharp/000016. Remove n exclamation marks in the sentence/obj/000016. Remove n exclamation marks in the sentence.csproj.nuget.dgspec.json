@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000016. Remove n exclamation marks in the sentence\\000016. Remove n exclamation marks in the sentence.csproj": {}
+    "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000016. Remove n exclamation marks in the sentence\\000016. Remove n exclamation marks in the sentence.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000016. Remove n exclamation marks in the sentence\\000016. Remove n exclamation marks in the sentence.csproj": {
+    "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000016. Remove n exclamation marks in the sentence\\000016. Remove n exclamation marks in the sentence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000016. Remove n exclamation marks in the sentence\\000016. Remove n exclamation marks in the sentence.csproj",
+        "projectUniqueName": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000016. Remove n exclamation marks in the sentence\\000016. Remove n exclamation marks in the sentence.csproj",
         "projectName": "000016. Remove n exclamation marks in the sentence",
-        "projectPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000016. Remove n exclamation marks in the sentence\\000016. Remove n exclamation marks in the sentence.csproj",
+        "projectPath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000016. Remove n exclamation marks in the sentence\\000016. Remove n exclamation marks in the sentence.csproj",
         "packagesPath": "C:\\Users\\Karol\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000016. Remove n exclamation marks in the sentence\\obj\\",
+        "outputPath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000016. Remove n exclamation marks in the sentence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

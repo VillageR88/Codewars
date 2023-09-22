@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iIV2R7X4eDCeruq/dTJuiC+4+e1qByxZ5rqyfbgmxto3Qfpq/ZIh4VyZpWkLWsu+GgGguBP3vrdRu5bj7NQR1g==",
+  "dgSpecHash": "8GS8SVs98KAebriLlWDs7MPL7g1SZ5PhoJ/6h8s20DuIsutlQsik3S//lMvxshN0aNZaUyYJPYYfrLHP1yGOLg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000021. Find Nearest square number\\000021. Find Nearest square number.csproj",
+  "projectFilePath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000021. Find Nearest square number\\000021. Find Nearest square number.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

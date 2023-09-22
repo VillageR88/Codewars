@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lO4s5mx+zzhJOfXP5PLLIZdgF8uX3OSHH6jyQH7FolygLmYNEsbBDUPwwcRcUDPtrpoSZPWtuu0O11MRAaGWdQ==",
+  "dgSpecHash": "q5f85b1RPyuZEOTiwL+TUg3LnsRTO8CgG3onbjEkgq7b0mn1V6oBRc2nxubpWMo3p4gpQcX51IObJbrEzPfCgA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000019. L1 Bartender, drinks!\\000019. L1 Bartender, drinks!.csproj",
+  "projectFilePath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000019. L1 Bartender, drinks!\\000019. L1 Bartender, drinks!.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

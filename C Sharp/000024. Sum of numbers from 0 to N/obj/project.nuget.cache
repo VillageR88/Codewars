@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vVzTQAmP4gdb81ELS4K1dU2nAKhLsVhwo3SBdQwthveA42qBiw6XrU9V/I7CK3GEqGj6WlUAE3nsHHbuI7vC5Q==",
+  "dgSpecHash": "kBRcWEgmTXTrj+hN2uWGwIsSQomAIRRLktdMPyWRXJXpnC3aXidXk5bO8NAC5IwBHpH8Q2v9dnzPSdPnIIGcdg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000024. Sum of numbers from 0 to N\\000024. Sum of numbers from 0 to N.csproj",
+  "projectFilePath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000024. Sum of numbers from 0 to N\\000024. Sum of numbers from 0 to N.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

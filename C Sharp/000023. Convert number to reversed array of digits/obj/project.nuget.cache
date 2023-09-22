@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JaXk3/9XZmGnj7sQmM7t239Qtxel2ekCKmwlQJ9+KszVPQlhXhzIxVGUQTBL7u+95wcCgVSzl+qT5Bjeqr3bsw==",
+  "dgSpecHash": "0J/1uCcaS3hcjv9vw27xLMPbzziqbHUqiyYpQPUt/nFnXS6Vlri5qvfq1+WWddKvBanjTHOZ1kX7NtYgAMlaRg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000023. Convert number to reversed array of digits\\000023. Convert number to reversed array of digits.csproj",
+  "projectFilePath": "C:\\Users\\Karol\\Documents\\GitHub\\Codewars\\C Sharp\\000023. Convert number to reversed array of digits\\000023. Convert number to reversed array of digits.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karol\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
