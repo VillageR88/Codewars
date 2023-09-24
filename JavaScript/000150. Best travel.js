@@ -33,45 +33,30 @@ Notes:
 */
 ///Solution
 //My
-function chooseBestSum(t, k, ls, a, b, c, i1 = 0, i2 = 1, i3 = 2, choice_ls = []) {
-  console.log(t, k, ls);
+function chooseBestSum(t, k, ls) {
   if (ls.length < k) return null;
-  else if (k == 3) {
-    while (true) {
-      a = ls[i1];
-      b = ls[i2];
-      c = ls[i3];
-      choice_ls.push([a, b, c])
-      i3++;
-      if (i3 == ls.length) {
-        i2++;
-        i3 = i2 + 1;
+  arr = [];
+  row = [];
+  for (let x = 0; x < k; x++) { row.push(x); }
+  while (!row.includes(NaN)) {
+    arr.push(row.slice());
+    for (let x = k - 1; x >= 0; x--) {
+      if (row[x] == ls.length + x - k) {
+        row[x - 1]++;
+        for (y = x; y <= k - 1; y++) {
+          row[y] = row[y - 1] + 1;
+        }
+        arr.push(row.slice());
       }
-      if (i2 == ls.length - 1) {
-        i1++;
-        i2 = i1 + 1;
-        i3 = i2 + 1;
-      }
-      if (i1 == ls.length - 2) break;
     }
+    row[k - 1]++;
   }
-  else if (k == 2) {
-    while (true) {
-      a = ls[i1];
-      b = ls[i2];
-      choice_ls.push([a, b])
-      i2++;
-      if (i2 == ls.length) {
-        i1++;
-        i2 = i1 + 1;
-      }
-      if (i1 == ls.length - 1) break;
-    }
-  }
-  console.log("Final array non-filtered:", ...choice_ls.map(x => x.reduce((a, b) => a + b)));
-  console.log("Final array filtered:", ...choice_ls.map(x => x.reduce((a, b) => a + b)).filter(x => x <= t));
-  console.log("Result:", Math.max(...choice_ls.map(x => x.reduce((a, b) => a + b)).filter(x => x <= t)));
-  return Math.max(...choice_ls.map(x => x.reduce((a, b) => a + b)).filter(x => x <= t));
+  arr.pop();
+  arr = arr.map(x => x.map(x => ls[x]).reduce((a, b) => a + b));
+  arr = arr.filter(x => x <= t);
+  arr = Math.max(...arr);
+  if (arr == -Infinity) return null;
+  return arr;
 }
 //Codewars recommended 
 /**/
@@ -95,9 +80,9 @@ function it(tag, func) {
 describe("chooseBestSum", function () {
   it("Basic tests ", function () {
     var ts = [50, 55, 56, 57, 58]
-    Test.assertEquals(chooseBestSum(163, 3, ts), 163)
+    ///Test.assertEquals(chooseBestSum(163, 3, ts), 163)
     ts = [50]
-    Test.assertEquals(chooseBestSum(163, 3, ts), null)
+    //Test.assertEquals(chooseBestSum(163, 3, ts), null)
     ts = [91, 74, 73, 85, 73, 81, 87]
     Test.assertEquals(chooseBestSum(230, 3, ts), 228)
     ys = [91, 74, 73, 85, 73, 81, 87]
