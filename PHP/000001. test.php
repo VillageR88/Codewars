@@ -28,9 +28,9 @@ function goals(int $laLigaGoals, int $copaDelReyGoals, int $championsLeagueGoals
 // Codewars recommended
 /**/
 /// Tester => PHP 'Codewars' 'Sample Test' Tester
+// Part Invariant
 class TestCase
 {
-    // Part Invariant
     public function assertEquals($expected, $actual)
     {
         if ($expected === $actual) {
@@ -39,8 +39,10 @@ class TestCase
             echo "Test Failed: Expected $expected but got $actual\n";
         }
     }
-
-    // Part Adjusted
+}
+// Part Adjusted
+class SempleTest extends TestCase
+{
     public function testSample()
     {
         $this->assertEquals(goals(0, 0, 0), 0);
@@ -49,4 +51,4 @@ class TestCase
 }
 
 // Run the tests
-(new TestCase())->testSample();
+(new SempleTest())->testSample();
