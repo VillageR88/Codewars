@@ -1,6 +1,4 @@
 <?php
-use PHPUnit\Framework\TestCase;
-
 ///Task
 /*
 Messi goals function
@@ -24,13 +22,18 @@ For example:
 //My
 function goals(int $laLigaGoals, int $copaDelReyGoals, int $championsLeagueGoals): int
 {
-    return $laLigaGoals + $copaDelReyGoals + $championsLeagueGoals;
+  return $laLigaGoals + $copaDelReyGoals + $championsLeagueGoals;
 }
+//Codewars recommended
+/**/
+///Tester => PHP 'Codewars' 'Sample Test' Tester\
+use PHPUnit\Framework\TestCase;
 
 class GrasshopperTest extends TestCase
 {
-    public function testSample() {
-      $this->assertSame(goals(0,0,0), 0);
-      $this->assertSame(goals(43, 10, 5), 58);
-    }
+  public function testSample()
+  {
+    $this->assertSame(goals(0, 0, 0), 0);
+    $this->assertSame(goals(43, 10, 5), 58);
+  }
 }
