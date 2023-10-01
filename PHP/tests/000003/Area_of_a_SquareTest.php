@@ -1,5 +1,4 @@
 <?php
-use PHPUnit\Framework\TestCase;
 ///Task
 /*
 Complete the function that calculates the area of the red square, 
@@ -10,27 +9,18 @@ Note: use the π value provided in your language (Math::PI, M_PI, math.pi, etc)
 */
 ///Solution
 //My
-class Solution
-{
-    public static function main()
-    {
-        echo "Hello World!";
-    }
-}
+function square_area($A): float {
+    return 0.00; // Change this
+  }
 //Codewars recommended
 /**/
 ///Tester => PHP 'Codewars' 'Sample Test' Tester
-class Area_of_a_SquareTest extends TestCase
-{
-    public function testPrintHelloWorld()
-    {
-        $this->expectOutputString('Hello World!');
-        $this->assertNull(Solution::main());
-    }
+use PHPUnit\Framework\TestCase;
 
-    public function testYouShouldNotProcessArguments()
-    {
-        $this->expectOutputString('Hello World!');
-        $this->assertNull(Solution::main());
+class AreaOfASquareTest extends TestCase {
+    public function testFixed() {
+      $this->assertSame(0.00, square_area(0));
+      $this->assertSame(1.62, square_area(2));
+      $this->assertSame(80.00, square_area(14.05));
     }
-}
+  }
