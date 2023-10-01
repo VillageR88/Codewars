@@ -29,13 +29,8 @@ function goals(int $laLigaGoals, int $copaDelReyGoals, int $championsLeagueGoals
 
 class GrasshopperTest extends TestCase
 {
-    public function testPrintHelloWorld() {
-      $this->expectOutputString('Hello World!');
-      $this->assertNull(Solution::main());
-    }
-    
-    public function testYouShouldNotProcessArguments() {
-      $this->expectOutputString('Hello World!');
-      $this->assertNull(Solution::main('hello'));
+    public function testSample() {
+      $this->assertSame(goals(0,0,0), 0);
+      $this->assertSame(goals(43, 10, 5), 58);
     }
 }
