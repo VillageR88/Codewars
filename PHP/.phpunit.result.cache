@@ -1,1 +1,1 @@
-{"version":1,"defects":{"Area_of_a_SquareTest::testFixed":7},"times":{"Area_of_a_SquareTest::testFixed":0.016,"GrasshopperTest::testSample":0.007,"ClassicHelloWorldTest::testPrintHelloWorld":0.001,"ClassicHelloWorldTest::testYouShouldNotProcessArguments":0}}
+{"version":1,"defects":{"Area_of_a_SquareTest::testFixed":7},"times":{"Area_of_a_SquareTest::testFixed":0.008,"GrasshopperTest::testSample":0.006,"ClassicHelloWorldTest::testPrintHelloWorld":0,"ClassicHelloWorldTest::testYouShouldNotProcessArguments":0}}
