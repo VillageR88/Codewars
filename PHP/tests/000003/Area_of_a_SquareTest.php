@@ -17,7 +17,7 @@ function square_area($A): float {
 ///Tester => PHP 'Codewars' 'Sample Test' Tester
 use PHPUnit\Framework\TestCase;
 
-class AreaOfASquareTest extends TestCase {
+class Area_of_a_SquareTest extends TestCase {
     public function testFixed() {
       $this->assertSame(0.00, square_area(0));
       $this->assertSame(1.62, square_area(2));
