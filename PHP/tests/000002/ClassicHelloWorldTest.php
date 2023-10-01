@@ -20,6 +20,6 @@ class ClassicHelloWorldTest extends TestCase
     public function testYouShouldNotProcessArguments()
     {
         $this->expectOutputString('Hello World!');
-        $this->assertNull(Solution::main('hello'));
+        $this->assertNull(Solution::main());
     }
 }
