@@ -17,17 +17,13 @@ Notes:
 */
 ///Solution
 //My
-
-//Codewars recommended
-//return price without vat
-
-use SebastianBergmann\CodeCoverage\Util\Percentage;
-
 function excludingVatPrice($price)
 {
   if ($price == null) return -1;
   else return $price - $price / 115 * 15;
 }
+//Codewars recommended
+
 /**/
 ///Tester => PHP 'Codewars' 'Sample Test' Tester
 use PHPUnit\Framework\TestCase;
