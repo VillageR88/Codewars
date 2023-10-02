@@ -8,6 +8,8 @@ You need to write regex that will validate a password to make sure it meets the 
     contains a digit
     only contains alphanumeric characters (note that '_' is not alphanumeric)
 */
+///Solution
+//My
 public class Slope {
   public String slope(int[] points) {
     try {
