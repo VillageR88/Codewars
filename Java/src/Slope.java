@@ -9,9 +9,11 @@ You need to write regex that will validate a password to make sure it meets the 
     only contains alphanumeric characters (note that '_' is not alphanumeric)
 */
 public class Slope {
-
   public String slope(int[] points) {
-    return "";
+    try {
+      return "" + (points[3] - points[1]) / (points[2] - points[0]);
+    } catch (Exception e) {
+      return "undefined";
+    }
   }
-
 }
