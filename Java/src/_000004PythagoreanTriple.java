@@ -14,7 +14,8 @@ Examples
 
 [13, 12, 5] : it is possible to form a Pythagorean Triple using these 3 integers: 52 + 122 = 132
 
-[100, 3, 999] : it is NOT possible to form a Pythagorean Triple using these 3 integers - no matter how you arrange them, you will never find a way to satisfy the equation a2 + b2 = c2
+[100, 3, 999] : it is NOT possible to form a Pythagorean Triple using these 3 integers - no matter how you arrange them, 
+you will never find a way to satisfy the equation a2 + b2 = c2
 Return Values
 
     For Python: return True or False
@@ -26,8 +27,9 @@ Return Values
 import java.util.Arrays;
 
 public class _000004PythagoreanTriple {
-
     public int pythagoreanTriple(int[] triple) {
-        return 2;
+        return ((int) Math.pow(triple[0], 2) + (int) Math.pow(triple[1], 2)) == (int) Math.pow(triple[2], 2) ? 1 :
+        ((int) Math.pow(triple[1], 2) + (int) Math.pow(triple[2], 2)) == (int) Math.pow(triple[0], 2) ? 1 :
+        ((int) Math.pow(triple[2], 2) + (int) Math.pow(triple[0], 2)) == (int) Math.pow(triple[1], 2) ? 1 : 0;
     }
 }
