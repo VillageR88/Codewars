@@ -3,7 +3,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 // TODO: Replace examples and use TDD by writing your own tests
 
-class KataTest {
+public class KataTest {
   
     @Test
     void testSomething() {
