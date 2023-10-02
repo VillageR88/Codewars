@@ -22,9 +22,17 @@ Notes
 */
 ///Solution
 //My
-public class Kata{
-  public static boolean validateHello(String greetings){
-    //Your code
-    return false;
+public class _000003Kata {
+  public static boolean validateHello(String greetings) {
+    if (greetings.toLowerCase().contains("hello") ||
+        greetings.toLowerCase().contains("ciao") ||
+        greetings.toLowerCase().contains("salut") ||
+        greetings.toLowerCase().contains("hallo") ||
+        greetings.toLowerCase().contains("hola") ||
+        greetings.toLowerCase().contains("ahoj") ||
+        greetings.toLowerCase().contains("czesc"))
+      return true;
+    else
+      return false;
   }
 }

@@ -10,8 +10,12 @@ You need to write regex that will validate a password to make sure it meets the 
 */
 ///Solution
 //My
-public class Sleigh {
-  public static Boolean authenticate(String name, String password) {
-    return (name.equals("Santa Claus") && password.equals("Ho Ho Ho!"));
+public class _000002Slope {
+  public String slope(int[] points) {
+    try {
+      return "" + (points[3] - points[1]) / (points[2] - points[0]);
+    } catch (Exception e) {
+      return "undefined";
+    }
   }
 }

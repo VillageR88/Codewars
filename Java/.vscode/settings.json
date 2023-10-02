@@ -1,12 +1,12 @@
 {
     "java.project.outputPath": "bin",
     "java.project.sourcePaths": [
-        "src\\000002",
-        "src"
+        "src",
     ],
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
     ],
-    "java.dependency.packagePresentation": "hierarchical",
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.dependency.syncWithFolderExplorer": true,
+    "java.project.explorer.showNonJavaResources": true
 }

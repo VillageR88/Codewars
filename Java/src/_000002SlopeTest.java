@@ -1,13 +1,13 @@
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-public class SlopeTest
+public class _000002SlopeTest
 {
 	@Test
 	public void test1() 
   {
   int[] test1={19,3,20,3};
-  Slope s=new Slope();
+  _000002Slope s=new _000002Slope();
 	assertEquals("0",s.slope(test1));
   
   assertEquals("undefined",s.slope(new int[]{-7,2,-7,4}));
