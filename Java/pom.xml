@@ -1,0 +1,10 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    
+    <!-- Define your project's coordinates -->
+    <groupId>com.example</groupId>
+    <artifactId>my-project</artifactId>
+    <version>1.0.0</version>
+    
+    <!-- Other project configuration -->
+</project>
