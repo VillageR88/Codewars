@@ -24,12 +24,12 @@ Return Values
 */
 ///Solution
 //My
-import java.util.Arrays;
-
 public class _000004PythagoreanTriple {
     public int pythagoreanTriple(int[] triple) {
-        return ((int) Math.pow(triple[0], 2) + (int) Math.pow(triple[1], 2)) == (int) Math.pow(triple[2], 2) ? 1 :
-        ((int) Math.pow(triple[1], 2) + (int) Math.pow(triple[2], 2)) == (int) Math.pow(triple[0], 2) ? 1 :
-        ((int) Math.pow(triple[2], 2) + (int) Math.pow(triple[0], 2)) == (int) Math.pow(triple[1], 2) ? 1 : 0;
+        return ((int) Math.pow(triple[0], 2) + (int) Math.pow(triple[1], 2)) == (int) Math.pow(triple[2], 2) ? 1
+                : ((int) Math.pow(triple[1], 2) + (int) Math.pow(triple[2], 2)) == (int) Math.pow(triple[0], 2) ? 1
+                        : ((int) Math.pow(triple[2], 2) + (int) Math.pow(triple[0], 2)) == (int) Math.pow(triple[1], 2)
+                                ? 1
+                                : 0;
     }
 }
