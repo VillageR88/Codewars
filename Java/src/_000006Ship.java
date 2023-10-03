@@ -20,11 +20,11 @@ Good luck and may you find GOOOLD!
 */
 ///Solution
 //My
-public class Ship {
+public class _000006Ship {
   private final double draft;
   private final int crew;
 
-  public Ship(double draft, int crew) {
+  public _000006Ship(double draft, int crew) {
     this.draft = draft;
     this.crew = crew;
   }
