@@ -7,12 +7,12 @@ import java.util.Arrays;
 import java.util.Collection;
 
 @RunWith(Parameterized.class)
-public class SolutionTest {
+public class _000013SolutionTest {
     private int expected;
     private int x;
     private int y;
 
-    public SolutionTest(int expected, int x, int y) {
+    public _000013SolutionTest(int expected, int x, int y) {
         this.expected = expected;
         this.x = x;
         this.y = y;
@@ -31,6 +31,6 @@ public class SolutionTest {
 
     @Test
     public void sampleTests() {
-        assertEquals(expected, Kata.quadrant(x, y));
+        assertEquals(expected, _000013Kata.quadrant(x, y));
     }
 }
