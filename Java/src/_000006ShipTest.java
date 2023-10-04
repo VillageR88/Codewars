@@ -1,17 +1,18 @@
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 public class _000006ShipTest {
+
     @Test
-    void emptyShipShouldNotWorthToAboard() {
+    public void emptyShipShouldNotWorthToAboard() {
         _000006Ship ship = new _000006Ship(0, 0);
-        assertEquals(false, ship.isWorthIt(), "<draft: 0, crew: 0>");
+        assertEquals(false, ship.isWorthIt());
     }
 
     @Test
-    void shipWithLotOfBootyWorthToAboard() {
+    public void shipWithLotOfBootyWorthToAboard() {
         _000006Ship ship = new _000006Ship(40, 5);
-        assertEquals(true, ship.isWorthIt(), "<draft: 40, crew: 5>");
+        assertEquals(true, ship.isWorthIt());
     }
 }
