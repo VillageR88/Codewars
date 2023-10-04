@@ -15,7 +15,7 @@ Your task is to create a function that returns true if the given number is a Wil
 
 import java.math.BigInteger;
 
-public class WilsonPrime {
+public class _000011WilsonPrime {
   public static boolean am_i_wilson(long n) {
     if (n <= 1) {
       return false;
