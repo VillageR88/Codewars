@@ -1,0 +1,8 @@
+# .gitignore
+.dart_tool
+package_config.json
+.packages
+build/
+.idea/
+.vscode/
+*.iml

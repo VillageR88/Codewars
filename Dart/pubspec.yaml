@@ -1,0 +1,27 @@
+# dart_solutions_and_tests.yaml
+name: dart_solutions_and_tests
+description: A Dart project with solutions and tests
+version: 1.0.0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  path: ^1.8.0
+
+dev_dependencies:
+  test: ^1.16.0
+  lib: ^0.0.3
+
+# Define the targets for the project
+targets:
+  $default:
+    sources:
+      - "lib/**"
+      - "test/**"
+
+# Define the scripts for running tests
+scripts:
+  test:
+    description: Run the tests
+    command: pub run test
