@@ -9,3 +9,5 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _000004._Contamination_No_1__String_
 build_property.ProjectDir = C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000004. Contamination No 1 -String-\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

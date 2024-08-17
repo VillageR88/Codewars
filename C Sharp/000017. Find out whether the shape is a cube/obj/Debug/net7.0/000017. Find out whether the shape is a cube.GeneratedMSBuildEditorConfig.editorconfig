@@ -9,3 +9,5 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _000017._Find_out_whether_the_shape_is_a_cube
 build_property.ProjectDir = C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000017. Find out whether the shape is a cube\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
