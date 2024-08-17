@@ -91,9 +91,10 @@ c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000020. USD CNY\obj\Debug\net7.
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000020. USD CNY\obj\Debug\net7.0\000020. USD CNY.AssemblyInfoInputs.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000020. USD CNY\obj\Debug\net7.0\000020. USD CNY.AssemblyInfo.cs
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000020. USD CNY\obj\Debug\net7.0\000020. USD CNY.csproj.CoreCompileInputs.cache
-c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000020. USD CNY\obj\Debug\net7.0\000020. USD CNY.csproj.CopyComplete
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000020. USD CNY\obj\Debug\net7.0\000020. USD CNY.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000020. USD CNY\obj\Debug\net7.0\refint\000020. USD CNY.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000020. USD CNY\obj\Debug\net7.0\000020. USD CNY.pdb
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000020. USD CNY\obj\Debug\net7.0\000020. USD CNY.genruntimeconfig.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000020. USD CNY\obj\Debug\net7.0\ref\000020. USD CNY.dll
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000020. USD CNY\obj\Debug\net7.0\000020. USD CNY.sourcelink.json
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000020. USD CNY\obj\Debug\net7.0\000020. .79178D6E.Up2Date

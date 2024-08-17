@@ -91,9 +91,10 @@ c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000004. Contamination No 1 -Str
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000004. Contamination No 1 -String-\obj\Debug\net7.0\000004. Contamination No 1 -String-.AssemblyInfoInputs.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000004. Contamination No 1 -String-\obj\Debug\net7.0\000004. Contamination No 1 -String-.AssemblyInfo.cs
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000004. Contamination No 1 -String-\obj\Debug\net7.0\000004. Contamination No 1 -String-.csproj.CoreCompileInputs.cache
-c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000004. Contamination No 1 -String-\obj\Debug\net7.0\000004. Contamination No 1 -String-.csproj.CopyComplete
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000004. Contamination No 1 -String-\obj\Debug\net7.0\000004. Contamination No 1 -String-.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000004. Contamination No 1 -String-\obj\Debug\net7.0\refint\000004. Contamination No 1 -String-.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000004. Contamination No 1 -String-\obj\Debug\net7.0\000004. Contamination No 1 -String-.pdb
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000004. Contamination No 1 -String-\obj\Debug\net7.0\000004. Contamination No 1 -String-.genruntimeconfig.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000004. Contamination No 1 -String-\obj\Debug\net7.0\ref\000004. Contamination No 1 -String-.dll
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000004. Contamination No 1 -String-\obj\Debug\net7.0\000004. Contamination No 1 -String-.sourcelink.json
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000004. Contamination No 1 -String-\obj\Debug\net7.0\000004. .BD1C6DBB.Up2Date

@@ -91,9 +91,10 @@ c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000007. Replace all vowel to ex
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000007. Replace all vowel to exclamation mark in the sentence\obj\Debug\net7.0\000007. Replace all vowel to exclamation mark in the sentence.AssemblyInfoInputs.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000007. Replace all vowel to exclamation mark in the sentence\obj\Debug\net7.0\000007. Replace all vowel to exclamation mark in the sentence.AssemblyInfo.cs
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000007. Replace all vowel to exclamation mark in the sentence\obj\Debug\net7.0\000007. Replace all vowel to exclamation mark in the sentence.csproj.CoreCompileInputs.cache
-c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000007. Replace all vowel to exclamation mark in the sentence\obj\Debug\net7.0\000007. Replace all vowel to exclamation mark in the sentence.csproj.CopyComplete
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000007. Replace all vowel to exclamation mark in the sentence\obj\Debug\net7.0\000007. Replace all vowel to exclamation mark in the sentence.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000007. Replace all vowel to exclamation mark in the sentence\obj\Debug\net7.0\refint\000007. Replace all vowel to exclamation mark in the sentence.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000007. Replace all vowel to exclamation mark in the sentence\obj\Debug\net7.0\000007. Replace all vowel to exclamation mark in the sentence.pdb
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000007. Replace all vowel to exclamation mark in the sentence\obj\Debug\net7.0\000007. Replace all vowel to exclamation mark in the sentence.genruntimeconfig.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000007. Replace all vowel to exclamation mark in the sentence\obj\Debug\net7.0\ref\000007. Replace all vowel to exclamation mark in the sentence.dll
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000007. Replace all vowel to exclamation mark in the sentence\obj\Debug\net7.0\000007. Replace all vowel to exclamation mark in the sentence.sourcelink.json
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000007. Replace all vowel to exclamation mark in the sentence\obj\Debug\net7.0\000007. .A3502BAA.Up2Date

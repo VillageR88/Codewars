@@ -94,6 +94,7 @@ c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000022. Deodorant Evaporator\bi
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000022. Deodorant Evaporator\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000022. Deodorant Evaporator\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000022. Deodorant Evaporator\bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000022. Deodorant Evaporator\obj\Debug\net7.0\000022. Deodorant Evaporator.csproj.CopyComplete
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000022. Deodorant Evaporator\obj\Debug\net7.0\000022. Deodorant Evaporator.genruntimeconfig.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000022. Deodorant Evaporator\obj\Debug\net7.0\ref\000022. Deodorant Evaporator.dll
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000022. Deodorant Evaporator\obj\Debug\net7.0\000022. Deodorant Evaporator.sourcelink.json
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000022. Deodorant Evaporator\obj\Debug\net7.0\000022. .CEB50E51.Up2Date

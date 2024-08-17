@@ -91,9 +91,10 @@ c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000021. Find Nearest square num
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000021. Find Nearest square number\obj\Debug\net7.0\000021. Find Nearest square number.AssemblyInfoInputs.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000021. Find Nearest square number\obj\Debug\net7.0\000021. Find Nearest square number.AssemblyInfo.cs
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000021. Find Nearest square number\obj\Debug\net7.0\000021. Find Nearest square number.csproj.CoreCompileInputs.cache
-c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000021. Find Nearest square number\obj\Debug\net7.0\000021. Find Nearest square number.csproj.CopyComplete
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000021. Find Nearest square number\obj\Debug\net7.0\000021. Find Nearest square number.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000021. Find Nearest square number\obj\Debug\net7.0\refint\000021. Find Nearest square number.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000021. Find Nearest square number\obj\Debug\net7.0\000021. Find Nearest square number.pdb
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000021. Find Nearest square number\obj\Debug\net7.0\000021. Find Nearest square number.genruntimeconfig.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000021. Find Nearest square number\obj\Debug\net7.0\ref\000021. Find Nearest square number.dll
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000021. Find Nearest square number\obj\Debug\net7.0\000021. Find Nearest square number.sourcelink.json
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000021. Find Nearest square number\obj\Debug\net7.0\000021. .CE464493.Up2Date

@@ -91,9 +91,10 @@ C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000015. Lario and Muigi Pipe Pr
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000015. Lario and Muigi Pipe Problem\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000015. Lario and Muigi Pipe Problem\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000015. Lario and Muigi Pipe Problem\bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000015. Lario and Muigi Pipe Problem\obj\Debug\net7.0\000015. Lario and Muigi Pipe Problem.csproj.CopyComplete
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000015. Lario and Muigi Pipe Problem\obj\Debug\net7.0\000015. Lario and Muigi Pipe Problem.dll
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000015. Lario and Muigi Pipe Problem\obj\Debug\net7.0\refint\000015. Lario and Muigi Pipe Problem.dll
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000015. Lario and Muigi Pipe Problem\obj\Debug\net7.0\000015. Lario and Muigi Pipe Problem.pdb
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000015. Lario and Muigi Pipe Problem\obj\Debug\net7.0\000015. Lario and Muigi Pipe Problem.genruntimeconfig.cache
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000015. Lario and Muigi Pipe Problem\obj\Debug\net7.0\ref\000015. Lario and Muigi Pipe Problem.dll
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000015. Lario and Muigi Pipe Problem\obj\Debug\net7.0\000015. Lario and Muigi Pipe Problem.sourcelink.json
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000015. Lario and Muigi Pipe Problem\obj\Debug\net7.0\000015. .81BDF873.Up2Date

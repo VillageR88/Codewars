@@ -91,9 +91,10 @@ c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000006. Printing Array elements
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000006. Printing Array elements with Comma delimiters\obj\Debug\net7.0\000006. Printing Array elements with Comma delimiters.AssemblyInfoInputs.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000006. Printing Array elements with Comma delimiters\obj\Debug\net7.0\000006. Printing Array elements with Comma delimiters.AssemblyInfo.cs
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000006. Printing Array elements with Comma delimiters\obj\Debug\net7.0\000006. Printing Array elements with Comma delimiters.csproj.CoreCompileInputs.cache
-c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000006. Printing Array elements with Comma delimiters\obj\Debug\net7.0\000006. Printing Array elements with Comma delimiters.csproj.CopyComplete
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000006. Printing Array elements with Comma delimiters\obj\Debug\net7.0\000006. Printing Array elements with Comma delimiters.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000006. Printing Array elements with Comma delimiters\obj\Debug\net7.0\refint\000006. Printing Array elements with Comma delimiters.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000006. Printing Array elements with Comma delimiters\obj\Debug\net7.0\000006. Printing Array elements with Comma delimiters.pdb
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000006. Printing Array elements with Comma delimiters\obj\Debug\net7.0\000006. Printing Array elements with Comma delimiters.genruntimeconfig.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000006. Printing Array elements with Comma delimiters\obj\Debug\net7.0\ref\000006. Printing Array elements with Comma delimiters.dll
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000006. Printing Array elements with Comma delimiters\obj\Debug\net7.0\000006. Printing Array elements with Comma delimiters.sourcelink.json
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000006. Printing Array elements with Comma delimiters\obj\Debug\net7.0\000006. .6ACC374F.Up2Date

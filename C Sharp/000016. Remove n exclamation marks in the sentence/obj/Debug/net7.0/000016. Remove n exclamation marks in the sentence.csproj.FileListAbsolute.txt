@@ -91,9 +91,10 @@ C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000016. Remove n exclamation ma
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000016. Remove n exclamation marks in the sentence\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000016. Remove n exclamation marks in the sentence\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000016. Remove n exclamation marks in the sentence\bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000016. Remove n exclamation marks in the sentence\obj\Debug\net7.0\000016. Remove n exclamation marks in the sentence.csproj.CopyComplete
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000016. Remove n exclamation marks in the sentence\obj\Debug\net7.0\000016. Remove n exclamation marks in the sentence.dll
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000016. Remove n exclamation marks in the sentence\obj\Debug\net7.0\refint\000016. Remove n exclamation marks in the sentence.dll
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000016. Remove n exclamation marks in the sentence\obj\Debug\net7.0\000016. Remove n exclamation marks in the sentence.pdb
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000016. Remove n exclamation marks in the sentence\obj\Debug\net7.0\000016. Remove n exclamation marks in the sentence.genruntimeconfig.cache
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000016. Remove n exclamation marks in the sentence\obj\Debug\net7.0\ref\000016. Remove n exclamation marks in the sentence.dll
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000016. Remove n exclamation marks in the sentence\obj\Debug\net7.0\000016. Remove n exclamation marks in the sentence.sourcelink.json
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000016. Remove n exclamation marks in the sentence\obj\Debug\net7.0\000016. .D8FB6B08.Up2Date

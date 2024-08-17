@@ -91,9 +91,10 @@ c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000018. Enumerable Magic - Does
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000018. Enumerable Magic - Does My List Include This\obj\Debug\net7.0\000018. Enumerable Magic - Does My List Include This.AssemblyInfoInputs.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000018. Enumerable Magic - Does My List Include This\obj\Debug\net7.0\000018. Enumerable Magic - Does My List Include This.AssemblyInfo.cs
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000018. Enumerable Magic - Does My List Include This\obj\Debug\net7.0\000018. Enumerable Magic - Does My List Include This.csproj.CoreCompileInputs.cache
-c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000018. Enumerable Magic - Does My List Include This\obj\Debug\net7.0\000018. Enumerable Magic - Does My List Include This.csproj.CopyComplete
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000018. Enumerable Magic - Does My List Include This\obj\Debug\net7.0\000018. Enumerable Magic - Does My List Include This.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000018. Enumerable Magic - Does My List Include This\obj\Debug\net7.0\refint\000018. Enumerable Magic - Does My List Include This.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000018. Enumerable Magic - Does My List Include This\obj\Debug\net7.0\000018. Enumerable Magic - Does My List Include This.pdb
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000018. Enumerable Magic - Does My List Include This\obj\Debug\net7.0\000018. Enumerable Magic - Does My List Include This.genruntimeconfig.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000018. Enumerable Magic - Does My List Include This\obj\Debug\net7.0\ref\000018. Enumerable Magic - Does My List Include This.dll
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000018. Enumerable Magic - Does My List Include This\obj\Debug\net7.0\000018. Enumerable Magic - Does My List Include This.sourcelink.json
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000018. Enumerable Magic - Does My List Include This\obj\Debug\net7.0\000018. .9AEDB1A5.Up2Date

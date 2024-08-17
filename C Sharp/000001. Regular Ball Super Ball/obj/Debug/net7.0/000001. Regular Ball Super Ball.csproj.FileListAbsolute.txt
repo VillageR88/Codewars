@@ -91,9 +91,10 @@ c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000001. Regular Ball Super Ball
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000001. Regular Ball Super Ball\obj\Debug\net7.0\000001. Regular Ball Super Ball.AssemblyInfoInputs.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000001. Regular Ball Super Ball\obj\Debug\net7.0\000001. Regular Ball Super Ball.AssemblyInfo.cs
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000001. Regular Ball Super Ball\obj\Debug\net7.0\000001. Regular Ball Super Ball.csproj.CoreCompileInputs.cache
-c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000001. Regular Ball Super Ball\obj\Debug\net7.0\000001. Regular Ball Super Ball.csproj.CopyComplete
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000001. Regular Ball Super Ball\obj\Debug\net7.0\000001. Regular Ball Super Ball.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000001. Regular Ball Super Ball\obj\Debug\net7.0\refint\000001. Regular Ball Super Ball.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000001. Regular Ball Super Ball\obj\Debug\net7.0\000001. Regular Ball Super Ball.pdb
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000001. Regular Ball Super Ball\obj\Debug\net7.0\000001. Regular Ball Super Ball.genruntimeconfig.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000001. Regular Ball Super Ball\obj\Debug\net7.0\ref\000001. Regular Ball Super Ball.dll
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000001. Regular Ball Super Ball\obj\Debug\net7.0\000001. Regular Ball Super Ball.sourcelink.json
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000001. Regular Ball Super Ball\obj\Debug\net7.0\000001. .233C5116.Up2Date

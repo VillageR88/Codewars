@@ -91,9 +91,10 @@ c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000024. Sum of numbers from 0 t
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000024. Sum of numbers from 0 to N\obj\Debug\net7.0\000024. Sum of numbers from 0 to N.AssemblyInfoInputs.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000024. Sum of numbers from 0 to N\obj\Debug\net7.0\000024. Sum of numbers from 0 to N.AssemblyInfo.cs
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000024. Sum of numbers from 0 to N\obj\Debug\net7.0\000024. Sum of numbers from 0 to N.csproj.CoreCompileInputs.cache
-c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000024. Sum of numbers from 0 to N\obj\Debug\net7.0\000024. Sum of numbers from 0 to N.csproj.CopyComplete
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000024. Sum of numbers from 0 to N\obj\Debug\net7.0\000024. Sum of numbers from 0 to N.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000024. Sum of numbers from 0 to N\obj\Debug\net7.0\refint\000024. Sum of numbers from 0 to N.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000024. Sum of numbers from 0 to N\obj\Debug\net7.0\000024. Sum of numbers from 0 to N.pdb
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000024. Sum of numbers from 0 to N\obj\Debug\net7.0\000024. Sum of numbers from 0 to N.genruntimeconfig.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000024. Sum of numbers from 0 to N\obj\Debug\net7.0\ref\000024. Sum of numbers from 0 to N.dll
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000024. Sum of numbers from 0 to N\obj\Debug\net7.0\000024. Sum of numbers from 0 to N.sourcelink.json
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000024. Sum of numbers from 0 to N\obj\Debug\net7.0\000024. .1BC517E9.Up2Date

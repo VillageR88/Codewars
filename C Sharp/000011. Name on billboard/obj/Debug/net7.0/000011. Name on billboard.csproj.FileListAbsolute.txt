@@ -91,9 +91,10 @@ c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000011. Name on billboard\obj\D
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000011. Name on billboard\obj\Debug\net7.0\000011. Name on billboard.AssemblyInfoInputs.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000011. Name on billboard\obj\Debug\net7.0\000011. Name on billboard.AssemblyInfo.cs
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000011. Name on billboard\obj\Debug\net7.0\000011. Name on billboard.csproj.CoreCompileInputs.cache
-c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000011. Name on billboard\obj\Debug\net7.0\000011. Name on billboard.csproj.CopyComplete
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000011. Name on billboard\obj\Debug\net7.0\000011. Name on billboard.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000011. Name on billboard\obj\Debug\net7.0\refint\000011. Name on billboard.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000011. Name on billboard\obj\Debug\net7.0\000011. Name on billboard.pdb
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000011. Name on billboard\obj\Debug\net7.0\000011. Name on billboard.genruntimeconfig.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000011. Name on billboard\obj\Debug\net7.0\ref\000011. Name on billboard.dll
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000011. Name on billboard\obj\Debug\net7.0\000011. Name on billboard.sourcelink.json
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000011. Name on billboard\obj\Debug\net7.0\000011. .685F1174.Up2Date

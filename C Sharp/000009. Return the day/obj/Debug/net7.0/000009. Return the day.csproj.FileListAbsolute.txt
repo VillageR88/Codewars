@@ -91,9 +91,10 @@ c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000009. Return the day\obj\Debu
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000009. Return the day\obj\Debug\net7.0\000009. Return the day.AssemblyInfoInputs.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000009. Return the day\obj\Debug\net7.0\000009. Return the day.AssemblyInfo.cs
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000009. Return the day\obj\Debug\net7.0\000009. Return the day.csproj.CoreCompileInputs.cache
-c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000009. Return the day\obj\Debug\net7.0\000009. Return the day.csproj.CopyComplete
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000009. Return the day\obj\Debug\net7.0\000009. Return the day.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000009. Return the day\obj\Debug\net7.0\refint\000009. Return the day.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000009. Return the day\obj\Debug\net7.0\000009. Return the day.pdb
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000009. Return the day\obj\Debug\net7.0\000009. Return the day.genruntimeconfig.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000009. Return the day\obj\Debug\net7.0\ref\000009. Return the day.dll
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000009. Return the day\obj\Debug\net7.0\000009. Return the day.sourcelink.json
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000009. Return the day\obj\Debug\net7.0\000009. .B889E686.Up2Date

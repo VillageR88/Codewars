@@ -91,9 +91,10 @@ C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000017. Find out whether the sh
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000017. Find out whether the shape is a cube\obj\Debug\net7.0\000017. Find out whether the shape is a cube.AssemblyInfoInputs.cache
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000017. Find out whether the shape is a cube\obj\Debug\net7.0\000017. Find out whether the shape is a cube.AssemblyInfo.cs
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000017. Find out whether the shape is a cube\obj\Debug\net7.0\000017. Find out whether the shape is a cube.csproj.CoreCompileInputs.cache
-C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000017. Find out whether the shape is a cube\obj\Debug\net7.0\000017. Find out whether the shape is a cube.csproj.CopyComplete
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000017. Find out whether the shape is a cube\obj\Debug\net7.0\000017. Find out whether the shape is a cube.dll
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000017. Find out whether the shape is a cube\obj\Debug\net7.0\refint\000017. Find out whether the shape is a cube.dll
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000017. Find out whether the shape is a cube\obj\Debug\net7.0\000017. Find out whether the shape is a cube.pdb
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000017. Find out whether the shape is a cube\obj\Debug\net7.0\000017. Find out whether the shape is a cube.genruntimeconfig.cache
 C:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000017. Find out whether the shape is a cube\obj\Debug\net7.0\ref\000017. Find out whether the shape is a cube.dll
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000017. Find out whether the shape is a cube\obj\Debug\net7.0\000017. Find out whether the shape is a cube.sourcelink.json
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000017. Find out whether the shape is a cube\obj\Debug\net7.0\000017. .3DF926FA.Up2Date

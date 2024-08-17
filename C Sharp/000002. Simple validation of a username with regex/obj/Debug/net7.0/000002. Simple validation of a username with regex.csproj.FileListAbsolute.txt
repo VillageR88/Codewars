@@ -91,9 +91,10 @@ c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000002. Simple validation of a 
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000002. Simple validation of a username with regex\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000002. Simple validation of a username with regex\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000002. Simple validation of a username with regex\bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000002. Simple validation of a username with regex\obj\Debug\net7.0\000002. Simple validation of a username with regex.csproj.CopyComplete
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000002. Simple validation of a username with regex\obj\Debug\net7.0\000002. Simple validation of a username with regex.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000002. Simple validation of a username with regex\obj\Debug\net7.0\refint\000002. Simple validation of a username with regex.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000002. Simple validation of a username with regex\obj\Debug\net7.0\000002. Simple validation of a username with regex.pdb
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000002. Simple validation of a username with regex\obj\Debug\net7.0\000002. Simple validation of a username with regex.genruntimeconfig.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000002. Simple validation of a username with regex\obj\Debug\net7.0\ref\000002. Simple validation of a username with regex.dll
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000002. Simple validation of a username with regex\obj\Debug\net7.0\000002. Simple validation of a username with regex.sourcelink.json
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000002. Simple validation of a username with regex\obj\Debug\net7.0\000002. .97876F4F.Up2Date

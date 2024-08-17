@@ -91,9 +91,10 @@ c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000010. The 'if' function\obj\D
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000010. The 'if' function\obj\Debug\net7.0\000010. The 'if' function.AssemblyInfoInputs.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000010. The 'if' function\obj\Debug\net7.0\000010. The 'if' function.AssemblyInfo.cs
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000010. The 'if' function\obj\Debug\net7.0\000010. The 'if' function.csproj.CoreCompileInputs.cache
-c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000010. The 'if' function\obj\Debug\net7.0\000010. The 'if' function.csproj.CopyComplete
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000010. The 'if' function\obj\Debug\net7.0\000010. The 'if' function.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000010. The 'if' function\obj\Debug\net7.0\refint\000010. The 'if' function.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000010. The 'if' function\obj\Debug\net7.0\000010. The 'if' function.pdb
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000010. The 'if' function\obj\Debug\net7.0\000010. The 'if' function.genruntimeconfig.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000010. The 'if' function\obj\Debug\net7.0\ref\000010. The 'if' function.dll
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000010. The 'if' function\obj\Debug\net7.0\000010. The 'if' function.sourcelink.json
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000010. The 'if' function\obj\Debug\net7.0\000010. .F345B2B6.Up2Date

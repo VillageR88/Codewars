@@ -91,9 +91,10 @@ c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000014. Greet Me\obj\Debug\net7
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000014. Greet Me\obj\Debug\net7.0\000014. Greet Me.AssemblyInfoInputs.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000014. Greet Me\obj\Debug\net7.0\000014. Greet Me.AssemblyInfo.cs
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000014. Greet Me\obj\Debug\net7.0\000014. Greet Me.csproj.CoreCompileInputs.cache
-c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000014. Greet Me\obj\Debug\net7.0\000014. Greet Me.csproj.CopyComplete
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000014. Greet Me\obj\Debug\net7.0\000014. Greet Me.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000014. Greet Me\obj\Debug\net7.0\refint\000014. Greet Me.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000014. Greet Me\obj\Debug\net7.0\000014. Greet Me.pdb
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000014. Greet Me\obj\Debug\net7.0\000014. Greet Me.genruntimeconfig.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000014. Greet Me\obj\Debug\net7.0\ref\000014. Greet Me.dll
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000014. Greet Me\obj\Debug\net7.0\000014. Greet Me.sourcelink.json
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000014. Greet Me\obj\Debug\net7.0\000014. .552F88B2.Up2Date

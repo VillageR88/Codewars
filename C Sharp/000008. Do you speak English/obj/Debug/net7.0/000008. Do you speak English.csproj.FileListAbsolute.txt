@@ -91,9 +91,10 @@ c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000008. Do you speak English\ob
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000008. Do you speak English\obj\Debug\net7.0\000008. Do you speak English.AssemblyInfoInputs.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000008. Do you speak English\obj\Debug\net7.0\000008. Do you speak English.AssemblyInfo.cs
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000008. Do you speak English\obj\Debug\net7.0\000008. Do you speak English.csproj.CoreCompileInputs.cache
-c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000008. Do you speak English\obj\Debug\net7.0\000008. Do you speak English.csproj.CopyComplete
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000008. Do you speak English\obj\Debug\net7.0\000008. Do you speak English.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000008. Do you speak English\obj\Debug\net7.0\refint\000008. Do you speak English.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000008. Do you speak English\obj\Debug\net7.0\000008. Do you speak English.pdb
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000008. Do you speak English\obj\Debug\net7.0\000008. Do you speak English.genruntimeconfig.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000008. Do you speak English\obj\Debug\net7.0\ref\000008. Do you speak English.dll
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000008. Do you speak English\obj\Debug\net7.0\000008. Do you speak English.sourcelink.json
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000008. Do you speak English\obj\Debug\net7.0\000008. .CF73749B.Up2Date

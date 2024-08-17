@@ -91,9 +91,10 @@ c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000019. L1 Bartender, drinks!\b
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000019. L1 Bartender, drinks!\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000019. L1 Bartender, drinks!\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000019. L1 Bartender, drinks!\bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000019. L1 Bartender, drinks!\obj\Debug\net7.0\000019. L1 Bartender, drinks!.csproj.CopyComplete
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000019. L1 Bartender, drinks!\obj\Debug\net7.0\000019. L1 Bartender, drinks!.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000019. L1 Bartender, drinks!\obj\Debug\net7.0\refint\000019. L1 Bartender, drinks!.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000019. L1 Bartender, drinks!\obj\Debug\net7.0\000019. L1 Bartender, drinks!.pdb
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000019. L1 Bartender, drinks!\obj\Debug\net7.0\000019. L1 Bartender, drinks!.genruntimeconfig.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000019. L1 Bartender, drinks!\obj\Debug\net7.0\ref\000019. L1 Bartender, drinks!.dll
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000019. L1 Bartender, drinks!\obj\Debug\net7.0\000019. L1 Bartender, drinks!.sourcelink.json
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000019. L1 Bartender, drinks!\obj\Debug\net7.0\000019. .5C98BF7E.Up2Date

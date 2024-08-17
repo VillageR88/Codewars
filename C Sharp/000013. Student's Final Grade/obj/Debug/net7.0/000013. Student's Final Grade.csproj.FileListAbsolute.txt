@@ -91,9 +91,10 @@ c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000013. Student's Final Grade\o
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000013. Student's Final Grade\obj\Debug\net7.0\000013. Student's Final Grade.AssemblyInfoInputs.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000013. Student's Final Grade\obj\Debug\net7.0\000013. Student's Final Grade.AssemblyInfo.cs
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000013. Student's Final Grade\obj\Debug\net7.0\000013. Student's Final Grade.csproj.CoreCompileInputs.cache
-c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000013. Student's Final Grade\obj\Debug\net7.0\000013. Student's Final Grade.csproj.CopyComplete
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000013. Student's Final Grade\obj\Debug\net7.0\000013. Student's Final Grade.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000013. Student's Final Grade\obj\Debug\net7.0\refint\000013. Student's Final Grade.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000013. Student's Final Grade\obj\Debug\net7.0\000013. Student's Final Grade.pdb
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000013. Student's Final Grade\obj\Debug\net7.0\000013. Student's Final Grade.genruntimeconfig.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000013. Student's Final Grade\obj\Debug\net7.0\ref\000013. Student's Final Grade.dll
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000013. Student's Final Grade\obj\Debug\net7.0\000013. Student's Final Grade.sourcelink.json
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000013. Student's Final Grade\obj\Debug\net7.0\000013. .BDF660AD.Up2Date

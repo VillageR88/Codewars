@@ -91,9 +91,10 @@ c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000012. Define a card suit\bin\
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000012. Define a card suit\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000012. Define a card suit\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000012. Define a card suit\bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000012. Define a card suit\obj\Debug\net7.0\000012. Define a card suit.csproj.CopyComplete
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000012. Define a card suit\obj\Debug\net7.0\000012. Define a card suit.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000012. Define a card suit\obj\Debug\net7.0\refint\000012. Define a card suit.dll
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000012. Define a card suit\obj\Debug\net7.0\000012. Define a card suit.pdb
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000012. Define a card suit\obj\Debug\net7.0\000012. Define a card suit.genruntimeconfig.cache
 c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000012. Define a card suit\obj\Debug\net7.0\ref\000012. Define a card suit.dll
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000012. Define a card suit\obj\Debug\net7.0\000012. Define a card suit.sourcelink.json
+c:\Users\Karol\Documents\GitHub\Codewars\C Sharp\000012. Define a card suit\obj\Debug\net7.0\000012. .C7928D8A.Up2Date
